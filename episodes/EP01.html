@@ -385,7 +385,8 @@ const search=document.getElementById('filter');if(search)search.addEventListener
       backLink?.remove();
       if (target.tagName === 'DETAILS') target.open = true;
       target.scrollIntoView({block:'start'});
-    } else if (target.id.startsWith('asset-card-')) {
+    } else if (target.id.startsWith('asset-card-') || target.id === 'master-edit-SC-C3C2557A5') {
+      if (target.id === 'master-edit-SC-C3C2557A5') target.open = true;
       const section = target.closest('section[data-section]');
       if (!section) return;
       selectAssetTab(section.dataset.section);
