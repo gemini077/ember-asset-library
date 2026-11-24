@@ -1,0 +1,54 @@
+{
+  "episodes": 60,
+  "script_scenes": 245,
+  "unique_character_masters": 89,
+  "cos_official_pairs": 102,
+  "unique_location_masters": 80,
+  "cos_master_with_full_design": 14,
+  "cos_master_needs_design": 88,
+  "cos_unknown_script_mentions": 31,
+  "image_approved": 0,
+  "cos_matrix_source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
+  "hero_design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+  "source_script_volumes": 4,
+  "official_wardrobe_variants": 11,
+  "wardrobe_status": "source-grounded selective variants; not a scene-by-scene image task",
+  "standalone_episode_html": true,
+  "standalone_episode_json_embedded_assets": true,
+  "three_view_required_for": [
+    "真人身份母版",
+    "基础现实妆造",
+    "正式现实服装变体",
+    "演员×英雄真人COS"
+  ],
+  "episode_three_view_references_total": {
+    "faces": 468,
+    "baseline": 374,
+    "wardrobe_specific": 132,
+    "cos": 236
+  },
+  "character_image_output_contract": {
+    "kind": "单张人物设定板",
+    "image_count": 1,
+    "file_count": 1,
+    "aspect_ratio": "16:9",
+    "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+    "file_format": "PNG",
+    "layout": {
+      "left_three_fullbody": [
+        "正面全身",
+        "左侧90°全身",
+        "背面全身"
+      ],
+      "right_two_by_two": [
+        "胸口以上正面特写",
+        "头部侧脸特写",
+        "后脑发型特写",
+        "眼妆与面部细节特写"
+      ]
+    },
+    "no_separate_view_images": true,
+    "status": "图片待生成及验收"
+  },
+  "episode_html_self_contained": true
+}

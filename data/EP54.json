@@ -1,0 +1,2016 @@
+{
+  "project": "EMBER",
+  "season": 1,
+  "episode": 54,
+  "title": "饭桌",
+  "script_url": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+  "occurrences": [
+    {
+      "scene_id": "54-1",
+      "episode": 54,
+      "episode_title": "饭桌",
+      "daypart": "夜",
+      "interior_exterior": "内",
+      "location_original": "温以宁老家·客厅",
+      "location_normalized": "温以宁老家·客厅",
+      "heading_original": "54-1 夜 内 温以宁老家·客厅",
+      "source_volume": "46-60",
+      "source_document_url": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+      "heading_cos_layer": false,
+      "scene_text": "人物：温以宁、江秀梅、江国强、刘芳\n\n\n△除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。\n\n\n△桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。\n\n\n△舅舅给自己倒了杯酒。\n\n\n江国强：以宁今年在哪儿上班呢？\n\n\n△妈妈给舅舅夹了一块鱼。\n\n\n江秀梅：打游戏。\n\n\n江国强：打游戏？打游戏能挣钱？\n\n\n刘芳：能的，我看网上说，打得好的一年好几百万。\n\n\n江国强：那是打得好的。\n\n\n△他看向温以宁。\n\n\n江国强：你们那个队，拿第几？\n\n\n△温以宁低头吃饭。\n\n\n温以宁：最后一名。\n\n\n△桌上安静了一下。舅妈在桌下踢了舅舅一脚。\n\n\n江国强：……那打游戏能干到几岁？过两年还不是得回来。",
+      "characters_line": "人物：温以宁、江秀梅、江国强、刘芳",
+      "action_lines": [
+        "除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。",
+        "桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。",
+        "舅舅给自己倒了杯酒。",
+        "妈妈给舅舅夹了一块鱼。",
+        "他看向温以宁。",
+        "温以宁低头吃饭。",
+        "桌上安静了一下。舅妈在桌下踢了舅舅一脚。"
+      ],
+      "cross_layer_cues": [],
+      "prop_candidate_terms": [],
+      "ui_candidate_terms": [],
+      "needs_ui_review": false,
+      "location_asset_id": "SC-0C9733CDB",
+      "legacy_location_asset_id": "S-34E0F02EC",
+      "related_location_asset_ids": [
+        "SC-0C9733CDB"
+      ]
+    },
+    {
+      "scene_id": "54-2",
+      "episode": 54,
+      "episode_title": "饭桌",
+      "daypart": "夜",
+      "interior_exterior": "内",
+      "location_original": "温以宁老家·客厅",
+      "location_normalized": "温以宁老家·客厅",
+      "heading_original": "54-2 夜 内 温以宁老家·客厅",
+      "source_volume": "46-60",
+      "source_document_url": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+      "heading_cos_layer": false,
+      "scene_text": "人物：温以宁、江秀梅、江国强、刘芳\n\n\n△妈妈放下筷子。\n\n\n江秀梅：她心里有数。前半年每个月寄八千回来，这几个月就剩四千了。\n\n\n△温以宁的筷子停了。\n\n\n江秀梅：我也没说什么。家里哪样不要钱……\n\n\n温以宁：我欠人钱。\n\n\n江秀梅：欠谁的钱？\n\n\n温以宁：违约金。别人替我付的。我得还。\n\n\n江秀梅：那也不能——\n\n\n温以宁：你们要的是那八千。\n\n\n△桌上一下子没声了。电视里，主持人在倒数什么。\n\n\n温以宁：从我走的那天到现在，你们问过一句我打得怎么样吗？\n\n\n△妈妈看着她，嘴唇动了动。\n\n\n△温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。\n\n\n△门在身后关上。\n\n\n△桌上，她那碗饭还剩一半。",
+      "characters_line": "人物：温以宁、江秀梅、江国强、刘芳",
+      "action_lines": [
+        "妈妈放下筷子。",
+        "温以宁的筷子停了。",
+        "桌上一下子没声了。电视里，主持人在倒数什么。",
+        "妈妈看着她，嘴唇动了动。",
+        "温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。",
+        "门在身后关上。",
+        "桌上，她那碗饭还剩一半。"
+      ],
+      "cross_layer_cues": [],
+      "prop_candidate_terms": [
+        "椅子",
+        "外套"
+      ],
+      "ui_candidate_terms": [],
+      "needs_ui_review": false,
+      "location_asset_id": "SC-0C9733CDB",
+      "legacy_location_asset_id": "S-34E0F02EC",
+      "related_location_asset_ids": [
+        "SC-0C9733CDB"
+      ]
+    },
+    {
+      "scene_id": "54-3",
+      "episode": 54,
+      "episode_title": "饭桌",
+      "daypart": "夜",
+      "interior_exterior": "外",
+      "location_original": "老家·街边",
+      "location_normalized": "老家·街边",
+      "heading_original": "54-3 夜 外 老家·街边",
+      "source_volume": "46-60",
+      "source_document_url": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+      "heading_cos_layer": false,
+      "scene_text": "人物：温以宁\n\n\n△街上没什么人。远处有人在放烟花，一下一下地响。\n\n\n△温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。\n\n\n△她站在门口，没进去。\n\n\n△手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。\n\n\n△她没点开。\n\n\n△把手机揣回口袋，在网吧门口的台阶上坐下来。\n\n\n△烟花在头顶上开了一朵，又一朵。",
+      "characters_line": "人物：温以宁",
+      "action_lines": [
+        "街上没什么人。远处有人在放烟花，一下一下地响。",
+        "温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。",
+        "她站在门口，没进去。",
+        "手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。",
+        "她没点开。",
+        "把手机揣回口袋，在网吧门口的台阶上坐下来。",
+        "烟花在头顶上开了一朵，又一朵。"
+      ],
+      "cross_layer_cues": [],
+      "prop_candidate_terms": [
+        "手机"
+      ],
+      "ui_candidate_terms": [],
+      "needs_ui_review": false,
+      "location_asset_id": "SC-170B2A535",
+      "legacy_location_asset_id": "S-D2D528699",
+      "related_location_asset_ids": [
+        "SC-170B2A535"
+      ]
+    }
+  ],
+  "scene_refs": [
+    {
+      "id": "SC-0C9733CDB",
+      "title": "温以宁老家·客厅",
+      "layer": "real",
+      "scene_ids": [
+        "54-1",
+        "54-2"
+      ],
+      "status": "空景未生成／九宫格未验收"
+    },
+    {
+      "id": "SC-170B2A535",
+      "title": "老家·街边",
+      "layer": "real",
+      "scene_ids": [
+        "54-3"
+      ],
+      "status": "空景未生成／九宫格未验收"
+    }
+  ],
+  "reality_character_refs": [
+    {
+      "id": "P-009",
+      "actor": "温以宁",
+      "uses": [
+        {
+          "scene_id": null,
+          "scene": null,
+          "note": "原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。、他看向温以宁。、温以宁低头吃饭。；按下列原文明确着装/造型约束制作，未明示部分只使用已定母版，不做随机设计。 温以宁的筷子停了。、温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。、妈妈放下筷子。；原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。、街上没什么人。远处有人在放烟花，一下一下地响。、她站在门口，没进去。"
+        }
+      ]
+    },
+    {
+      "id": "X-79B9315A4",
+      "actor": "江秀梅",
+      "uses": [
+        {
+          "scene_id": null,
+          "scene": null,
+          "note": "原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。、桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 妈妈放下筷子。、温以宁的筷子停了。"
+        }
+      ]
+    },
+    {
+      "id": "X-9F7295F8F",
+      "actor": "江国强",
+      "uses": [
+        {
+          "scene_id": null,
+          "scene": null,
+          "note": "原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。、桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 妈妈放下筷子。、温以宁的筷子停了。"
+        }
+      ]
+    },
+    {
+      "id": "X-E7D7E1248",
+      "actor": "刘芳",
+      "uses": [
+        {
+          "scene_id": null,
+          "scene": null,
+          "note": "原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。、桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；原剧本未指定本场服装细节：严格沿用已定该日服装造型，不自行设计新队服、配饰、首饰或夸张妆容。 妈妈放下筷子。、温以宁的筷子停了。"
+        }
+      ]
+    }
+  ],
+  "cos_refs": [],
+  "unresolved_cos": [],
+  "props": [
+    {
+      "id": "P54-01",
+      "name": "外套",
+      "type": "服装/穿戴",
+      "scene_ids": [
+        "54-2"
+      ],
+      "prompt": "【参考图（按顺序上传）】\n① 外套｜该物件定版母图/同件历史特写〔待制作 / 尚无已验收图〕— 尺寸、材料、颜色、磨损与形态锁同一版本；若尚无原图，先制作该物件白底母版\n② 场次 54-2｜对应场景主视角〔待制作 / 尚无已验收图〕— 只做道具环境尺度/桌面/手持位置参考，不把人像传给白底道具母图\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。\n\n《EMBER》第54集道具/服化/特效资产「外套」，16:9横版专业影视美术资产静物设定图；画面中只展示同一件物品，左边完整三分之四实物视角，中间正视并带适当人体/桌面尺度参照，右边为材质与关键接触处微距；真实可穿成衣材质，尺寸基于演员正脸及身形母版，纤维、线缝、衣领和前后片持续一致；既定队标与选手ID调用正式稿，不生成随机LOGO。 场景用途是：54-2：温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。。生成灰色无缝背景的清晰单品参考，光源柔和、真实接触阴影、无人物无手、无乱写字、无无关配件；若有开合/亮屏变化则另外列状态，外观母版不变。",
+      "evidence": [
+        "54-2：温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。"
+      ],
+      "status": "待审候选｜尚未出图",
+      "reference_uploads": [
+        {
+          "asset_id": null,
+          "name": "外套｜该物件定版母图/同件历史特写",
+          "purpose": "尺寸、材料、颜色、磨损与形态锁同一版本；若尚无原图，先制作该物件白底母版",
+          "availability": "待制作 / 尚无已验收图",
+          "source_url": null,
+          "required": true,
+          "role": "独立道具",
+          "warning": "",
+          "order": 1
+        },
+        {
+          "asset_id": null,
+          "name": "场次 54-2｜对应场景主视角",
+          "purpose": "只做道具环境尺度/桌面/手持位置参考，不把人像传给白底道具母图",
+          "availability": "待制作 / 尚无已验收图",
+          "source_url": null,
+          "required": false,
+          "role": "摆位尺度",
+          "warning": "",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "P54-02",
+      "name": "手机",
+      "type": "可移动道具",
+      "scene_ids": [
+        "54-3"
+      ],
+      "prompt": "【参考图（按顺序上传）】\n① 手机｜该物件定版母图/同件历史特写〔待制作 / 尚无已验收图〕— 尺寸、材料、颜色、磨损与形态锁同一版本；若尚无原图，先制作该物件白底母版\n② 场次 54-3｜对应场景主视角〔待制作 / 尚无已验收图〕— 只做道具环境尺度/桌面/手持位置参考，不把人像传给白底道具母图\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。\n\n《EMBER》第54集道具/服化/特效资产「手机」，16:9横版专业影视美术资产静物设定图；画面中只展示同一件物品，左边完整三分之四实物视角，中间正视并带适当人体/桌面尺度参照，右边为材质与关键接触处微距；真实中国日常物件比例与可接触材质，整体形状、常用磨损、左右面、开合状态一致，不生成手、人物、随机商品LOGO、不可读文字。 场景用途是：54-3：手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。；54-3：把手机揣回口袋，在网吧门口的台阶上坐下来。。生成灰色无缝背景的清晰单品参考，光源柔和、真实接触阴影、无人物无手、无乱写字、无无关配件；若有开合/亮屏变化则另外列状态，外观母版不变。",
+      "evidence": [
+        "54-3：手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。",
+        "54-3：把手机揣回口袋，在网吧门口的台阶上坐下来。"
+      ],
+      "status": "待审候选｜尚未出图",
+      "reference_uploads": [
+        {
+          "asset_id": null,
+          "name": "手机｜该物件定版母图/同件历史特写",
+          "purpose": "尺寸、材料、颜色、磨损与形态锁同一版本；若尚无原图，先制作该物件白底母版",
+          "availability": "待制作 / 尚无已验收图",
+          "source_url": null,
+          "required": true,
+          "role": "独立道具",
+          "warning": "",
+          "order": 1
+        },
+        {
+          "asset_id": null,
+          "name": "场次 54-3｜对应场景主视角",
+          "purpose": "只做道具环境尺度/桌面/手持位置参考，不把人像传给白底道具母图",
+          "availability": "待制作 / 尚无已验收图",
+          "source_url": null,
+          "required": false,
+          "role": "摆位尺度",
+          "warning": "",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "ui": [],
+  "vfx": [],
+  "screen_looks": [],
+  "task_refs": [
+    {
+      "id": "SC-0C9733CDB",
+      "type": "场景空景",
+      "name": "温以宁老家·客厅",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    },
+    {
+      "id": "SC-170B2A535",
+      "type": "场景空景",
+      "name": "老家·街边",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    },
+    {
+      "id": "P-009",
+      "type": "真人母版",
+      "name": "温以宁",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    },
+    {
+      "id": "X-79B9315A4",
+      "type": "真人母版",
+      "name": "江秀梅",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    },
+    {
+      "id": "X-9F7295F8F",
+      "type": "真人母版",
+      "name": "江国强",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    },
+    {
+      "id": "X-E7D7E1248",
+      "type": "真人母版",
+      "name": "刘芳",
+      "blocked": true,
+      "production_gate": "待逐项验收前置参考与提示词"
+    }
+  ],
+  "stats": {
+    "scene_cards": 2,
+    "real_people": 4,
+    "cos_pairs": 0,
+    "tasks_refs": 6,
+    "unresolved": 0,
+    "embedded_person_masters": 4,
+    "embedded_base_reality_looks": 4,
+    "embedded_specific_wardrobe_looks": 1,
+    "embedded_cos_three_views": 0
+  },
+  "embedded_assets": {
+    "characters": [
+      {
+        "id": "P-009",
+        "actor": "温以宁",
+        "game_id": "Vigil",
+        "team": "EMB",
+        "heroes": "绯、莉莉安、绮罗、薇欧、伊格尼、伊瑟琳",
+        "cosplay_count": 6,
+        "priority": "P0-有出镜COS",
+        "portrait_source_url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
+        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
+        "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
+        "image_status": "待制作及验收",
+        "reference_uploads": [
+          {
+            "name": "温以宁｜已检出真人肖像原图",
+            "purpose": "核对面部五官、真实皮肤和原始形象；这不是已验收的16:9设定板成品",
+            "required": true,
+            "availability": "Drive 正脸原图，设定板待生成",
+            "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
+            "reference_type": "source_portrait",
+            "source_id": "REF-P-009"
+          }
+        ],
+        "prompt": "一张杂志级棚拍真人身份设定板，人物为温以宁。图1是本人正脸参考。全画面采用真实棚拍的影调和自然景深。\n\n以上传的本人正脸参考图锁定身份。七个取景区始终是参考图中的同一人，同一张脸。保留原图的脸部比例和本人辨识度，正脸优先忠实复现参考，侧面与背面按同一身份和发型延续。\n\n发型和配饰按本人参考图延续。七格均穿同一套无标志中性服饰，肩线与袖口自然起褶。站姿放松，双手空着。\n\n中性浅灰无缝棚底。大型柔光箱从正面偏上打亮，侧后同向轮廓光轻勾发丝和肩线，明暗过渡柔和。脸部特写用等效 85mm 人像视角，对焦双眼或相应发型细节；全身三视相机保持同一水平与人物尺度，头顶、鞋底均在画内。\n\n【交付硬约束】最后将七个摄影取景排进同一张 16:9 横版 PNG文件。左约六成并排正面全身、左侧 90° 全身、背面全身，三张等高、鞋底齐平。右约四成为 2×2，左上是胸口以上正脸，右上是头部侧颜，左下是后脑发型，右下是面部妆容细节。只输出这一张完整设定板。画面中无文字、水印、标志、道具或剧情场景。",
+        "asset_type": "真人身份设定板（含脸部特写）母版",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "P-009_single_16x9.png"
+        },
+        "reference_review": {
+          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
+          "dimensions": [
+            1536,
+            2048
+          ]
+        },
+        "published_output": {
+          "path": "assets/characters/P-009_single_16x9_Drive.png",
+          "format": "PNG",
+          "size": [
+            2560,
+            1440
+          ],
+          "status": "Drive 新版，已目验，待锁定",
+          "source_url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
+          "previous_path": "assets/characters/P-009_single_16x9_v2.png",
+          "review": "左三全身加右四细节，深灰连帽衫贯穿同一版设定。Drive 正脸肖像仍保留为身份参考。"
+        }
+      },
+      {
+        "id": "X-79B9315A4",
+        "actor": "江秀梅",
+        "game_id": "",
+        "team": "",
+        "heroes": "",
+        "cosplay_count": 0,
+        "priority": "现实戏人物",
+        "portrait_source_url": null,
+        "portrait_status": "仅在剧本中有出场，人物原图待核",
+        "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
+        "source": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+        "image_status": "待绑定人物母版",
+        "reference_uploads": [
+          {
+            "name": "江秀梅｜经过确认的演员本人正脸原图",
+            "purpose": "锁真人面孔；缺原图时不可随机生成另一张脸当本人",
+            "required": true,
+            "availability": "待寻找／待核实",
+            "url": null,
+            "reference_type": "source_portrait",
+            "source_id": "REF-X-79B9315A4"
+          }
+        ],
+        "prompt": "【身份一致性】以该人物已核验的本人正脸图锁定身份，各视角延续同一个人和同一张脸。脸部以参考图为准，服装与妆发按此资产版本处理。缺本人原图时先补参考。\n\n【本张静态生图：参考图按顺序上传】\n图1｜江秀梅｜经过确认的演员本人正脸原图｜必须｜待寻找／待核实｜锁真人面孔；缺原图时不可随机生成另一张脸当本人\n【状态约束】写了参考图名称不代表图片已经存在；待制作项须先生成并核验。严禁把本张拟生成的成品本身列成必需参考图。\n\n【本张产物：全季共享人物身份设定板（全身三视 + 脸部特写）】江秀梅（X-79B9315A4），真人高写实，七视窗设定板，而不是只有三张全身或单张正面肖像。【交付硬约束】本资产只生成一张16:9横版人物设定图，输出仅1个PNG文件（优先3840×2160，按模型能力至少2K）。正面全身、左侧90°全身、背面全身与四个胸口以上/头部特写必须共同出现在这同一张画布内。左侧60%宽排三张等高全身，右侧40%宽为2×2四个脸部与发型细节区；完整画布就是唯一成品。绝对不是分别生成三张全身照、四张特写照，也不是七张独立图片、七个输出文件或逐场景人物合成图。胸口以上正面特写与脸部妆容近景应占满各自细节区域，面部清晰到可识别眉眼、鼻唇、发际线、皮肤纹理，供后续视频模型锁定真人身份与同一妆容。\n【设定板统一交付规格】一张16:9横版高清商业摄影角色设定板（唯一输出文件），优先4K以保证脸部纹理，按工具上限至少2K清晰度。左侧同一张画布内横向并排三个视窗，展示同一真人、同一妆造、同一光线的全身三视图：正面全身、左侧90°纯侧面全身、背面全身。右侧仍属于同一张画布，为2×2四个细节区块：左上为胸口以上正面近脸特写，右上为头部侧颜特写，左下为后脑勺与发型/发饰特写，右下为眼妆与面部细节特写（优先展示眼妆、眉眼、鼻唇、皮肤纹理与关键配饰贴脸关系）。所有视图中的人物必须是同一位真人、同一张脸、同一套服装、同一套妆发、同一身高比例；三张全身鞋底对齐、间距一致、不裁切；四个特写必须清楚可读，能单独用于后续视频模型锁脸、锁发型、锁妆面和锁耳饰/头饰。整板使用中性灰无缝影棚、固定柔和白光与色温，身体比例自然，皮肤保留真实细节，衣料/金属/皮革具有真实可制作的材质。不得换脸、换衣、换发型、换鞋、换武器，不得缺少脸部特写，不得加入剧情场景、无关道具、文字水印、LOGO或分镜格。\n【身份连续性】以正式已核肖像为身份真相，正面与左侧均保留其自然面容特征、脸型和发际线；背面发型和身材与前两视一致。中性基础衣服用来明确身形，若服装未锁定，只采用中性纯色无品牌基础款，禁止擅造队服及COS。未经验证的旧照片不算三视母版成品。",
+        "asset_type": "真人身份设定板（含脸部特写）母版",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "X-79B9315A4_single_16x9.png"
+        }
+      },
+      {
+        "id": "X-9F7295F8F",
+        "actor": "江国强",
+        "game_id": "",
+        "team": "",
+        "heroes": "",
+        "cosplay_count": 0,
+        "priority": "现实戏人物",
+        "portrait_source_url": null,
+        "portrait_status": "仅在剧本中有出场，人物原图待核",
+        "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
+        "source": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+        "image_status": "待绑定人物母版",
+        "reference_uploads": [
+          {
+            "name": "江国强｜经过确认的演员本人正脸原图",
+            "purpose": "锁真人面孔；缺原图时不可随机生成另一张脸当本人",
+            "required": true,
+            "availability": "待寻找／待核实",
+            "url": null,
+            "reference_type": "source_portrait",
+            "source_id": "REF-X-9F7295F8F"
+          }
+        ],
+        "prompt": "【身份一致性】以该人物已核验的本人正脸图锁定身份，各视角延续同一个人和同一张脸。脸部以参考图为准，服装与妆发按此资产版本处理。缺本人原图时先补参考。\n\n【本张静态生图：参考图按顺序上传】\n图1｜江国强｜经过确认的演员本人正脸原图｜必须｜待寻找／待核实｜锁真人面孔；缺原图时不可随机生成另一张脸当本人\n【状态约束】写了参考图名称不代表图片已经存在；待制作项须先生成并核验。严禁把本张拟生成的成品本身列成必需参考图。\n\n【本张产物：全季共享人物身份设定板（全身三视 + 脸部特写）】江国强（X-9F7295F8F），真人高写实，七视窗设定板，而不是只有三张全身或单张正面肖像。【交付硬约束】本资产只生成一张16:9横版人物设定图，输出仅1个PNG文件（优先3840×2160，按模型能力至少2K）。正面全身、左侧90°全身、背面全身与四个胸口以上/头部特写必须共同出现在这同一张画布内。左侧60%宽排三张等高全身，右侧40%宽为2×2四个脸部与发型细节区；完整画布就是唯一成品。绝对不是分别生成三张全身照、四张特写照，也不是七张独立图片、七个输出文件或逐场景人物合成图。胸口以上正面特写与脸部妆容近景应占满各自细节区域，面部清晰到可识别眉眼、鼻唇、发际线、皮肤纹理，供后续视频模型锁定真人身份与同一妆容。\n【设定板统一交付规格】一张16:9横版高清商业摄影角色设定板（唯一输出文件），优先4K以保证脸部纹理，按工具上限至少2K清晰度。左侧同一张画布内横向并排三个视窗，展示同一真人、同一妆造、同一光线的全身三视图：正面全身、左侧90°纯侧面全身、背面全身。右侧仍属于同一张画布，为2×2四个细节区块：左上为胸口以上正面近脸特写，右上为头部侧颜特写，左下为后脑勺与发型/发饰特写，右下为眼妆与面部细节特写（优先展示眼妆、眉眼、鼻唇、皮肤纹理与关键配饰贴脸关系）。所有视图中的人物必须是同一位真人、同一张脸、同一套服装、同一套妆发、同一身高比例；三张全身鞋底对齐、间距一致、不裁切；四个特写必须清楚可读，能单独用于后续视频模型锁脸、锁发型、锁妆面和锁耳饰/头饰。整板使用中性灰无缝影棚、固定柔和白光与色温，身体比例自然，皮肤保留真实细节，衣料/金属/皮革具有真实可制作的材质。不得换脸、换衣、换发型、换鞋、换武器，不得缺少脸部特写，不得加入剧情场景、无关道具、文字水印、LOGO或分镜格。\n【身份连续性】以正式已核肖像为身份真相，正面与左侧均保留其自然面容特征、脸型和发际线；背面发型和身材与前两视一致。中性基础衣服用来明确身形，若服装未锁定，只采用中性纯色无品牌基础款，禁止擅造队服及COS。未经验证的旧照片不算三视母版成品。",
+        "asset_type": "真人身份设定板（含脸部特写）母版",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "X-9F7295F8F_single_16x9.png"
+        }
+      },
+      {
+        "id": "X-E7D7E1248",
+        "actor": "刘芳",
+        "game_id": "",
+        "team": "",
+        "heroes": "",
+        "cosplay_count": 0,
+        "priority": "现实戏人物",
+        "portrait_source_url": null,
+        "portrait_status": "仅在剧本中有出场，人物原图待核",
+        "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
+        "source": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit",
+        "image_status": "待绑定人物母版",
+        "reference_uploads": [
+          {
+            "name": "刘芳｜经过确认的演员本人正脸原图",
+            "purpose": "锁真人面孔；缺原图时不可随机生成另一张脸当本人",
+            "required": true,
+            "availability": "待寻找／待核实",
+            "url": null,
+            "reference_type": "source_portrait",
+            "source_id": "REF-X-E7D7E1248"
+          }
+        ],
+        "prompt": "【身份一致性】以该人物已核验的本人正脸图锁定身份，各视角延续同一个人和同一张脸。脸部以参考图为准，服装与妆发按此资产版本处理。缺本人原图时先补参考。\n\n【本张静态生图：参考图按顺序上传】\n图1｜刘芳｜经过确认的演员本人正脸原图｜必须｜待寻找／待核实｜锁真人面孔；缺原图时不可随机生成另一张脸当本人\n【状态约束】写了参考图名称不代表图片已经存在；待制作项须先生成并核验。严禁把本张拟生成的成品本身列成必需参考图。\n\n【本张产物：全季共享人物身份设定板（全身三视 + 脸部特写）】刘芳（X-E7D7E1248），真人高写实，七视窗设定板，而不是只有三张全身或单张正面肖像。【交付硬约束】本资产只生成一张16:9横版人物设定图，输出仅1个PNG文件（优先3840×2160，按模型能力至少2K）。正面全身、左侧90°全身、背面全身与四个胸口以上/头部特写必须共同出现在这同一张画布内。左侧60%宽排三张等高全身，右侧40%宽为2×2四个脸部与发型细节区；完整画布就是唯一成品。绝对不是分别生成三张全身照、四张特写照，也不是七张独立图片、七个输出文件或逐场景人物合成图。胸口以上正面特写与脸部妆容近景应占满各自细节区域，面部清晰到可识别眉眼、鼻唇、发际线、皮肤纹理，供后续视频模型锁定真人身份与同一妆容。\n【设定板统一交付规格】一张16:9横版高清商业摄影角色设定板（唯一输出文件），优先4K以保证脸部纹理，按工具上限至少2K清晰度。左侧同一张画布内横向并排三个视窗，展示同一真人、同一妆造、同一光线的全身三视图：正面全身、左侧90°纯侧面全身、背面全身。右侧仍属于同一张画布，为2×2四个细节区块：左上为胸口以上正面近脸特写，右上为头部侧颜特写，左下为后脑勺与发型/发饰特写，右下为眼妆与面部细节特写（优先展示眼妆、眉眼、鼻唇、皮肤纹理与关键配饰贴脸关系）。所有视图中的人物必须是同一位真人、同一张脸、同一套服装、同一套妆发、同一身高比例；三张全身鞋底对齐、间距一致、不裁切；四个特写必须清楚可读，能单独用于后续视频模型锁脸、锁发型、锁妆面和锁耳饰/头饰。整板使用中性灰无缝影棚、固定柔和白光与色温，身体比例自然，皮肤保留真实细节，衣料/金属/皮革具有真实可制作的材质。不得换脸、换衣、换发型、换鞋、换武器，不得缺少脸部特写，不得加入剧情场景、无关道具、文字水印、LOGO或分镜格。\n【身份连续性】以正式已核肖像为身份真相，正面与左侧均保留其自然面容特征、脸型和发际线；背面发型和身材与前两视一致。中性基础衣服用来明确身形，若服装未锁定，只采用中性纯色无品牌基础款，禁止擅造队服及COS。未经验证的旧照片不算三视母版成品。",
+        "asset_type": "真人身份设定板（含脸部特写）母版",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "X-E7D7E1248_single_16x9.png"
+        }
+      }
+    ],
+    "base_reality_looks": [
+      {
+        "id": "RB-P-009",
+        "actor_id": "P-009",
+        "actor": "温以宁",
+        "title": "温以宁｜基础现实妆造设定板",
+        "asset_type": "基础现实妆造设定板（含脸部特写）",
+        "source_type": "跨集通用造型工作卡（服装尚未必定稿）",
+        "reference_uploads": [
+          {
+            "name": "温以宁｜P-009真人身份16:9设定板",
+            "purpose": "锁定人物脸、身高、发型与身材，同一人跨集复用",
+            "required": true,
+            "asset_id": "P-009",
+            "availability": "待生成/待验收",
+            "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk"
+          },
+          {
+            "name": "温以宁｜该时段已批准的基础日常/工作服装版型参考",
+            "purpose": "决定基本上衣、下装、鞋与妆发；尚无正式衣装时先完成衣装设计，不得任意生成",
+            "required": true,
+            "asset_id": null,
+            "availability": "当前未绑定正式基础服装设计",
+            "url": null
+          }
+        ],
+        "prompt": "一张真实棚拍的现实妆造设定板，人物为温以宁。\n\n本人参考锁脸。保留参考发色、发长、分缝及后脑发流，梳顺鬓边，露出眼睛。薄透底妆仅压额头与鼻翼油光，保留皮肤纹理；自然梳眉，唇部保留原生色。\n\n【EMB 时期现实妆造】私服造型候选：浅雾紫细纹棉针织上衣，圆领与自然肩线，衣摆落到裤腰，配深靛蓝高腰微阔直筒牛仔裤和银灰薄底鞋。上衣干净有色彩，裤线垂顺；耳侧可用一枚同色小发夹。基地日常、训练赛、复盘和宿舍默认穿各自私服。正式赛场，以及明确要求穿队服的广告、宣传和媒体拍摄，按该赛季调用独立队服资产。\n\n中性浅灰无缝影棚，正面偏上大型柔光箱，侧后低强度轮廓光。自然站立，摄影机保持水平。【交付硬约束】仅输出一张16:9横版PNG文件，至少2K。左侧三张等高全身依次为正面、左侧90°、背面，鞋底齐平。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型、面部妆容特写。七个视图使用同一张脸、同一套妆发、衣装和鞋。画面无剧情场景、水印及额外文字。\n\n【妆造材质与上镜细节】以温以宁本人正脸与发型参考锁定身份，保留本人分缝、发长和发流。薄透底妆，保留肤色和皮肤纹理。正侧背的领口、肩缝、裤线、鞋与上衣开合保持一致。设定板双手空着。",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "status": "基础现实服装待绑定/待定版",
+        "image_status": "未出图/未验收",
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "RB-P-009_single_16x9.png"
+        },
+        "styling_web_references": [
+          {
+            "title": "SUQQU 薄透底妆参考",
+            "url": "https://www.suqqu.com/en/lp/base-makeup"
+          }
+        ]
+      },
+      {
+        "id": "RB-X-79B9315A4",
+        "actor_id": "X-79B9315A4",
+        "actor": "江秀梅",
+        "title": "江秀梅｜基础现实妆造设定板",
+        "asset_type": "基础现实妆造设定板（含脸部特写）",
+        "source_type": "跨集通用造型工作卡（服装尚未必定稿）",
+        "reference_uploads": [
+          {
+            "name": "江秀梅｜X-79B9315A4真人身份16:9设定板",
+            "purpose": "锁定人物脸、身高、发型与身材，同一人跨集复用",
+            "required": true,
+            "asset_id": "X-79B9315A4",
+            "availability": "待生成/待验收",
+            "url": null
+          },
+          {
+            "name": "江秀梅｜该时段已批准的基础日常/工作服装版型参考",
+            "purpose": "决定基本上衣、下装、鞋与妆发；尚无正式衣装时先完成衣装设计，不得任意生成",
+            "required": true,
+            "asset_id": null,
+            "availability": "当前未绑定正式基础服装设计",
+            "url": null
+          }
+        ],
+        "prompt": "一张真实棚拍的现实妆造设定板，人物为江秀梅。\n\n本人参考锁脸。保留参考发色、发长、分缝及后脑发流，梳顺鬓边，露出眼睛。薄透底妆仅压额头与鼻翼油光，保留皮肤纹理；自然梳眉，唇部保留原生色。\n\n【现实衣装制作候选】深灰哑光棉质圆领训练上衣，常规肩线、同色罗纹领口；黑色直筒运动长裤、同色侧缝；深灰低帮运动鞋，哑光橡胶鞋底。明确穿工作服或队服的场次依已有批准的版式、配色和标识。\n\n中性浅灰无缝影棚，正面偏上大型柔光箱，侧后低强度轮廓光。自然站立，摄影机保持水平。【交付硬约束】仅输出一张16:9横版PNG文件，至少2K。左侧三张等高全身依次为正面、左侧90°、背面，鞋底齐平。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型、面部妆容特写。七个视图使用同一张脸、同一套妆发、衣装和鞋。画面无剧情场景、水印及额外文字。\n\n【妆造材质与上镜细节】底妆薄铺，鼻翼局部定妆，颧部保留轻微自然光泽；皮肤纹理与本人参考一致。圆领罗纹窄收口，棉质毛圈布落在肩肘处形成圆缓折痕；直筒裤保持自然正侧轮廓，裤脚在鞋面轻搭。适用于通用日常便装候选。",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "status": "基础现实服装待绑定/待定版",
+        "image_status": "未出图/未验收",
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "RB-X-79B9315A4_single_16x9.png"
+        },
+        "styling_web_references": [
+          {
+            "title": "SUQQU 薄透底妆参考",
+            "url": "https://www.suqqu.com/en/lp/base-makeup"
+          },
+          {
+            "title": "UNIQLO 法式毛圈卫衣与直筒运动裤",
+            "url": "https://www.uniqlo.com/uk/en/women/tops/sweatshirts-and-hoodies"
+          }
+        ]
+      },
+      {
+        "id": "RB-X-9F7295F8F",
+        "actor_id": "X-9F7295F8F",
+        "actor": "江国强",
+        "title": "江国强｜基础现实妆造设定板",
+        "asset_type": "基础现实妆造设定板（含脸部特写）",
+        "source_type": "跨集通用造型工作卡（服装尚未必定稿）",
+        "reference_uploads": [
+          {
+            "name": "江国强｜X-9F7295F8F真人身份16:9设定板",
+            "purpose": "锁定人物脸、身高、发型与身材，同一人跨集复用",
+            "required": true,
+            "asset_id": "X-9F7295F8F",
+            "availability": "待生成/待验收",
+            "url": null
+          },
+          {
+            "name": "江国强｜该时段已批准的基础日常/工作服装版型参考",
+            "purpose": "决定基本上衣、下装、鞋与妆发；尚无正式衣装时先完成衣装设计，不得任意生成",
+            "required": true,
+            "asset_id": null,
+            "availability": "当前未绑定正式基础服装设计",
+            "url": null
+          }
+        ],
+        "prompt": "一张真实棚拍的现实妆造设定板，人物为江国强。\n\n本人参考锁脸。保留参考发色、发长、分缝及后脑发流，梳顺鬓边，露出眼睛。薄透底妆仅压额头与鼻翼油光，保留皮肤纹理；自然梳眉，唇部保留原生色。\n\n【现实衣装制作候选】深灰哑光棉质圆领训练上衣，常规肩线、同色罗纹领口；黑色直筒运动长裤、同色侧缝；深灰低帮运动鞋，哑光橡胶鞋底。明确穿工作服或队服的场次依已有批准的版式、配色和标识。\n\n中性浅灰无缝影棚，正面偏上大型柔光箱，侧后低强度轮廓光。自然站立，摄影机保持水平。【交付硬约束】仅输出一张16:9横版PNG文件，至少2K。左侧三张等高全身依次为正面、左侧90°、背面，鞋底齐平。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型、面部妆容特写。七个视图使用同一张脸、同一套妆发、衣装和鞋。画面无剧情场景、水印及额外文字。\n\n【妆造材质与上镜细节】底妆薄铺，鼻翼局部定妆，颧部保留轻微自然光泽；皮肤纹理与本人参考一致。圆领罗纹窄收口，棉质毛圈布落在肩肘处形成圆缓折痕；直筒裤保持自然正侧轮廓，裤脚在鞋面轻搭。适用于通用日常便装候选。",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "status": "基础现实服装待绑定/待定版",
+        "image_status": "未出图/未验收",
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "RB-X-9F7295F8F_single_16x9.png"
+        },
+        "styling_web_references": [
+          {
+            "title": "SUQQU 薄透底妆参考",
+            "url": "https://www.suqqu.com/en/lp/base-makeup"
+          },
+          {
+            "title": "UNIQLO 法式毛圈卫衣与直筒运动裤",
+            "url": "https://www.uniqlo.com/uk/en/women/tops/sweatshirts-and-hoodies"
+          }
+        ]
+      },
+      {
+        "id": "RB-X-E7D7E1248",
+        "actor_id": "X-E7D7E1248",
+        "actor": "刘芳",
+        "title": "刘芳｜基础现实妆造设定板",
+        "asset_type": "基础现实妆造设定板（含脸部特写）",
+        "source_type": "跨集通用造型工作卡（服装尚未必定稿）",
+        "reference_uploads": [
+          {
+            "name": "刘芳｜X-E7D7E1248真人身份16:9设定板",
+            "purpose": "锁定人物脸、身高、发型与身材，同一人跨集复用",
+            "required": true,
+            "asset_id": "X-E7D7E1248",
+            "availability": "待生成/待验收",
+            "url": null
+          },
+          {
+            "name": "刘芳｜该时段已批准的基础日常/工作服装版型参考",
+            "purpose": "决定基本上衣、下装、鞋与妆发；尚无正式衣装时先完成衣装设计，不得任意生成",
+            "required": true,
+            "asset_id": null,
+            "availability": "当前未绑定正式基础服装设计",
+            "url": null
+          }
+        ],
+        "prompt": "一张真实棚拍的现实妆造设定板，人物为刘芳。\n\n本人参考锁脸。保留参考发色、发长、分缝及后脑发流，梳顺鬓边，露出眼睛。薄透底妆仅压额头与鼻翼油光，保留皮肤纹理；自然梳眉，唇部保留原生色。\n\n【现实衣装制作候选】深灰哑光棉质圆领训练上衣，常规肩线、同色罗纹领口；黑色直筒运动长裤、同色侧缝；深灰低帮运动鞋，哑光橡胶鞋底。明确穿工作服或队服的场次依已有批准的版式、配色和标识。\n\n中性浅灰无缝影棚，正面偏上大型柔光箱，侧后低强度轮廓光。自然站立，摄影机保持水平。【交付硬约束】仅输出一张16:9横版PNG文件，至少2K。左侧三张等高全身依次为正面、左侧90°、背面，鞋底齐平。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型、面部妆容特写。七个视图使用同一张脸、同一套妆发、衣装和鞋。画面无剧情场景、水印及额外文字。\n\n【妆造材质与上镜细节】底妆薄铺，鼻翼局部定妆，颧部保留轻微自然光泽；皮肤纹理与本人参考一致。圆领罗纹窄收口，棉质毛圈布落在肩肘处形成圆缓折痕；直筒裤保持自然正侧轮廓，裤脚在鞋面轻搭。适用于通用日常便装候选。",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "status": "基础现实服装待绑定/待定版",
+        "image_status": "未出图/未验收",
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "RB-X-E7D7E1248_single_16x9.png"
+        },
+        "styling_web_references": [
+          {
+            "title": "SUQQU 薄透底妆参考",
+            "url": "https://www.suqqu.com/en/lp/base-makeup"
+          },
+          {
+            "title": "UNIQLO 法式毛圈卫衣与直筒运动裤",
+            "url": "https://www.uniqlo.com/uk/en/women/tops/sweatshirts-and-hoodies"
+          }
+        ]
+      }
+    ],
+    "wardrobe_looks": [
+      {
+        "id": "W-EMB-NEW-P-009",
+        "actor": "温以宁",
+        "actor_id": "P-009",
+        "title": "温以宁｜EMB新队服（本季统一版）",
+        "episode_hints": [
+          31,
+          34
+        ],
+        "scene_ids": [
+          "31-1",
+          "34-2"
+        ],
+        "evidence": "31-1：温以宁、许禾、盛棠、何苗、赵一禾五人穿着新到的EMB队服，在化妆间排成一排。34-2：温以宁将手揣入队服口袋。",
+        "visual_brief": "EMB本赛季统一款电竞队服，与正式队徽及服装三视版次一致；有真实剪裁和袖口/队标，设计不得来自粉色“甜心女团”提案；颜色款式以正式队服原图为准",
+        "reference_uploads": [
+          {
+            "name": "温以宁｜已锁真人身份母版",
+            "purpose": "这张现实妆造图只更换穿戴服饰，不改变本人真实脸和体型",
+            "required": true,
+            "asset_id": "P-009",
+            "availability": "Drive旧图可核对；并非合格全身三视",
+            "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk"
+          },
+          {
+            "name": "EMB战队｜本季新队服正侧背成衣母图",
+            "purpose": "固定本套衣服、标志、织物色彩、缝线、鞋配件，不根据所在场景随意改衣装",
+            "required": true,
+            "asset_id": null,
+            "availability": "队服/服饰母图待绑定或生成",
+            "url": null
+          }
+        ],
+        "prompt": "一张真人棚拍换装设定板，人物为温以宁。\n\n本人参考锁脸。保留参考发色、发长、分缝及后脑发流，梳顺鬓边，露出眼睛。薄透底妆仅压额头与鼻翼油光，保留皮肤纹理；自然梳眉，唇部保留原生色。\n\n【服装妆造】EMB本赛季统一款电竞队服，与正式队徽及服装三视版次一致；有真实剪裁和袖口/队标，设计不得来自粉色“甜心女团”提案；颜色款式以正式队服原图为准。三视展示同一套衣服和鞋，前后衣领、腰带、织物拼接、袖型与配饰严格一致，适合道具/服装部门确认尺寸与穿着结构。\n【制作候选】按本季已确认 EMB 新队服版式制作：同款训练上衣、同款运动长裤和低帮训练鞋。上衣正背面拼色、领袖线与标识按正式队服参考逐处对应；鞋与长裤使用同一赛季配套款。\n\n中性浅灰无缝影棚，正面偏上大型柔光箱，侧后低强度轮廓光。自然站立，摄影机保持水平。【交付硬约束】仅输出一张16:9横版PNG文件，至少2K。左侧三张等高全身依次为正面、左侧90°、背面，鞋底齐平。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型、面部妆容特写。七个视图使用同一张脸、同一套妆发、衣装和鞋。画面无剧情场景、水印及额外文字。\n\n【妆造材质与上镜细节】底妆薄铺，鼻翼局部定妆，颧部保留轻微自然光泽；皮肤纹理与本人参考一致。用轻薄针织面料与真实袖口包边表现成衣结构。前后拼色和标识照剧内同赛季队服。",
+        "status": "剧本明确新队服存在；具体成衣版式必须先绑定正式队服设计",
+        "image_status": "未出图/未验收",
+        "asset_type": "现实服装妆造设定板（含脸部特写）",
+        "view_spec": {
+          "layout": "一张16:9七区域设定板",
+          "views_in_same_image": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身",
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "left_fullbody_views": [
+            "正面全身",
+            "左侧90°全身",
+            "背面全身"
+          ],
+          "right_2x2_detail_views": [
+            "胸口以上正面特写",
+            "头部侧脸特写",
+            "后脑发型特写",
+            "眼妆与面部细节特写"
+          ],
+          "background": "中性灰无缝影棚",
+          "image_count": 1,
+          "file_count": 1,
+          "one_image_only": true,
+          "same_identity_all_panels": true,
+          "face_detail_required": true
+        },
+        "output_spec": {
+          "kind": "单张人物设定板",
+          "image_count": 1,
+          "file_count": 1,
+          "aspect_ratio": "16:9",
+          "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+          "file_format": "PNG",
+          "layout": {
+            "left_three_fullbody": [
+              "正面全身",
+              "左侧90°全身",
+              "背面全身"
+            ],
+            "right_two_by_two": [
+              "胸口以上正面特写",
+              "头部侧脸特写",
+              "后脑发型特写",
+              "眼妆与面部细节特写"
+            ]
+          },
+          "no_separate_view_images": true,
+          "status": "图片待生成及验收",
+          "file_name": "W-EMB-NEW-P-009_single_16x9.png"
+        },
+        "styling_web_references": [
+          {
+            "title": "SUQQU 薄透底妆参考",
+            "url": "https://www.suqqu.com/en/lp/base-makeup"
+          },
+          {
+            "title": "T1 官方训练与比赛服装",
+            "url": "https://shop-t1-eu.gg/collections/uniform"
+          }
+        ]
+      }
+    ],
+    "cos_looks": [],
+    "scenes": [
+      {
+        "id": "SC-0C9733CDB",
+        "layer": "real",
+        "title": "温以宁老家·客厅",
+        "aliases": [
+          "温以宁老家·客厅"
+        ],
+        "episodes": [
+          54,
+          55
+        ],
+        "occurrences": [
+          "54-1",
+          "54-2",
+          "55-4"
+        ],
+        "master_prompt": "【本张静态生图：参考图按顺序上传】\n图1｜温以宁老家·客厅｜同一物理场景统一平面｜必须｜待制作 / 尚无已验收图｜在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版\n【状态约束】写了参考图名称不代表图片已经存在；待制作项须先生成并核验。严禁把本张拟生成的成品本身列成必需参考图。\n\n【参考图（按顺序上传）】\n① 温以宁老家·客厅｜同一物理场景统一平面〔待制作 / 尚无已验收图〕— 在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。\n\n《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+        "reference_uploads": [
+          {
+            "name": "温以宁老家·客厅｜同一物理场景统一平面",
+            "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+            "required": true,
+            "asset_id": null,
+            "availability": "待制作 / 尚无已验收图",
+            "url": null
+          }
+        ],
+        "anchors": [
+          {
+            "name": "地点与空间身份",
+            "detail": "剧本场头固定：温以宁老家·客厅。一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允",
+            "source": "剧本/生产推导"
+          },
+          {
+            "name": "实拍行动证据",
+            "detail": "除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。",
+            "source": "剧本原文"
+          },
+          {
+            "name": "统一平面与出入口",
+            "detail": "必须先在母图明确入门方向、墙体/断墙、主要道具及摄影轴线，九格从同一空间实拍换机位，不换家具；目前完整平面未锁，禁止作为已验收建筑。",
+            "source": "待出图验收"
+          },
+          {
+            "name": "灯光与材质",
+            "detail": "自然光和实物灯有可信来源；人工布光不能改变窗的位置，饰面材质、地面磨耗、阴影方向跨镜头复用。",
+            "source": "生产约束"
+          }
+        ],
+        "views": [
+          {
+            "no": "01",
+            "name": "空间主视角",
+            "camera": "35mm，成人眼睛高度，沿人物主要进入方向拍向核心活动区，交代固定入口、远端标志物与中景可走通道。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 01｜空间主视角】35mm，成人眼睛高度，沿人物主要进入方向拍向核心活动区，交代固定入口、远端标志物与中景可走通道。【当集对应场次】54-1、54-2。【核对演员动作/道具】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "02",
+            "name": "入口反向机位",
+            "camera": "35mm，相机退到既定活动区并回望真实入口，门框/河岸坡口不能漂移，反拍时左右构造按3D物理位置变化，绝不镜像原图。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 02｜入口反向机位】35mm，相机退到既定活动区并回望真实入口，门框/河岸坡口不能漂移，反拍时左右构造按3D物理位置变化，绝不镜像原图。【当集对应场次】54-1、54-2。【核对演员动作/道具】桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "03",
+            "name": "主要动作全景",
+            "camera": "28–35mm，中等距离拍主要行动区域，地面保留两至五名演员可站立的完整空地，背景有一项能认出场景身份的稳定锚点。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 03｜主要动作全景】28–35mm，中等距离拍主要行动区域，地面保留两至五名演员可站立的完整空地，背景有一项能认出场景身份的稳定锚点。【当集对应场次】54-1、54-2。【核对演员动作/道具】舅舅给自己倒了杯酒。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "04",
+            "name": "左侧四分之三",
+            "camera": "35mm，相机移到母图左侧可达位置，拍核心区域的斜侧面，左窗/左墙/左岸线按真实轴线入镜，绝不新增走廊或外墙开口。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 04｜左侧四分之三】35mm，相机移到母图左侧可达位置，拍核心区域的斜侧面，左窗/左墙/左岸线按真实轴线入镜，绝不新增走廊或外墙开口。【当集对应场次】54-1、54-2。【核对演员动作/道具】妈妈给舅舅夹了一块鱼。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "05",
+            "name": "右侧四分之三",
+            "camera": "35mm，相机移到母图右侧合法摄影位，与04形成同一地点的非镜像互补，重要陈设、门和建筑细节仍同一套。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 05｜右侧四分之三】35mm，相机移到母图右侧合法摄影位，与04形成同一地点的非镜像互补，重要陈设、门和建筑细节仍同一套。【当集对应场次】54-1、54-2。【核对演员动作/道具】妈妈放下筷子。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "06",
+            "name": "正反打反机位",
+            "camera": "50mm，中近景摄影距离，面向上一镜的真实反向角度，为两位演员对话、追击或对线提供对应视线和留白，墙面方向不得颠倒。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 06｜正反打反机位】50mm，中近景摄影距离，面向上一镜的真实反向角度，为两位演员对话、追击或对线提供对应视线和留白，墙面方向不得颠倒。【当集对应场次】54-1、54-2。【核对演员动作/道具】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "07",
+            "name": "故事物件细节",
+            "camera": "50–85mm，低中景/局部近景，聚焦当前场次真正发生动作的固定物件或地形接触处，手部与UI后期加入，材质细节必须与主机位相同。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 07｜故事物件细节】50–85mm，低中景/局部近景，聚焦当前场次真正发生动作的固定物件或地形接触处，手部与UI后期加入，材质细节必须与主机位相同。【当集对应场次】54-1、54-2。【核对演员动作/道具】桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜剧情触点/固定陈设局部参考",
+                "purpose": "如果是同物件特写，优先上传该物件定版图和本场同物件近景；未定版就先制作",
+                "required": false,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "08",
+            "name": "过渡通道与撤退线",
+            "camera": "24–28mm稍广角，沿人物实际可通行路线观察主要区与出口/侧翼连接，保留一条可追踪的退场路线，不制造悬空台阶或不可达死角。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 08｜过渡通道与撤退线】24–28mm稍广角，沿人物实际可通行路线观察主要区与出口/侧翼连接，保留一条可追踪的退场路线，不制造悬空台阶或不可达死角。【当集对应场次】54-1、54-2。【核对演员动作/道具】舅舅给自己倒了杯酒。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "09",
+            "name": "统一平面顶视校验",
+            "camera": "正上方90°或接近平面工程示意，画出门窗、家具/塔/障碍、主摄影机01–08站位及真实通道，保持与A1或现实建筑母图一致；仅空间核查，可绘小箭头但不生成无关艺术文字。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；温以宁老家·客厅；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】一处普通中国家庭住宅的真实生活空间，家具紧凑、磨损轻微，门、窗和通道符合小户型生活逻辑，前景可用于人物坐下、起身和手部动作，中景有稳定的桌椅与居住物件，远景连到实际房间门或阳台。自然杂物只出现在剧情允许的位置，不能把场景做成新的电竞基地豪宅。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。；桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。；舅舅给自己倒了杯酒。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 09｜统一平面顶视校验】正上方90°或接近平面工程示意，画出门窗、家具/塔/障碍、主摄影机01–08站位及真实通道，保持与A1或现实建筑母图一致；仅空间核查，可绘小箭头但不生成无关艺术文字。【当集对应场次】54-1、54-2。【核对演员动作/道具】妈妈给舅舅夹了一块鱼。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "温以宁老家·客厅｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "温以宁老家·客厅｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          }
+        ],
+        "states": [
+          {
+            "episode": 54,
+            "scene_id": "54-1",
+            "daypart": "夜",
+            "state": {
+              "scene_id": "54-1",
+              "daypart": "夜",
+              "heading": "54-1 夜 内 温以宁老家·客厅",
+              "prop_card_refs": [],
+              "graphic_refs": [],
+              "placed_or_set_dressing": [
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。",
+                  "treatment": "场景实物/陈设状态"
+                }
+              ],
+              "handheld": [],
+              "post_overlay": [
+                {
+                  "items": [
+                    "电视"
+                  ],
+                  "evidence": "除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。",
+                  "treatment": "后期可替换画面"
+                }
+              ],
+              "other_evidence": [],
+              "state_prompt_suffix": "\n\n【第54-1场剧情状态版｜仅对本场有效】54-1 夜 内 温以宁老家·客厅。【应在空景中保留或按剧情状态摆置的实物】「桌上摆满了菜。舅舅、舅妈带着孩子，挤在桌子一边。温以宁坐在靠门的位置，背后就是门。」。若原文规定墙上、桌上、床边、地面、沙发、台阶等位置，必须保留这些相对位置与接触阴影；原文未定的摆位只能作为待确认候选，不能硬写成固定设定。【与演员走位相联系但不得在无人空景中悬空出现的手持道具】本场未检出明确的此类道具位置，沿用统一母景。；空景仅保留相应可站位、可放置或可移动的接触空间，真实道具由人物镜头或分层合成。【必须分层处理的屏幕内容/游戏特效】「除夕。老家的客厅不大，一张折叠圆桌摆在中间，电视里在放春晚。」；对应图形卡：未单列（需逐帧核查）。不要将精确中文、ID、比分、金钱数字预先烧进背景纹理。【其他道具及空间线索】本场未检出明确的此类道具位置，沿用统一母景。。独立道具卡引用：无已登记道具卡；不能据此判定无道具。【光照与状态连续】本场为「夜」，保持同一物理空间与机位地理坐标，不能把不同场次的墙面字迹、厨房器物、桌面资料、亮屏内容和灯光状态混在同一帧；若一个场次内部有先后变化，按台词动作节点另做before/after子版本。【制作边界】本条是基于正式剧本动作逐句提取的文字状态约束，不等于已经有合格实物参考图；先出干净空间母图，再出本场布景状态图，之后单独合成人物、手持物和可读图形。",
+              "review_status": "剧情实物状态文字提取｜位置与图像待逐场人工核验",
+              "has_state_change": false,
+              "evidence_count": 2,
+              "reference_uploads": [],
+              "reference_prompt": ""
+            }
+          },
+          {
+            "episode": 54,
+            "scene_id": "54-2",
+            "daypart": "夜",
+            "state": {
+              "scene_id": "54-2",
+              "daypart": "夜",
+              "heading": "54-2 夜 内 温以宁老家·客厅",
+              "prop_card_refs": [
+                {
+                  "id": "P54-01",
+                  "name": "外套",
+                  "type": "服装/穿戴"
+                }
+              ],
+              "graphic_refs": [],
+              "placed_or_set_dressing": [
+                {
+                  "items": [
+                    "筷子"
+                  ],
+                  "evidence": "妈妈放下筷子。",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "椅子",
+                    "外套",
+                    "门"
+                  ],
+                  "evidence": "温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "门在身后关上。",
+                  "treatment": "道具前后状态需分版本"
+                }
+              ],
+              "handheld": [],
+              "post_overlay": [
+                {
+                  "items": [
+                    "电视"
+                  ],
+                  "evidence": "桌上一下子没声了。电视里，主持人在倒数什么。",
+                  "treatment": "后期可替换画面"
+                }
+              ],
+              "other_evidence": [
+                {
+                  "items": [
+                    "筷子"
+                  ],
+                  "evidence": "温以宁的筷子停了。",
+                  "treatment": "场景接触/位置待逐镜判定"
+                }
+              ],
+              "state_prompt_suffix": "\n\n【第54-2场剧情状态版｜仅对本场有效】54-2 夜 内 温以宁老家·客厅。【应在空景中保留或按剧情状态摆置的实物】「妈妈放下筷子。」；「温以宁站起来，椅子在地上刮出一声响。她拿起外套，开门出去了。」；「门在身后关上。」。若原文规定墙上、桌上、床边、地面、沙发、台阶等位置，必须保留这些相对位置与接触阴影；原文未定的摆位只能作为待确认候选，不能硬写成固定设定。【与演员走位相联系但不得在无人空景中悬空出现的手持道具】本场未检出明确的此类道具位置，沿用统一母景。；空景仅保留相应可站位、可放置或可移动的接触空间，真实道具由人物镜头或分层合成。【必须分层处理的屏幕内容/游戏特效】「桌上一下子没声了。电视里，主持人在倒数什么。」；对应图形卡：未单列（需逐帧核查）。不要将精确中文、ID、比分、金钱数字预先烧进背景纹理。【其他道具及空间线索】「温以宁的筷子停了。」。独立道具卡引用：P54-01 外套。【光照与状态连续】本场为「夜」，保持同一物理空间与机位地理坐标，不能把不同场次的墙面字迹、厨房器物、桌面资料、亮屏内容和灯光状态混在同一帧；若一个场次内部有先后变化，按台词动作节点另做before/after子版本。【制作边界】本条是基于正式剧本动作逐句提取的文字状态约束，不等于已经有合格实物参考图；先出干净空间母图，再出本场布景状态图，之后单独合成人物、手持物和可读图形。",
+              "review_status": "剧情实物状态文字提取｜位置与图像待逐场人工核验",
+              "has_state_change": true,
+              "evidence_count": 5,
+              "reference_uploads": [
+                {
+                  "asset_id": null,
+                  "name": "P54-01｜外套独立道具母图",
+                  "purpose": "本场54-2外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空",
+                  "availability": "待制作 / 尚无已验收图",
+                  "source_url": null,
+                  "required": false,
+                  "role": "场次实物",
+                  "warning": "",
+                  "order": 1
+                }
+              ],
+              "reference_prompt": "【剧情状态追加参考图（在基础参考图之后上传）】\n① P54-01｜外套独立道具母图〔待制作 / 尚无已验收图〕— 本场54-2外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。"
+            }
+          },
+          {
+            "episode": 55,
+            "scene_id": "55-4",
+            "daypart": "日",
+            "state": {
+              "scene_id": "55-4",
+              "daypart": "日",
+              "heading": "55-4 日 内 温以宁老家·客厅",
+              "prop_card_refs": [
+                {
+                  "id": "P55-01",
+                  "name": "手机",
+                  "type": "可移动道具"
+                },
+                {
+                  "id": "P55-03",
+                  "name": "箱子",
+                  "type": "可移动道具"
+                }
+              ],
+              "graphic_refs": [],
+              "placed_or_set_dressing": [
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "客厅没人。妈妈的房门关着。",
+                  "treatment": "道具前后状态需分版本"
+                },
+                {
+                  "items": [
+                    "塑料袋"
+                  ],
+                  "evidence": "饭桌上，放着一个塑料袋，系得紧紧的，袋子外面结了一层白霜。",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "贴着",
+                    "打开"
+                  ],
+                  "evidence": "她走过去，打开一看。冻饺子，一个一个码得整整齐齐。袋子上用透明胶贴着一张纸，是妈妈的字：“路上别饿着。”",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "她看了一眼妈妈的房门。门没开。",
+                  "treatment": "道具前后状态需分版本"
+                }
+              ],
+              "handheld": [
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "她把那袋饺子塞进箱子最上面，拉上拉链，出了门。",
+                  "treatment": "演员手持/动作道具（空景不悬空摆放）"
+                },
+                {
+                  "items": [
+                    "手机"
+                  ],
+                  "evidence": "手机在口袋里震了一下。她没拿出来看。",
+                  "treatment": "演员手持/动作道具（空景不悬空摆放）"
+                }
+              ],
+              "post_overlay": [],
+              "other_evidence": [],
+              "state_prompt_suffix": "\n\n【第55-4场剧情状态版｜仅对本场有效】55-4 日 内 温以宁老家·客厅。【应在空景中保留或按剧情状态摆置的实物】「客厅没人。妈妈的房门关着。」；「饭桌上，放着一个塑料袋，系得紧紧的，袋子外面结了一层白霜。」；「她走过去，打开一看。冻饺子，一个一个码得整整齐齐。袋子上用透明胶贴着一张纸，是妈妈的字：“路上别饿着。”」；「她看了一眼妈妈的房门。门没开。」。若原文规定墙上、桌上、床边、地面、沙发、台阶等位置，必须保留这些相对位置与接触阴影；原文未定的摆位只能作为待确认候选，不能硬写成固定设定。【与演员走位相联系但不得在无人空景中悬空出现的手持道具】「她把那袋饺子塞进箱子最上面，拉上拉链，出了门。」；「手机在口袋里震了一下。她没拿出来看。」；空景仅保留相应可站位、可放置或可移动的接触空间，真实道具由人物镜头或分层合成。【必须分层处理的屏幕内容/游戏特效】本场未检出明确的此类道具位置，沿用统一母景。；对应图形卡：未单列（需逐帧核查）。不要将精确中文、ID、比分、金钱数字预先烧进背景纹理。【其他道具及空间线索】本场未检出明确的此类道具位置，沿用统一母景。。独立道具卡引用：P55-01 手机,P55-03 箱子。【光照与状态连续】本场为「日」，保持同一物理空间与机位地理坐标，不能把不同场次的墙面字迹、厨房器物、桌面资料、亮屏内容和灯光状态混在同一帧；若一个场次内部有先后变化，按台词动作节点另做before/after子版本。【制作边界】本条是基于正式剧本动作逐句提取的文字状态约束，不等于已经有合格实物参考图；先出干净空间母图，再出本场布景状态图，之后单独合成人物、手持物和可读图形。",
+              "review_status": "剧情实物状态文字提取｜位置与图像待逐场人工核验",
+              "has_state_change": true,
+              "evidence_count": 6,
+              "reference_uploads": [
+                {
+                  "asset_id": null,
+                  "name": "P55-01｜手机独立道具母图",
+                  "purpose": "本场55-4外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空",
+                  "availability": "待制作 / 尚无已验收图",
+                  "source_url": null,
+                  "required": false,
+                  "role": "场次实物",
+                  "warning": "",
+                  "order": 1
+                },
+                {
+                  "asset_id": null,
+                  "name": "P55-03｜箱子独立道具母图",
+                  "purpose": "本场55-4外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空",
+                  "availability": "待制作 / 尚无已验收图",
+                  "source_url": null,
+                  "required": false,
+                  "role": "场次实物",
+                  "warning": "",
+                  "order": 2
+                }
+              ],
+              "reference_prompt": "【剧情状态追加参考图（在基础参考图之后上传）】\n① P55-01｜手机独立道具母图〔待制作 / 尚无已验收图〕— 本场55-4外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空\n② P55-03｜箱子独立道具母图〔待制作 / 尚无已验收图〕— 本场55-4外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。"
+            }
+          }
+        ],
+        "status": "空景未生成／九宫格未验收",
+        "blocked": false,
+        "source": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit"
+      },
+      {
+        "id": "SC-170B2A535",
+        "layer": "real",
+        "title": "老家·街边",
+        "aliases": [
+          "老家·街边"
+        ],
+        "episodes": [
+          54
+        ],
+        "occurrences": [
+          "54-3"
+        ],
+        "master_prompt": "【本张静态生图：参考图按顺序上传】\n图1｜老家·街边｜同一物理场景统一平面｜必须｜待制作 / 尚无已验收图｜在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版\n【状态约束】写了参考图名称不代表图片已经存在；待制作项须先生成并核验。严禁把本张拟生成的成品本身列成必需参考图。\n\n【参考图（按顺序上传）】\n① 老家·街边｜同一物理场景统一平面〔待制作 / 尚无已验收图〕— 在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。\n\n《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+        "reference_uploads": [
+          {
+            "name": "老家·街边｜同一物理场景统一平面",
+            "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+            "required": true,
+            "asset_id": null,
+            "availability": "待制作 / 尚无已验收图",
+            "url": null
+          }
+        ],
+        "anchors": [
+          {
+            "name": "地点与空间身份",
+            "detail": "剧本场头固定：老家·街边。现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿",
+            "source": "剧本/生产推导"
+          },
+          {
+            "name": "实拍行动证据",
+            "detail": "街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。",
+            "source": "剧本原文"
+          },
+          {
+            "name": "统一平面与出入口",
+            "detail": "必须先在母图明确入门方向、墙体/断墙、主要道具及摄影轴线，九格从同一空间实拍换机位，不换家具；目前完整平面未锁，禁止作为已验收建筑。",
+            "source": "待出图验收"
+          },
+          {
+            "name": "灯光与材质",
+            "detail": "自然光和实物灯有可信来源；人工布光不能改变窗的位置，饰面材质、地面磨耗、阴影方向跨镜头复用。",
+            "source": "生产约束"
+          }
+        ],
+        "views": [
+          {
+            "no": "01",
+            "name": "空间主视角",
+            "camera": "35mm，成人眼睛高度，沿人物主要进入方向拍向核心活动区，交代固定入口、远端标志物与中景可走通道。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 01｜空间主视角】35mm，成人眼睛高度，沿人物主要进入方向拍向核心活动区，交代固定入口、远端标志物与中景可走通道。【当集对应场次】54-3。【核对演员动作/道具】街上没什么人。远处有人在放烟花，一下一下地响。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "02",
+            "name": "入口反向机位",
+            "camera": "35mm，相机退到既定活动区并回望真实入口，门框/河岸坡口不能漂移，反拍时左右构造按3D物理位置变化，绝不镜像原图。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 02｜入口反向机位】35mm，相机退到既定活动区并回望真实入口，门框/河岸坡口不能漂移，反拍时左右构造按3D物理位置变化，绝不镜像原图。【当集对应场次】54-3。【核对演员动作/道具】温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "03",
+            "name": "主要动作全景",
+            "camera": "28–35mm，中等距离拍主要行动区域，地面保留两至五名演员可站立的完整空地，背景有一项能认出场景身份的稳定锚点。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 03｜主要动作全景】28–35mm，中等距离拍主要行动区域，地面保留两至五名演员可站立的完整空地，背景有一项能认出场景身份的稳定锚点。【当集对应场次】54-3。【核对演员动作/道具】她站在门口，没进去。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "04",
+            "name": "左侧四分之三",
+            "camera": "35mm，相机移到母图左侧可达位置，拍核心区域的斜侧面，左窗/左墙/左岸线按真实轴线入镜，绝不新增走廊或外墙开口。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 04｜左侧四分之三】35mm，相机移到母图左侧可达位置，拍核心区域的斜侧面，左窗/左墙/左岸线按真实轴线入镜，绝不新增走廊或外墙开口。【当集对应场次】54-3。【核对演员动作/道具】手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "05",
+            "name": "右侧四分之三",
+            "camera": "35mm，相机移到母图右侧合法摄影位，与04形成同一地点的非镜像互补，重要陈设、门和建筑细节仍同一套。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 05｜右侧四分之三】35mm，相机移到母图右侧合法摄影位，与04形成同一地点的非镜像互补，重要陈设、门和建筑细节仍同一套。【当集对应场次】54-3。【核对演员动作/道具】街上没什么人。远处有人在放烟花，一下一下地响。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "06",
+            "name": "正反打反机位",
+            "camera": "50mm，中近景摄影距离，面向上一镜的真实反向角度，为两位演员对话、追击或对线提供对应视线和留白，墙面方向不得颠倒。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 06｜正反打反机位】50mm，中近景摄影距离，面向上一镜的真实反向角度，为两位演员对话、追击或对线提供对应视线和留白，墙面方向不得颠倒。【当集对应场次】54-3。【核对演员动作/道具】温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "07",
+            "name": "故事物件细节",
+            "camera": "50–85mm，低中景/局部近景，聚焦当前场次真正发生动作的固定物件或地形接触处，手部与UI后期加入，材质细节必须与主机位相同。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 07｜故事物件细节】50–85mm，低中景/局部近景，聚焦当前场次真正发生动作的固定物件或地形接触处，手部与UI后期加入，材质细节必须与主机位相同。【当集对应场次】54-3。【核对演员动作/道具】她站在门口，没进去。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜剧情触点/固定陈设局部参考",
+                "purpose": "如果是同物件特写，优先上传该物件定版图和本场同物件近景；未定版就先制作",
+                "required": false,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "08",
+            "name": "过渡通道与撤退线",
+            "camera": "24–28mm稍广角，沿人物实际可通行路线观察主要区与出口/侧翼连接，保留一条可追踪的退场路线，不制造悬空台阶或不可达死角。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 08｜过渡通道与撤退线】24–28mm稍广角，沿人物实际可通行路线观察主要区与出口/侧翼连接，保留一条可追踪的退场路线，不制造悬空台阶或不可达死角。【当集对应场次】54-3。【核对演员动作/道具】手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          },
+          {
+            "no": "09",
+            "name": "统一平面顶视校验",
+            "camera": "正上方90°或接近平面工程示意，画出门窗、家具/塔/障碍、主摄影机01–08站位及真实通道，保持与A1或现实建筑母图一致；仅空间核查，可绘小箭头但不生成无关艺术文字。",
+            "prompt": "《EMBER》第一季第54集《饭桌》；老家·街边；场景层：电竞剧现实场景；16:9宽银幕，场景空景无演员，以真实摄影机记录空间，室内按真实建筑尺寸，室外按真实地势，不采用动漫、漫剧、游戏宣传CG的概念化灯光。【统一场景结构】现实中国城市街区的地面外景，路沿、墙面、门口、停靠区和路灯形成可信街道关系；前景提供人物走动/上下车/挥手的活动区域，中景固定通往建筑的门与台阶，远景是同一街区建筑或交通方向。雨雪昼夜只能改变光照和湿度，不能无理由改变建筑风格。【固定与待锁关系】此地未有完整确认平面：建筑门窗与道具准确位置以待制作场景母图为准，输出标候选、不声称已锁。【镜头主构图】35mm真实影视镜头，成人眼睛高度，前景必须可见真实可落脚的地面与材质接触阴影；中景展示该地点最核心的家具/建筑/行动空间，允许角色进入、坐下、交谈、躲闪和离开；远景交代通向相邻场景的真实门口、走廊、石坡或街路，不能为了单张好看临时添门改墙。【本集时段】夜，同一场景的不同时段只更换自然光/人工灯状态、物件连续状态，不改变结构。【真实质感】实物材质有灰尘磨耗、局部修补、柔和日光或合理人工照明，保留透视、景深和环境反射，不套廉价美颜。【剧本可核的本集空间动作】街上没什么人。远处有人在放烟花，一下一下地响。；温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。；她站在门口，没进去。。这些描述只是布景/道具状态参考，画面不添加真人演员，镜内文字、聊天框与屏幕影像独立后期合成。【严格禁止】场景人物、可辨人形倒影、乱生成的字幕/品牌/门牌、无来由的设施、摄影场景完全对称图、错误楼层/路线。\n\n【九宫格机位 09｜统一平面顶视校验】正上方90°或接近平面工程示意，画出门窗、家具/塔/障碍、主摄影机01–08站位及真实通道，保持与A1或现实建筑母图一致；仅空间核查，可绘小箭头但不生成无关艺术文字。【当集对应场次】54-3。【核对演员动作/道具】街上没什么人。远处有人在放烟花，一下一下地响。。【连续性】全组九个角度都必须复用同一张空间母图，摄影机变位置但墙门、家具、塔、河床、草阵与实地走线不变；出图仍是无演员、无UI的背景。\n【最终交付限定】本次生成的是无人的环境母图。禁止人物、选手、英雄、人体剪影、角色服装、技能光效、游戏HUD。场景不负责出人物；人物与COS是另一套独立资产。",
+            "reference_uploads": [
+              {
+                "name": "老家·街边｜同一物理场景统一平面",
+                "purpose": "在第一张图前根据剧本锁门、窗、通道、墙与实物尺寸；此图尚未锁版",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              },
+              {
+                "name": "老家·街边｜01空间主视角母图",
+                "purpose": "主机位先通过人体尺度/门窗/道路校验；本机位通过移动真实摄影机而非镜像出图",
+                "required": true,
+                "asset_id": null,
+                "availability": "待制作 / 尚无已验收图",
+                "url": null
+              }
+            ]
+          }
+        ],
+        "states": [
+          {
+            "episode": 54,
+            "scene_id": "54-3",
+            "daypart": "夜",
+            "state": {
+              "scene_id": "54-3",
+              "daypart": "夜",
+              "heading": "54-3 夜 外 老家·街边",
+              "prop_card_refs": [
+                {
+                  "id": "P54-02",
+                  "name": "手机",
+                  "type": "可移动道具"
+                }
+              ],
+              "graphic_refs": [],
+              "placed_or_set_dressing": [
+                {
+                  "items": [
+                    "门"
+                  ],
+                  "evidence": "她站在门口，没进去。",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "手机",
+                    "门"
+                  ],
+                  "evidence": "把手机揣回口袋，在网吧门口的台阶上坐下来。",
+                  "treatment": "场景实物/陈设状态"
+                },
+                {
+                  "items": [
+                    "花"
+                  ],
+                  "evidence": "烟花在头顶上开了一朵，又一朵。",
+                  "treatment": "道具前后状态需分版本"
+                }
+              ],
+              "handheld": [
+                {
+                  "items": [
+                    "手机"
+                  ],
+                  "evidence": "手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。",
+                  "treatment": "演员手持/动作道具（空景不悬空摆放）"
+                }
+              ],
+              "post_overlay": [],
+              "other_evidence": [
+                {
+                  "items": [
+                    "花"
+                  ],
+                  "evidence": "街上没什么人。远处有人在放烟花，一下一下地响。",
+                  "treatment": "场景接触/位置待逐镜判定"
+                },
+                {
+                  "items": [
+                    "亮着",
+                    "灯牌"
+                  ],
+                  "evidence": "温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。",
+                  "treatment": "场景接触/位置待逐镜判定"
+                }
+              ],
+              "state_prompt_suffix": "\n\n【第54-3场剧情状态版｜仅对本场有效】54-3 夜 外 老家·街边。【应在空景中保留或按剧情状态摆置的实物】「她站在门口，没进去。」；「把手机揣回口袋，在网吧门口的台阶上坐下来。」；「烟花在头顶上开了一朵，又一朵。」。若原文规定墙上、桌上、床边、地面、沙发、台阶等位置，必须保留这些相对位置与接触阴影；原文未定的摆位只能作为待确认候选，不能硬写成固定设定。【与演员走位相联系但不得在无人空景中悬空出现的手持道具】「手机响了。她掏出来看，是许禾在群里发的视频。预览图上，是盛棠家的一桌子饺子。」；空景仅保留相应可站位、可放置或可移动的接触空间，真实道具由人物镜头或分层合成。【必须分层处理的屏幕内容/游戏特效】本场未检出明确的此类道具位置，沿用统一母景。；对应图形卡：未单列（需逐帧核查）。不要将精确中文、ID、比分、金钱数字预先烧进背景纹理。【其他道具及空间线索】「街上没什么人。远处有人在放烟花，一下一下地响。」；「温以宁一个人走着。走到街口，网吧的灯牌还亮着：通宵营业，除夕不打烊。」。独立道具卡引用：P54-02 手机。【光照与状态连续】本场为「夜」，保持同一物理空间与机位地理坐标，不能把不同场次的墙面字迹、厨房器物、桌面资料、亮屏内容和灯光状态混在同一帧；若一个场次内部有先后变化，按台词动作节点另做before/after子版本。【制作边界】本条是基于正式剧本动作逐句提取的文字状态约束，不等于已经有合格实物参考图；先出干净空间母图，再出本场布景状态图，之后单独合成人物、手持物和可读图形。",
+              "review_status": "剧情实物状态文字提取｜位置与图像待逐场人工核验",
+              "has_state_change": true,
+              "evidence_count": 6,
+              "reference_uploads": [
+                {
+                  "asset_id": null,
+                  "name": "P54-02｜手机独立道具母图",
+                  "purpose": "本场54-3外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空",
+                  "availability": "待制作 / 尚无已验收图",
+                  "source_url": null,
+                  "required": false,
+                  "role": "场次实物",
+                  "warning": "",
+                  "order": 1
+                }
+              ],
+              "reference_prompt": "【剧情状态追加参考图（在基础参考图之后上传）】\n① P54-02｜手机独立道具母图〔待制作 / 尚无已验收图〕— 本场54-3外形、材料和摆位连续性。空景只把实际摆放在场景里的物件放入；人物手持道具合成在人物镜头，不让物件悬空\n【上传原则】只上传实际可访问、画面已核准的文件。标为“待制作/待绑定”的是前置任务，不是当前已有的图片。按编号顺序导入；空景生成不输入演员正脸。"
+            }
+          }
+        ],
+        "status": "空景未生成／九宫格未验收",
+        "blocked": false,
+        "source": "https://docs.google.com/document/d/15aQK9lsSjbRvRUEqKk6zVSfQDMvTN_jVJmLA8YNIU7g/edit"
+      }
+    ]
+  },
+  "self_contained": true,
+  "production_sequence": [
+    "核对本人面孔原图",
+    "生成人物身份正/左侧/背一张16:9设定板母版",
+    "完成现实基础或特定服装正/左侧/背一张16:9设定板",
+    "生成本集引用的演员×英雄COS正/左侧/背一张16:9设定板",
+    "生无人场景及九宫格，按场次配置道具",
+    "屏幕/UI/VFX另做静态资产；本阶段不合成人进场景、不做生视频分镜"
+  ],
+  "single_board_spec": {
+    "kind": "单张人物设定板",
+    "image_count": 1,
+    "file_count": 1,
+    "aspect_ratio": "16:9",
+    "preferred_resolution": "3840×2160（4K；可按工具上限至少2K）",
+    "file_format": "PNG",
+    "layout": {
+      "left_three_fullbody": [
+        "正面全身",
+        "左侧90°全身",
+        "背面全身"
+      ],
+      "right_two_by_two": [
+        "胸口以上正面特写",
+        "头部侧脸特写",
+        "后脑发型特写",
+        "眼妆与面部细节特写"
+      ]
+    },
+    "no_separate_view_images": true,
+    "status": "图片待生成及验收"
+  },
+  "single_image_output_per_character_card": true,
+  "asset_display_note": "所有人物母版与现实/COS妆造均为单张16:9图：内部全身三视+四处近脸细节，不是七张独立图片。"
+}

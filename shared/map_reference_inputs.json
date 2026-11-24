@@ -1,0 +1,56 @@
+[
+  {
+    "id": "MAP-A1",
+    "label": "A1",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B1",
+    "label": "B1",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-D1",
+    "label": "D1",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B4",
+    "label": "B4",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-D2-D3",
+    "label": "D2/D3",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B6",
+    "label": "B6",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B8",
+    "label": "B8",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B3",
+    "label": "B3",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  },
+  {
+    "id": "MAP-B9",
+    "label": "B9",
+    "status": "待登记或生成",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+  }
+]
