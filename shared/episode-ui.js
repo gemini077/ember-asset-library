@@ -29,6 +29,21 @@ try{
    const cover=c.querySelector(".cover");
    if(cover){const f=document.createElement("figure");f.className="scene-cover-image";const a=document.createElement("a");a.href=hw.master.url;a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=assetURL(hw.master);im.alt="ZG一队训练室已有母图（待硬件局部修订）";im.loading="lazy";im.style.cssText="width:100%;height:auto;display:block";a.append(im);f.append(a);const cap=document.createElement("figcaption");cap.textContent="已有母图 · 待硬件局部修订";f.append(cap);cover.replaceWith(f);}
    const stale=[...c.children].find(n=>n.tagName==="P"&&n.textContent.includes("母图直接文字生图"));if(stale)stale.textContent="已有母图与01–05机位成图；保留原图，按机位局部修订。06–09尚无已入库原图，按母图和现有参考补制。";
+   // Dedicated master edit, not a shot prompt.
+   if(hw.master_edit_prompt){
+    const legacy=document.getElementById("prompt-training-room-pc")||document.getElementById("prompt-"+hw.scene_id);
+    const d=legacy?.closest("details")||document.createElement("details");
+    d.className="details master-edit";d.open=true;d.replaceChildren();
+    const summary=document.createElement("summary");summary.textContent="母图硬件修订 · 优先制作";d.append(summary);
+    const note=document.createElement("p");note.textContent="图1为唯一编辑底图；05已通过，不重做。先修母图并验收，再推进其他机位。按图1–4上传。";d.append(note);
+    const mg=document.createElement("div");mg.className="hardware-grid";d.append(mg);
+    hw.master_edit_reference_uploads.forEach((x,i)=>{const card=document.createElement("div"),a=document.createElement("a");a.href=assetURL(x);a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=a.href;im.alt=x.name;im.loading="lazy";a.append(im);const b=document.createElement("b");b.textContent="图"+(i+1)+" · "+x.name;const p=document.createElement("p");p.textContent=x.purpose;const src=document.createElement("a");src.href=x.url||a.href;src.target="_blank";src.rel="noopener";src.textContent="原始来源 ↗";card.append(a,b,p,src);mg.append(card);});
+    const btn=document.createElement("button");btn.type="button";btn.className="copy";btn.textContent="复制母图修订完整提示词";btn.onclick=async()=>{try{await navigator.clipboard.writeText(hw.master_edit_prompt);btn.textContent="已复制";setTimeout(()=>btn.textContent="复制母图修订完整提示词",1200)}catch(e){const t=document.createElement("textarea");t.value=hw.master_edit_prompt;d.append(t);t.select();document.execCommand("copy");t.remove();}};const pre=document.createElement("pre");pre.className="prompt";pre.id="prompt-training-room-master-edit";pre.textContent=hw.master_edit_prompt;d.append(btn,pre);
+    if(!legacy){const body=c.querySelector(".body");if(body)body.after(d);else c.prepend(d);}
+    const mother=c.querySelector(".scene-mother");if(mother){mother.textContent="母图 · 查看原图与修订提示词";mother.addEventListener("click",()=>{d.open=true;});}
+    const oldNote=[...c.children].find(n=>n.tagName==="P"&&(/母图和 01|已有母图与01/.test(n.textContent)));if(oldNote)oldNote.textContent="生产顺序：先修订并验收母图；05已通过直接调用；其余机位待母图确认后推进。";
+    const nine=document.getElementById("prompt-training-room-3x3")?.closest("details");if(nine){nine.open=false;const p=document.createElement("p");p.textContent="母图验收前暂停九宫格生成；05已通过，不重复生成。";nine.querySelector("summary")?.after(p);}
+   }
    const panel=c.querySelector(".viewpanel");
    const section=document.createElement("div");section.className="hardware-reference";
    const heading=document.createElement("h3");heading.textContent="当前机位 · 原图与上传参考";section.append(heading);
