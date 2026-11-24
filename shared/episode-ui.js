@@ -28,21 +28,21 @@ try{
    c.querySelector(".hardware-reference")?.remove();
    const cover=c.querySelector(".cover");
    if(cover){const f=document.createElement("figure");f.className="scene-cover-image";const a=document.createElement("a");a.href=hw.master.url;a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=assetURL(hw.master);im.alt="ZG一队训练室已有母图（待硬件局部修订）";im.loading="lazy";im.style.cssText="width:100%;height:auto;display:block";a.append(im);f.append(a);const cap=document.createElement("figcaption");cap.textContent="已有母图 · 待硬件局部修订";f.append(cap);cover.replaceWith(f);}
-   const stale=[...c.children].find(n=>n.tagName==="P"&&n.textContent.includes("母图直接文字生图"));if(stale)stale.textContent="旧图仅作历史参考；新版母图待重制，01–09全部待重制。";
+   const stale=[...c.children].find(n=>n.tagName==="P"&&n.textContent.includes("母图直接文字生图"));if(stale)stale.textContent="母图待重制；01–04、06–09待新版母图后重制；05已通过。";
    // Dedicated master edit, not a shot prompt.
    if(hw.master_edit_prompt){
     const legacy=document.getElementById("prompt-training-room-pc")||document.getElementById("prompt-"+hw.scene_id);
     const d=legacy?.closest("details")||document.createElement("details");
     d.className="details master-edit";d.open=true;d.replaceChildren();
     const summary=document.createElement("summary");summary.textContent="母图硬件修订 · 优先制作";d.append(summary);
-    const note=document.createElement("p");note.textContent="按图1–4上传。生产状态：母图待重制；01–09全部待新版母图后重制。旧05仅作设备造型参考。";d.append(note);
+    const note=document.createElement("p");note.textContent="按图1–4上传。生产状态：母图待重制；01–04、06–09待新版母图后重制；05已通过。";d.append(note);
     const mg=document.createElement("div");mg.className="hardware-grid";d.append(mg);
     hw.master_edit_reference_uploads.forEach((x,i)=>{const card=document.createElement("div"),a=document.createElement("a");a.href=assetURL(x);a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=a.href;im.alt=x.name;im.loading="lazy";a.append(im);const b=document.createElement("b");b.textContent="图"+(i+1)+" · "+x.name;const p=document.createElement("p");p.textContent=x.purpose;const src=document.createElement("a");src.href=x.url||a.href;src.target="_blank";src.rel="noopener";src.textContent="原始来源 ↗";card.append(a,b,p,src);mg.append(card);});
     const btn=document.createElement("button");btn.type="button";btn.className="copy";btn.textContent="复制母图修订完整提示词";btn.onclick=async()=>{try{await navigator.clipboard.writeText(hw.master_edit_prompt);btn.textContent="已复制";setTimeout(()=>btn.textContent="复制母图修订完整提示词",1200)}catch(e){const t=document.createElement("textarea");t.value=hw.master_edit_prompt;d.append(t);t.select();document.execCommand("copy");t.remove();}};const pre=document.createElement("pre");pre.className="prompt";pre.id="prompt-training-room-master-edit";pre.textContent=hw.master_edit_prompt;d.append(btn,pre);
     if(!legacy){const body=c.querySelector(".body");if(body)body.after(d);else c.prepend(d);}
     const mother=c.querySelector(".scene-mother");if(mother){mother.textContent="母图 · 查看原图与修订提示词";mother.addEventListener("click",()=>{d.open=true;});}
-    const oldNote=[...c.children].find(n=>n.tagName==="P"&&(/母图和 01|已有母图与01/.test(n.textContent)));if(oldNote)oldNote.textContent="生产顺序：母图重制 → 母图验收 → 01–09全部重制。";
-    const nine=document.getElementById("prompt-training-room-3x3")?.closest("details");if(nine){nine.open=false;const p=document.createElement("p");p.textContent="母图验收前暂停九宫格生成；01–09全部重制。";nine.querySelector("summary")?.after(p);}
+    const oldNote=[...c.children].find(n=>n.tagName==="P"&&(/母图和 01|已有母图与01/.test(n.textContent)));if(oldNote)oldNote.textContent="生产顺序：母图重制 → 母图验收 → 01–04、06–09重制；05直接调用。";
+    const nine=document.getElementById("prompt-training-room-3x3")?.closest("details");if(nine){nine.open=false;const p=document.createElement("p");p.textContent="母图验收后单独重制01–04、06–09；05直接调用。";nine.querySelector("summary")?.after(p);}
    }
    const panel=c.querySelector(".viewpanel");
    const section=document.createElement("div");section.className="hardware-reference";
@@ -51,16 +51,17 @@ try{
    const grid=document.createElement("div");grid.className="hardware-grid";section.append(grid);
    if(panel)panel.prepend(section);else c.append(section);
    const raw=canonical.map(v=>{
+    if(v.no==="05")return {...v,prompt:"",reference_uploads:[hw.references[1]],hasOriginal:true,approved:true};
     const refs=[{name:"训练室新版母图",required:true,availability:"待新版母图制作",purpose:"锁定房间、设备、空间关系、材质和光照。"},hw.references[0],hw.references[1]];
     const prompt="图1为ZG基地一队训练室空景母图，锁定空间、陈设、队徽、设备位置、材质和光照；图2为黑色实板机箱外形参考；图3为光年LIGHTYEAR显示器外形参考。\n\n【空间】西窗、北墙ZG队徽和五席木纹长桌、东侧黑框玻璃隔断及门。五台显示器在桌北侧、显示面朝南，五把椅子在桌南侧、座面朝北，键鼠位于屏幕与椅子之间。教练桌位于东门南侧固定玻璃段旁，教练椅在桌西侧朝东，显示面朝西。保留椅后通道与门洞净空。\n\n【镜头】"+v.camera+"\n\n"+hw.continuity+"\n\n以图1的空间为准，只改变摄影机位置和取景；画外物体不强行显示。真实室内摄影，单张16:9，2560×1440，无人物、人形倒影、HUD、额外文字、水印或拼图。";
     return {...v,prompt,reference_uploads:refs,hasOriginal:false};
    });
    legacyScript.textContent=JSON.stringify(raw);
    if(typeof allViews!=="undefined")allViews[hw.scene_id]=raw;
-   const tiles=[...c.querySelectorAll("[data-view]")];tiles.forEach((tile,i)=>{const v=raw[i];if(!v)return;const name=tile.querySelector("span");if(name)name.textContent=v.name;tile.title="待新版母图后重制";const img=tile.querySelector("img");if(img)img.title="旧机位参考，不是新版成品";});
-   const renderRefs=i=>{const v=raw[i];if(!v)return;intro.textContent="待新版母图。旧机位图仅作历史参考；新版母图入库后再生成本机位。";grid.replaceChildren();v.reference_uploads.forEach((x,j)=>{const card=document.createElement("div");const title=document.createElement("b");title.textContent="图"+(j+1)+" · "+x.name;if(x.path){const a=document.createElement("a");a.href=assetURL(x);a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=a.href;im.alt=x.name;im.loading="lazy";a.append(im);card.append(a);}card.append(title);const p=document.createElement("p");p.textContent=x.purpose;card.append(p);if(x.url){const src=document.createElement("a");src.href=x.url;src.target="_blank";src.rel="noopener";src.textContent="原始来源 ↗";card.append(src);}grid.append(card);});};
+   const tiles=[...c.querySelectorAll("[data-view]")];tiles.forEach((tile,i)=>{const v=raw[i];if(!v)return;const name=tile.querySelector("span");if(name)name.textContent=v.name;tile.title=v.approved?"已通过 · 直接调用":"待新版母图后重制";const img=tile.querySelector("img");if(img)img.title=v.approved?"已通过成图":"旧机位参考，不是新版成品";if(v.approved){let mark=tile.querySelector("small");if(!mark){mark=document.createElement("small");tile.append(mark);}mark.textContent="已通过";}});
+   const renderRefs=i=>{const v=raw[i];if(!v)return;intro.textContent=v.approved?"05独立屏幕近景已通过，直接使用成图，无需生图。":"待新版母图。旧机位图仅作历史参考；新版母图入库后再生成本机位。";const copy=panel?.querySelector("button.copy");if(copy)copy.hidden=!!v.approved;const pre=panel?.querySelector("[data-vprompt]");if(pre)pre.hidden=!!v.approved;grid.replaceChildren();v.reference_uploads.forEach((x,j)=>{const card=document.createElement("div");const title=document.createElement("b");title.textContent="图"+(j+1)+" · "+x.name;if(x.path){const a=document.createElement("a");a.href=assetURL(x);a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=a.href;im.alt=x.name;im.loading="lazy";a.append(im);card.append(a);}card.append(title);const p=document.createElement("p");p.textContent=x.purpose;card.append(p);if(x.url){const src=document.createElement("a");src.href=x.url;src.target="_blank";src.rel="noopener";src.textContent="原始来源 ↗";card.append(src);}grid.append(card);});};
    tiles.forEach((tile,i)=>tile.addEventListener("click",()=>renderRefs(i)));
-   c.dataset.rebuildRequired="true";const tags=c.querySelector(".body .tags");if(tags){for(const t of tags.querySelectorAll(".tag"))if(/母图已到|机位待确认|已通过/.test(t.textContent))t.hidden=true;const t=document.createElement("span");t.className="tag warn";t.textContent="母图及01–09待重制";tags.prepend(t);}for(const fig of c.querySelectorAll("[data-gallery-shot] figcaption"))fig.textContent=fig.textContent.replace("用户已确认","旧版参考")+" · 待重制";const active=Number(c.querySelector("[data-view].selected")?.dataset.n||0);
+   c.dataset.rebuildRequired="true";const tags=c.querySelector(".body .tags");if(tags){for(const t of tags.querySelectorAll(".tag"))if(/母图已到|机位待确认|已通过/.test(t.textContent))t.hidden=true;const t=document.createElement("span");t.className="tag warn";t.textContent="母图及01–04、06–09待重制；05已通过";tags.prepend(t);}for(const fig of c.querySelectorAll("[data-gallery-shot] figcaption")){if(fig.closest("[data-gallery-shot]")?.dataset.galleryShot==="5"){fig.textContent="05 第三席屏幕近景 · 2560 × 1440 · 已通过";}else if(!fig.textContent.includes("待重制"))fig.textContent=fig.textContent+" · 待重制";}const active=Number(c.querySelector("[data-view].selected")?.dataset.n||0);
    if(typeof activateView==="function")activateView(hw.scene_id,active);renderRefs(active);
   }
  }
