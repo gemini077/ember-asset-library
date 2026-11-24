@@ -1,0 +1,89 @@
+{
+  "scene_id": "SC-C3C2557A5",
+  "episodes": [
+    1,
+    2,
+    6,
+    13,
+    17,
+    29,
+    42
+  ],
+  "status": "参考已绑定，局部修订图未制作",
+  "references": [
+    {
+      "id": "HW-ZG-PC-01",
+      "name": "机箱｜Fractal Meshify 2 Compact Black Solid 官方产品原图",
+      "url": "https://www.fractal-design.com/products/cases/meshify-series/meshify-2-compact/meshify-2-compact-black/",
+      "image_url": "https://www.fractal-design.com/app/uploads/2021/01/Standard-Studio_Meshify2Compact_Black_Sheetmetal_Standard_11.-Right-Front-Above.jpg",
+      "availability": "厂家外观参考，非剧内正式品牌或已通过成图",
+      "required": true,
+      "purpose": "黑色实板中塔，立体折面细冲孔前网、哑光钢板侧面、顶部I/O、真实脚垫与散热结构；约深424×宽210×高475 mm；不复制实物厂商标志。"
+    },
+    {
+      "id": "HW-ZG-MONITOR-01",
+      "name": "显示器｜既有05第三席屏幕近景",
+      "path": "assets/scenes/ZG-training-room-05.png",
+      "url": "https://drive.google.com/file/d/1ormn5k46q27bUgn_oZFvBol7AB-heNiV/view",
+      "availability": "已有成图，现有显示器外形参考；未找到独立已确认产品图",
+      "required": true,
+      "purpose": "锁定黑色16:9平面屏、窄三边框、较宽下边框、中央立柱、红色圆形理线孔、低矮矩形底座。原图ZOWIC错拼字样和支架ZG标志不作为设备品牌参考；光年显示正式标志后贴。"
+    },
+    {
+      "id": "HW-ZG-ROOM-02",
+      "name": "02入口反向机位｜既有空间比例参考",
+      "path": "assets/scenes/ZG-training-room-02.png",
+      "url": "https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view",
+      "availability": "已有成图",
+      "required": true,
+      "purpose": "锁定桌、椅、五席屏幕间距、显示器方向与教练桌位置。"
+    }
+  ],
+  "master": {
+    "name": "待修订的原机位成图",
+    "path": "assets/scenes/ZG-training-room-master.png",
+    "url": "https://drive.google.com/file/d/11LDYCplegh0rFIzR9HA-I-Rpx8wu2Gxy/view",
+    "required": true,
+    "availability": "已有母图，编辑各机位时换成该机位原图",
+    "purpose": "锁定现有房间、视角、门窗、家具、墙面队徽及光照。"
+  },
+  "continuity": "【固定硬件外观】主机为黑色实体钢板中塔，约深42×宽21×高48厘米。前脸具有立体折面细冲孔进风网，顶部电源键与USB接口，侧面哑光钢板，底部短脚，后部真实散热网、供电与视频接口。禁止无结构纯黑盒、音箱、文件柜、服务器、透明海景房或夸张RGB；不复制参考产品商标。五台选手主机同款，分别置于各席靠北墙的抬高托架，机箱进排风无遮挡，留足腿部空间；教练第六台置于原独立桌下靠东玻璃侧，不挡门。电源线、视频线各自真实连接、向桌下线槽收束，不穿墙、不悬空。显示器沿用既有05正面外形及02工位比例：黑色平面屏、窄三边框和较宽下边框、中央立柱、红色圆理线孔、低矮矩形底座；屏幕与椅一一相对，五席统一型号。不复刻错拼ZOWIC和非正式设备标识，光年显示正式标志后贴。仅显示当前摄影机实际拍到的设备和遮挡关系，不增加机位、改变教练桌方向或重画房间。",
+  "pc_edit_prompt": "局部补图。图1上传本次待改原机位成图，图2上传机箱官方产品图，图3上传既有05显示器近景，图4上传既有02反向机位。仅补可见桌下机箱、托架和真实走线；必要时纠正设备外形，不改其他内容。\n\n【固定硬件外观】主机为黑色实体钢板中塔，约深42×宽21×高48厘米。前脸具有立体折面细冲孔进风网，顶部电源键与USB接口，侧面哑光钢板，底部短脚，后部真实散热网、供电与视频接口。禁止无结构纯黑盒、音箱、文件柜、服务器、透明海景房或夸张RGB；不复制参考产品商标。五台选手主机同款，分别置于各席靠北墙的抬高托架，机箱进排风无遮挡，留足腿部空间；教练第六台置于原独立桌下靠东玻璃侧，不挡门。电源线、视频线各自真实连接、向桌下线槽收束，不穿墙、不悬空。显示器沿用既有05正面外形及02工位比例：黑色平面屏、窄三边框和较宽下边框、中央立柱、红色圆理线孔、低矮矩形底座；屏幕与椅一一相对，五席统一型号。不复刻错拼ZOWIC和非正式设备标识，光年显示正式标志后贴。仅显示当前摄影机实际拍到的设备和遮挡关系，不增加机位、改变教练桌方向或重画房间。\n单张16:9，无人物、无HUD、无新增文字。",
+  "pc_edit_reference_uploads": [
+    {
+      "name": "待修订的原机位成图",
+      "path": "assets/scenes/ZG-training-room-master.png",
+      "url": "https://drive.google.com/file/d/11LDYCplegh0rFIzR9HA-I-Rpx8wu2Gxy/view",
+      "required": true,
+      "availability": "已有母图，编辑各机位时换成该机位原图",
+      "purpose": "锁定现有房间、视角、门窗、家具、墙面队徽及光照。"
+    },
+    {
+      "id": "HW-ZG-PC-01",
+      "name": "机箱｜Fractal Meshify 2 Compact Black Solid 官方产品原图",
+      "url": "https://www.fractal-design.com/products/cases/meshify-series/meshify-2-compact/meshify-2-compact-black/",
+      "image_url": "https://www.fractal-design.com/app/uploads/2021/01/Standard-Studio_Meshify2Compact_Black_Sheetmetal_Standard_11.-Right-Front-Above.jpg",
+      "availability": "厂家外观参考，非剧内正式品牌或已通过成图",
+      "required": true,
+      "purpose": "黑色实板中塔，立体折面细冲孔前网、哑光钢板侧面、顶部I/O、真实脚垫与散热结构；约深424×宽210×高475 mm；不复制实物厂商标志。"
+    },
+    {
+      "id": "HW-ZG-MONITOR-01",
+      "name": "显示器｜既有05第三席屏幕近景",
+      "path": "assets/scenes/ZG-training-room-05.png",
+      "url": "https://drive.google.com/file/d/1ormn5k46q27bUgn_oZFvBol7AB-heNiV/view",
+      "availability": "已有成图，现有显示器外形参考；未找到独立已确认产品图",
+      "required": true,
+      "purpose": "锁定黑色16:9平面屏、窄三边框、较宽下边框、中央立柱、红色圆形理线孔、低矮矩形底座。原图ZOWIC错拼字样和支架ZG标志不作为设备品牌参考；光年显示正式标志后贴。"
+    },
+    {
+      "id": "HW-ZG-ROOM-02",
+      "name": "02入口反向机位｜既有空间比例参考",
+      "path": "assets/scenes/ZG-training-room-02.png",
+      "url": "https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view",
+      "availability": "已有成图",
+      "required": true,
+      "purpose": "锁定桌、椅、五席屏幕间距、显示器方向与教练桌位置。"
+    }
+  ]
+}
