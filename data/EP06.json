@@ -241,7 +241,7 @@
       "scene_ids": [
         "6-3A"
       ],
-      "status": "母图待重制；01–04、06–09待新版母图后重制；05屏幕近景已通过",
+      "status": "母图已补齐主机；01–04、06–09 待更新；05屏幕近景已通过",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -336,7 +336,7 @@
           "url": "https://drive.google.com/file/d/1wgQvoCj2D7olWHHTEV2B_ZRxMyLCJQJp/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待新版母图后重制"
+          "status": "旧版参考 · 待更新"
         },
         "02 入口反向机位": {
           "title": "ZG 基地一队训练室｜02 入口反向机位",
@@ -344,7 +344,7 @@
           "url": "https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待新版母图后重制"
+          "status": "旧版参考 · 待更新"
         },
         "03 主要动作全景": {
           "title": "ZG 基地一队训练室｜03 主要动作全景",
@@ -352,7 +352,7 @@
           "url": "https://drive.google.com/file/d/17Gxa09JFVtxXfqqHYaJteVaYV_1T_srk/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待新版母图后重制"
+          "status": "旧版参考 · 待更新"
         },
         "04 窗侧五席": {
           "title": "ZG 基地一队训练室｜04 窗侧五席",
@@ -360,7 +360,7 @@
           "url": "https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待新版母图后重制"
+          "status": "旧版参考 · 待更新"
         },
         "05 第三席屏幕近景": {
           "title": "ZG 基地一队训练室｜05 第三席屏幕近景",
