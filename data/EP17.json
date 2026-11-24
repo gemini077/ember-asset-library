@@ -206,7 +206,7 @@
       "scene_ids": [
         "17-1A"
       ],
-      "status": "母图已补齐主机；01–04、06–09 待更新；05屏幕近景已通过",
+      "status": "母图已补齐主机；02–04、06–09 待更新；01、05屏幕近景已通过",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -9151,7 +9151,7 @@
             "url": "https://drive.google.com/file/d/1wgQvoCj2D7olWHHTEV2B_ZRxMyLCJQJp/view",
             "width": 2560,
             "height": 1440,
-            "status": "已有成图"
+            "status": "已通过，主机已补齐"
           },
           "02 入口反向机位": {
             "title": "ZG 基地一队训练室｜02 入口反向机位",
