@@ -1,0 +1,831 @@
+{
+  "date": "2026-11-24",
+  "approval_note": "用户确认：现有的人物资产均已通过，无需重新验收。未制作的资产保持待制作。",
+  "approved": {
+    "P-009": {
+      "id": "P-009",
+      "title": "温以宁｜身份母版",
+      "kind": "身份母版",
+      "scope": "跨集身份",
+      "path": "assets/characters/P-009_single_16x9_Drive.png",
+      "url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-009": {
+      "id": "RB-P-009",
+      "title": "温以宁（Vigil）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-009_ZG_Drive.png",
+      "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-053": {
+      "id": "RB-P-053",
+      "title": "顾行舟（Crown）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-053_EP01_casual_final.png",
+      "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-051": {
+      "id": "RB-P-051",
+      "title": "陆川（Ash）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-051_ZG_casual_final.png",
+      "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-052": {
+      "id": "RB-P-052",
+      "title": "贺之扬（Blaze）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-052_ZG_casual_final.png",
+      "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-054": {
+      "id": "RB-P-054",
+      "title": "周牧（MuZ）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-054_EP01_casual_final.png",
+      "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-P-055": {
+      "id": "RB-P-055",
+      "title": "谭屹（Yi7）｜ZG 基地私服定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-P-055_EP01_casual_final.png",
+      "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "RB-X-3866297EF": {
+      "id": "RB-X-3866297EF",
+      "title": "秦岳｜ZG 基地工作定妆板",
+      "kind": "现实妆造",
+      "scope": "ZG 基地 / EP01 对应造型",
+      "path": "assets/characters/RB-X-3866297EF_EP01_final.png",
+      "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "C-069": {
+      "id": "C-069",
+      "title": "欧阳嘉树 × 伊格尼",
+      "kind": "真人COS",
+      "scope": "同演员×英雄造型复用",
+      "path": "assets/characters/C-069_single_16x9_final.png",
+      "url": "https://drive.google.com/file/d/1Vz57YvxvN0BltGrb_JDOOcjUm7cgE3xp/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    },
+    "C-018": {
+      "id": "C-018",
+      "title": "温以宁 × 绮罗",
+      "kind": "真人COS",
+      "scope": "同演员×英雄造型复用",
+      "path": "assets/characters/C-018_single_16x9_final.png",
+      "url": "https://drive.google.com/file/d/1rHgfvocnxkbY1oRYOymYw-mBtl8GioVU/view",
+      "width": 2560,
+      "height": 1440,
+      "status": "已通过",
+      "date": "2026-11-24"
+    }
+  },
+  "portraits": {
+    "P-009": {
+      "id": "P-009",
+      "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-040": {
+      "id": "P-040",
+      "url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-051": {
+      "id": "P-051",
+      "url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-052": {
+      "id": "P-052",
+      "url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-053": {
+      "id": "P-053",
+      "url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
+      "dimensions": [
+        2160,
+        2880
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-054": {
+      "id": "P-054",
+      "url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "P-055": {
+      "id": "P-055",
+      "url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    },
+    "X-3866297EF": {
+      "id": "X-3866297EF",
+      "url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "status": "已通过，可作为身份参考",
+      "date": "2026-11-24"
+    }
+  },
+  "episodes": [
+    {
+      "id": "EP01",
+      "title": "第1集 · 陪练",
+      "tags": [
+        "6场",
+        "6场景",
+        "2组COS"
+      ]
+    },
+    {
+      "id": "EP02",
+      "title": "第2集 · 便利店",
+      "tags": [
+        "2场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP03",
+      "title": "第3集 · 阳台",
+      "tags": [
+        "4场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP04",
+      "title": "第4集 · 正字",
+      "tags": [
+        "3场",
+        "6场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP05",
+      "title": "第5集 · 规矩",
+      "tags": [
+        "2场",
+        "1场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP06",
+      "title": "第6集 · 牛奶",
+      "tags": [
+        "6场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP07",
+      "title": "第7集 · 慢",
+      "tags": [
+        "2场",
+        "3场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP08",
+      "title": "第8集 · 录像",
+      "tags": [
+        "3场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP09",
+      "title": "第9集 · 账本",
+      "tags": [
+        "5场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP10",
+      "title": "第10集 · 表格",
+      "tags": [
+        "3场",
+        "1场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP11",
+      "title": "第11集 · 天台",
+      "tags": [
+        "3场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP12",
+      "title": "第12集 · 揭幕战",
+      "tags": [
+        "6场",
+        "6场景",
+        "13组COS"
+      ]
+    },
+    {
+      "id": "EP13",
+      "title": "第13集 · 三个字",
+      "tags": [
+        "7场",
+        "5场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP14",
+      "title": "第14集 · 花瓶",
+      "tags": [
+        "4场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP15",
+      "title": "第15集 · 连胜",
+      "tags": [
+        "6场",
+        "5场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP16",
+      "title": "第16集 · 三人抓中",
+      "tags": [
+        "5场",
+        "6场景",
+        "14组COS"
+      ]
+    },
+    {
+      "id": "EP17",
+      "title": "第17集 · 工资",
+      "tags": [
+        "5场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP18",
+      "title": "第18集 · 吵完",
+      "tags": [
+        "4场",
+        "9场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP19",
+      "title": "第19集 · 门口",
+      "tags": [
+        "5场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP20",
+      "title": "第20集 · 开口",
+      "tags": [
+        "4场",
+        "6场景",
+        "1组COS"
+      ]
+    },
+    {
+      "id": "EP21",
+      "title": "第21集 · 烧烤",
+      "tags": [
+        "5场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP22",
+      "title": "第22集 · 挺好",
+      "tags": [
+        "4场",
+        "6场景",
+        "1组COS"
+      ]
+    },
+    {
+      "id": "EP23",
+      "title": "第23集 · 撤资",
+      "tags": [
+        "5场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP24",
+      "title": "第24集 · 半决赛",
+      "tags": [
+        "5场",
+        "5场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP25",
+      "title": "第25集 · 发烧",
+      "tags": [
+        "4场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP26",
+      "title": "第26集 · 决赛·上",
+      "tags": [
+        "4场",
+        "5场景",
+        "17组COS"
+      ]
+    },
+    {
+      "id": "EP27",
+      "title": "第27集 · 决赛·下",
+      "tags": [
+        "5场",
+        "7场景",
+        "19组COS"
+      ]
+    },
+    {
+      "id": "EP28",
+      "title": "第28集 · 门外",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP29",
+      "title": "第29集 · 赛程",
+      "tags": [
+        "3场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP30",
+      "title": "第30集 · 客厅",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP31",
+      "title": "第31集 · 走廊",
+      "tags": [
+        "4场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP32",
+      "title": "第32集 · 奥瑞安",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP33",
+      "title": "第33集 · 三点",
+      "tags": [
+        "3场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP34",
+      "title": "第34集 · 首秀·上",
+      "tags": [
+        "4场",
+        "8场景",
+        "14组COS"
+      ]
+    },
+    {
+      "id": "EP35",
+      "title": "第35集 · 首秀·下",
+      "tags": [
+        "4场",
+        "7场景",
+        "1组COS"
+      ]
+    },
+    {
+      "id": "EP36",
+      "title": "第36集 · 瘟神",
+      "tags": [
+        "6场",
+        "5场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP37",
+      "title": "第37集 · 话筒",
+      "tags": [
+        "3场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP38",
+      "title": "第38集 · 一百遍",
+      "tags": [
+        "3场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP39",
+      "title": "第39集 · 连败",
+      "tags": [
+        "4场",
+        "7场景",
+        "17组COS"
+      ]
+    },
+    {
+      "id": "EP40",
+      "title": "第40集 · 宣传照",
+      "tags": [
+        "4场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP41",
+      "title": "第41集 · 第一胜",
+      "tags": [
+        "4场",
+        "5场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP42",
+      "title": "第42集 · 放水",
+      "tags": [
+        "7场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP43",
+      "title": "第43集 · 再打一年",
+      "tags": [
+        "3场",
+        "1场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP44",
+      "title": "第44集 · 最弱",
+      "tags": [
+        "4场",
+        "1场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP45",
+      "title": "第45集 · 公交",
+      "tags": [
+        "4场",
+        "4场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP46",
+      "title": "第46集 · 一个人",
+      "tags": [
+        "3场",
+        "5场景",
+        "10组COS"
+      ]
+    },
+    {
+      "id": "EP47",
+      "title": "第47集 · 划掉",
+      "tags": [
+        "4场",
+        "5场景",
+        "14组COS"
+      ]
+    },
+    {
+      "id": "EP48",
+      "title": "第48集 · 末位",
+      "tags": [
+        "3场",
+        "1场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP49",
+      "title": "第49集 · 保级赛·上",
+      "tags": [
+        "4场",
+        "9场景",
+        "13组COS"
+      ]
+    },
+    {
+      "id": "EP50",
+      "title": "第50集 · 保级赛·下",
+      "tags": [
+        "4场",
+        "9场景",
+        "16组COS"
+      ]
+    },
+    {
+      "id": "EP51",
+      "title": "第51集 · 世界赛",
+      "tags": [
+        "4场",
+        "3场景",
+        "18组COS"
+      ]
+    },
+    {
+      "id": "EP52",
+      "title": "第52集 · 颁奖",
+      "tags": [
+        "3场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP53",
+      "title": "第53集 · 我也可以",
+      "tags": [
+        "4场",
+        "6场景",
+        "16组COS"
+      ]
+    },
+    {
+      "id": "EP54",
+      "title": "第54集 · 饭桌",
+      "tags": [
+        "3场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP55",
+      "title": "第55集 · 火锅",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP56",
+      "title": "第56集 · 翻倍",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP57",
+      "title": "第57集 · 让位",
+      "tags": [
+        "3场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP58",
+      "title": "第58集 · 最后一顿",
+      "tags": [
+        "3场",
+        "3场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP59",
+      "title": "第59集 · 条件",
+      "tags": [
+        "4场",
+        "2场景",
+        "0组COS"
+      ]
+    },
+    {
+      "id": "EP60",
+      "title": "第60集 · 周砚",
+      "tags": [
+        "6场",
+        "3场景",
+        "0组COS"
+      ]
+    }
+  ],
+  "active_episode": "EP01",
+  "episode01": {
+    "reality": 7,
+    "cos": 2,
+    "identity_board": 1,
+    "portrait_references": 8,
+    "scene_materials": 2,
+    "scene_total": 6,
+    "props_available": 6,
+    "props_total": 10,
+    "segments": [
+      {
+        "id": "01",
+        "title": "大堂正脸与双脸交错",
+        "seconds": 6,
+        "needed": "顾行舟（Crown）｜耳机赞助广告视频、大堂宣传屏｜广告与角标贴片"
+      },
+      {
+        "id": "02",
+        "title": "进门、入座、戴耳机",
+        "seconds": 8,
+        "needed": "ZG 一队｜队徽、降噪耳机"
+      },
+      {
+        "id": "03",
+        "title": "绮罗与伊格尼对线",
+        "seconds": 12,
+        "needed": "天穹中路｜实机底图（B1）、天穹中路｜真人空景（C1/C2）、绮罗 × 伊格尼｜双人起始静帧"
+      },
+      {
+        "id": "04",
+        "title": "击杀归在 Crown 名下",
+        "seconds": 12,
+        "needed": "ZG 一队｜队徽、天穹中路｜实机底图（B1）、训练室第三席｜HUD 贴片（击杀与全体聊天）"
+      },
+      {
+        "id": "05",
+        "title": "胜利后退号",
+        "seconds": 9,
+        "needed": "ZG 基地一队训练室｜空景（中席椅后机位）、ZG 一队｜队徽、降噪耳机、训练室第三席｜HUD 贴片（胜利）"
+      },
+      {
+        "id": "06",
+        "title": "开口要一场比赛",
+        "seconds": 10,
+        "needed": "ZG 基地教练办公室｜空景（日间空景及桌轴同侧画框）、ZG 一队｜队徽、ZG 一队｜队员合照"
+      },
+      {
+        "id": "07",
+        "title": "只让她当陪练",
+        "seconds": 13,
+        "needed": "ZG 基地教练办公室｜空景（同轴反应画框）"
+      },
+      {
+        "id": "08",
+        "title": "违约金压住去路",
+        "seconds": 19,
+        "needed": "ZG 基地教练办公室｜空景（桌边近景）"
+      },
+      {
+        "id": "09",
+        "title": "三通电话逐一碰壁",
+        "seconds": 15,
+        "needed": "ZG 青训宿舍楼梯间｜空景（坐姿机位）"
+      },
+      {
+        "id": "10",
+        "title": "黑屏后收到沈清邀请",
+        "seconds": 8,
+        "needed": "ZG 青训宿舍楼梯间｜空景、楼梯间手机｜黑屏与好友申请贴片"
+      }
+    ]
+  },
+  "manifest": {
+    "episodes": 60,
+    "script_scenes": 245,
+    "cos_pairs": 102,
+    "cos_designs": 14,
+    "character_masters": 89,
+    "locations": 80
+  }
+}

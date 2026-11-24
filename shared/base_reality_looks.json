@@ -791,7 +791,7 @@
       "face_detail_required": true
     },
     "status": "已有 ZG 时期白底黑边运动私服造型图",
-    "image_status": "ZG 时期私服造型图已到（2560 × 1440）",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -829,6 +829,21 @@
         "width": 2560,
         "height": 1440
       }
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-009_ZG_Drive.png",
+        "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -4651,7 +4666,7 @@
       "face_detail_required": true
     },
     "status": "ZG 基地私服定稿",
-    "image_status": "定稿",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -4692,6 +4707,21 @@
       "height": 1440,
       "status": "定稿",
       "source": "用户提供"
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-051_ZG_casual_final.png",
+        "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -4742,7 +4772,7 @@
       "face_detail_required": true
     },
     "status": "第 1 集 ZG 基地私服定稿",
-    "image_status": "定稿",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -4782,6 +4812,21 @@
       "height": 1440,
       "status": "定稿",
       "source": "用户提供"
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-052_ZG_casual_final.png",
+        "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -4840,7 +4885,7 @@
       "face_detail_required": true
     },
     "status": "基础现实服装待绑定/待定版",
-    "image_status": "未出图/未验收",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -4884,6 +4929,21 @@
         "status": "定稿",
         "source": "用户选定候选08"
       }
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-053_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -4942,7 +5002,7 @@
       "face_detail_required": true
     },
     "status": "基础现实服装待绑定/待定版",
-    "image_status": "未出图/未验收",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -4986,6 +5046,21 @@
         "status": "定稿",
         "source": "用户提供图，经插值放大至 2560 × 1440"
       }
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-054_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -5044,7 +5119,7 @@
       "face_detail_required": true
     },
     "status": "基础现实服装待绑定/待定版",
-    "image_status": "未出图/未验收",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -5088,6 +5163,21 @@
         "status": "定稿",
         "source": "用户提供图，从 2048 × 1152 放大"
       }
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-P-055_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {
@@ -5606,7 +5696,7 @@
       "face_detail_required": true
     },
     "status": "基础现实服装待绑定/待定版",
-    "image_status": "未出图/未验收",
+    "image_status": "已通过（ZG基地对应造型）",
     "output_spec": {
       "kind": "单张人物设定板",
       "image_count": 1,
@@ -5650,6 +5740,21 @@
         "status": "定稿",
         "source": "用户提供图，放大至 2560 × 1440"
       }
+    },
+    "episode_image_sources": {
+      "EP01": {
+        "path": "assets/characters/RB-X-3866297EF_EP01_final.png",
+        "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "scope": "ZG 基地 / EP01 对应造型"
+      }
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "ZG 基地 / EP01 对应造型"
     }
   },
   {

@@ -995,71 +995,71 @@
       "id": "P-009",
       "type": "真人母版",
       "name": "温以宁（Vigil）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "人物成品已通过"
     },
     {
       "id": "X-3866297EF",
       "type": "真人母版",
       "name": "秦岳｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-052",
       "type": "真人母版",
       "name": "贺之扬（Blaze）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-051",
       "type": "真人母版",
       "name": "陆川（Ash）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-055",
       "type": "真人母版",
       "name": "谭屹（Yi7）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-054",
       "type": "真人母版",
       "name": "周牧（MuZ）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-053",
       "type": "真人母版",
       "name": "顾行舟（Crown）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "P-040",
       "type": "真人母版",
       "name": "欧阳嘉树（Rift）｜身份母版",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "身份参考已通过；按本集已通过的对应妆造使用，无需重复验收"
     },
     {
       "id": "C-069",
       "type": "COS定妆",
       "name": "欧阳嘉树（Rift） × 伊格尼｜COS 定妆板",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "人物成品已通过"
     },
     {
       "id": "C-018",
       "type": "COS定妆",
       "name": "温以宁（Vigil） × 绮罗｜COS 定妆板",
-      "blocked": true,
-      "production_gate": "待逐项验收前置参考与提示词"
+      "blocked": false,
+      "production_gate": "人物成品已通过"
     },
     {
       "id": "P01-06",
@@ -1091,10 +1091,10 @@
         "cosplay_count": 6,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
-        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
-        "image_status": "待制作及验收",
+        "image_status": "已通过",
         "reference_uploads": [
           {
             "name": "温以宁（Vigil）｜已检出真人肖像原图",
@@ -1158,11 +1158,11 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "图片待生成及验收",
+          "status": "已通过",
           "file_name": "P-009_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
           "dimensions": [
             1536,
@@ -1176,10 +1176,15 @@
             2560,
             1440
           ],
-          "status": "Drive 新版，已目验，待锁定",
+          "status": "已通过",
           "source_url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
           "previous_path": "assets/characters/P-009_single_16x9_v2.png",
           "review": "左三全身加右四细节，深灰连帽衫贯穿同一版设定。Drive 正脸肖像仍保留为身份参考。"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "跨集身份"
         }
       },
       {
@@ -1191,7 +1196,7 @@
         "cosplay_count": 1,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
-        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1262,7 +1267,7 @@
           "file_name": "P-040_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
           "dimensions": [
             1536,
@@ -1279,7 +1284,7 @@
         "cosplay_count": 2,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
-        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1350,7 +1355,7 @@
           "file_name": "P-051_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
           "dimensions": [
             1536,
@@ -1367,7 +1372,7 @@
         "cosplay_count": 5,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
-        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1438,7 +1443,7 @@
           "file_name": "P-052_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
           "dimensions": [
             1536,
@@ -1455,7 +1460,7 @@
         "cosplay_count": 3,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
-        "portrait_status": "Drive旧图可核对；并非合格全身三视",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1526,7 +1531,7 @@
           "file_name": "P-053_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
           "dimensions": [
             2160,
@@ -1543,7 +1548,7 @@
         "cosplay_count": 1,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
-        "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1614,7 +1619,7 @@
           "file_name": "P-054_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
           "dimensions": [
             1536,
@@ -1632,7 +1637,7 @@
         "cosplay_count": 1,
         "priority": "P0-有出镜COS",
         "portrait_source_url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
-        "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "image_status": "待制作及验收",
@@ -1703,7 +1708,7 @@
           "file_name": "P-055_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
           "dimensions": [
             1536,
@@ -1720,7 +1725,7 @@
         "cosplay_count": 0,
         "priority": "现实戏人物",
         "portrait_source_url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
-        "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+        "portrait_status": "已通过，可作为身份参考",
         "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
         "source": "https://docs.google.com/document/d/117A9jkfN4enV54X1ClmuFIQttiC6C0sxzc3ANUIOe1g/edit",
         "image_status": "待绑定人物母版",
@@ -1791,7 +1796,7 @@
           "file_name": "X-3866297EF_single_16x9.png"
         },
         "reference_review": {
-          "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+          "status": "已通过，可作为身份参考",
           "url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
           "dimensions": [
             1536,
@@ -1856,8 +1861,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "已有 ZG 时期白底黑边运动私服造型图",
-        "image_status": "Drive 已有 2560×1440 七区妆造板，已目验；待镜头验收",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -1879,7 +1884,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "ZG 时期已有实图",
+          "status": "已通过",
           "file_name": "RB-P-009_single_16x9.png"
         },
         "styling_web_references": [
@@ -1889,7 +1894,19 @@
           }
         ],
         "image_path": "assets/characters/RB-P-009_ZG_Drive.png",
-        "image_source_url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view"
+        "image_source_url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
+        "current_image": {
+          "path": "assets/characters/RB-P-009_ZG_Drive.png",
+          "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
+          "width": 2560,
+          "height": 1440,
+          "status": "已通过"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
+        }
       },
       {
         "id": "RB-P-053",
@@ -1938,8 +1955,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "第 1 集基地私服定稿",
-        "image_status": "定稿",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -1961,7 +1978,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-P-053_EP01_casual_final.png"
         },
         "styling_web_references": [],
@@ -1972,8 +1989,13 @@
           "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户选定候选08"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       },
       {
@@ -2023,8 +2045,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "ZG 基地私服定稿",
-        "image_status": "定稿",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -2046,7 +2068,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-P-051_ZG_casual_final.png"
         },
         "styling_web_references": [
@@ -2063,8 +2085,13 @@
           "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户提供"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       },
       {
@@ -2114,8 +2141,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "第 1 集 ZG 基地私服定稿",
-        "image_status": "定稿",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -2137,7 +2164,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-P-052_ZG_casual_final.png"
         },
         "styling_web_references": [
@@ -2153,8 +2180,13 @@
           "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户提供"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       },
       {
@@ -2204,8 +2236,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "基础现实服装待绑定/待定版",
-        "image_status": "未出图/未验收",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -2227,7 +2259,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-P-054_EP01_casual_final.png"
         },
         "styling_web_references": [
@@ -2244,8 +2276,13 @@
           "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户提供图，经插值放大至 2560 × 1440"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       },
       {
@@ -2295,8 +2332,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "基础现实服装待绑定/待定版",
-        "image_status": "未出图/未验收",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -2318,7 +2355,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-P-055_EP01_casual_final.png"
         },
         "styling_web_references": [
@@ -2334,8 +2371,13 @@
           "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户提供图，从 2048 × 1152 放大"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       },
       {
@@ -2385,8 +2427,8 @@
           "same_identity_all_panels": true,
           "face_detail_required": true
         },
-        "status": "基础现实服装待绑定/待定版",
-        "image_status": "未出图/未验收",
+        "status": "对应剧情阶段造型已通过",
+        "image_status": "已通过",
         "output_spec": {
           "kind": "单张人物设定板",
           "image_count": 1,
@@ -2408,7 +2450,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "定稿",
+          "status": "已通过",
           "file_name": "RB-X-3866297EF_EP01_final.png"
         },
         "styling_web_references": [
@@ -2424,8 +2466,13 @@
           "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
           "width": 2560,
           "height": 1440,
-          "status": "定稿",
+          "status": "已通过",
           "source": "用户提供图，放大至 2560 × 1440"
+        },
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "ZG 基地 / EP01 对应造型"
         }
       }
     ],
@@ -2461,7 +2508,7 @@
         ],
         "prompt": "《天穹》第二年火系法师伊格尼，真人玄幻 COS 定妆板。图1只锁欧阳嘉树的本人脸、肤色和真人比例。全身首先读到暗红长发、不对称黑铜挑肩、收束的绛红衣身与朱砂红分片长袍。衣装造型与材质在灰底棚拍下直接可读。\n\n【肩胸与腰】一眼先读出红发与宽肩下的绛红长袍。用暗酒红密织内袍铺出连续胸面，领部让一条较亮的朱砂红斜襟从右领越过胸口，到左腰收住，侧边与背面能追到同一条袍缘。左右黑铜肩件都有体积，但形状不同：右侧以一枚短厚上挑火脊拉宽肩线，左侧黑铜薄片从肩顶沿手臂外侧分两层压下，让朱红外袍搭过左肩露出一条宽布面。浮雕集中在肩件前后边缘，像压低的火舌回卷，墨铜凹槽配赤铜磨亮棱。胸腹以织锦为主，腰部用较宽的叠绕绛红织带束出收腰折褶，外扣扁长黑铜火纹扣。侧背能看见外袍在肩背和腰带下的固定位置，前襟、腰带与长摆有连续的叠压。\n\n【袍摆与色块】主体是深绛长袍配暗色裤靴。前中从腰下开为两片，内层窄摆自然垂直，罩在外面的朱砂红宽袍片从左肩、左腰延伸到左后膝下。右腰另有一片暗赭红宽摆，向侧后下垂；背后分为两幅长摆，最长至脚踝上方。正面留出一条深色纵向内襟与完整靴面。三视能看见布片一宽一窄、前后错长、里外相叠。袍身以分明的深绛、朱砂红和暗赭三个大色块组成，琥珀铜色只走外摆窄织边和少量火舌形提花，完整袍面仍然红。外袍以厚绢与哑光提花呈现自然重量，袍角用斜挑的两段弧形裁边，给生视频时的贴边火焰留下清楚轮廓。\n\n【袖口与手】窄袖从肩饰下露出来，肘部可屈伸。黑铜护腕沿前臂外侧向肘部抬起，腕口略为退后，留出一段裸露腕部给蓄火和被缠腕的镜头。掌心、腕内侧和手指的轮廓清楚。定妆板呈现静态服装，火团、袍角火和火星解体在生视频时制作。\n\n【妆发与棚拍】暗红及背长发，深栗色发根。双鬓细辫向后收拢，锤纹赤铜发冠以两片向上分开的火舌状铜翼托起短髻，冠前压一粒暗红晶石，左右各一条短细铜链落在耳后。背面可见辫束和冠翼固定处。底妆保留本人肤色与纹理，红棕眼尾、少量哑铜眼影与深暖中性唇。中性浅灰棚底，正面宽柔光与弱侧后光分辨黑铜、赤铜和织锦。各视图完整露出袍摆与鞋底。\n\n【交付硬约束】\n只输出一张16:9横版PNG文件，至少2K。左侧约60%并排正面全身、左侧90°全身、背面全身，三张等高、鞋底对齐。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型与发饰、面部妆容特写。七个区域是同一演员、同一套妆发和服饰。无文字、水印、场景或动态特效。",
         "readiness": "有正式详细COS文字卡；需先绑定本人肖像，再实际验图",
-        "image_status": "用户选定定稿，火焰在视频生成时制作",
+        "image_status": "已通过",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
         "asset_type": "演员×英雄真人COS设定板（含脸部特写）",
@@ -2515,7 +2562,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "图片待生成及验收",
+          "status": "已通过",
           "file_name": "C-069_single_16x9.png"
         },
         "styling_web_references": [
@@ -2535,8 +2582,14 @@
           "width": 2560,
           "height": 1440,
           "source": "用户提供",
-          "status": "用户选定定稿，火焰在视频生成时制作",
+          "status": "已通过",
           "url": "https://drive.google.com/file/d/1Vz57YvxvN0BltGrb_JDOOcjUm7cgE3xp/view"
+        },
+        "image_path": "assets/characters/C-069_single_16x9_final.png",
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "同演员×英雄造型复用"
         }
       },
       {
@@ -2576,7 +2629,7 @@
         ],
         "prompt": "《天穹》绮罗真人玄幻 COS 定妆设定板。图1锁定温以宁本人的脸、发际线、肤色与真人比例。设计一套月白、浅玉青、银色的露肩战斗仙裙。冰玉雕饰、压纹白缎和珠光薄纱在无特效的静态全身照里也能分出层次。\n\n【主衣 · 浮雕战甲、玉雕腰封与修身裙裤】露肩抹胸式连体战甲裙。胸甲左右对称，主形是一对银雕凤翼，翼尖沿抹胸上缘向外上抬，羽片向胸前合拢，在中央扣住一枚浅玉青兰蕊。银甲边沿贴合身形，左右羽片之间露出月白暗纹真丝缎。金属为哑银，卷草纹凹处压暗，磨亮的棱边嵌少量冰青碎石。两肩外侧各立一枚薄银尖角肩甲，银色卷草沿尖角向后收拢，底层托住两片半透明玉叶。上胸与锁骨保持露肩，肩甲从上臂外侧向上起形。胸线以下收腰，接一掌宽的浅玉青镂雕腰封，前中嵌银质凤翼兰蕊徽，正面垂三枚错长的菱形玉坠，两侧细银流苏在上胯收住。腰封下是修身月白哑光缎面长裙裤，右前从大腿处开衩，雪白缎面有浅浅冰裂暗纹。月白缎面尖头细高跟，留细浅青搭带。\n\n【披帛广袖与四层外裙】上臂的银镶玉叶扣各伸三缕细银链，接在离肩广袖的袖根。袖里一层贴臂冰绡，透过衣料能看见手臂；中层珠光白纱展成垂云大袖；最外层浅玉青渐染水光纱从袖后斜落，末端近地，裁成长短错落的柳叶尖。袖口银丝绣窄卷草暗纹，只在侧光下显现。手臂从袖前缘露出，小臂有哑银护腕和一粒冰青玉，指甲护套短而贴指。\n白缎内裙之外有四层青白薄纱，浅青由腰际向月白裙边自然晕染。前两层从腰封两侧向前斜叠，前短后长，留出白缎裙身与高开衩。后两层由后腰向侧后张开，一层水光浅青纱与一层半透明珍珠母贝白纱，落至地面，边缘是错长的柳叶波浪弧，透光时呈淡青虹彩。正面看出胸腰的战甲结构和两片青纱，侧背看出近地长摆、分开的纱层和后腰固定点。三视保持同一造型，纱裙自然垂坠，鞋尖与细跟在正侧视图中可辨。\n\n【琴弦】双手微抬离开腰胯，露出手腕和十指，银镶浅玉窄腕饰贴腕。十指间只有一根极细白光琴弦，轻轻弯成一道有张力的弧，悬在裙面之前。\n\n【妆发与棚拍】乌黑长发半挽，发髻内固定一整座银镶玉兰冠。正面是一道白银浮雕额弧，中央嵌一枚月白水滴玉，止于眉心上方。左右各三片半透明浅玉青长兰瓣，从太阳穴上方沿银托逐级向外上方展开，主瓣高出发顶约半掌，形成清楚的冠翼轮廓。侧面能看见银脊从额弧沿颞侧绕进发髻、玉瓣前后错叠的厚度，最外一片在耳后收尖。背面由一枚弧形银梳扣合左右冠翼，梳背横过三道细银弦纹，下方垂两枚浅玉青坠。耳侧各留一对长短不同的银链玉坠，最长到下颌，额弧、兰瓣和垂坠避开眉眼。正侧背要能对上同一组玉瓣和固定件，冠翼在全身视图中清晰可辨。清透底妆、淡青灰眼尾、冷粉唇。浅灰无缝背景与柔和侧后光，能看清白缎冰裂暗纹、玉饰半透边、哑银浮雕和三层裙料。三视一致，正面用胸衣和腰封读出角色，侧面读出悬袖与裙衩，背面读出后胯长纱层次。\n\n【交付硬约束】\n只输出一张16:9横版PNG文件，至少2K。左侧约60%并排正面全身、左侧90°全身、背面全身，三张等高、鞋底对齐。右侧2×2依次为胸口以上正脸、头部侧颜、后脑发型与发饰、面部妆容特写。七个区域是同一演员、同一套妆发和服饰。无文字、水印、场景或动态特效。",
         "readiness": "有正式详细COS文字卡；需先绑定本人肖像，再实际验图",
-        "image_status": "用户选定定稿，琴弦在视频生成时制作",
+        "image_status": "已通过",
         "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
         "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
         "asset_type": "演员×英雄真人COS设定板（含脸部特写）",
@@ -2630,7 +2683,7 @@
             ]
           },
           "no_separate_view_images": true,
-          "status": "图片待生成及验收",
+          "status": "已通过",
           "file_name": "C-018_single_16x9.png"
         },
         "styling_web_references": [
@@ -2654,8 +2707,14 @@
           "width": 2560,
           "height": 1440,
           "source": "用户提供",
-          "status": "用户选定定稿，琴弦在视频生成时制作",
+          "status": "已通过",
           "url": "https://drive.google.com/file/d/1rHgfvocnxkbY1oRYOymYw-mBtl8GioVU/view"
+        },
+        "image_path": "assets/characters/C-018_single_16x9_final.png",
+        "approval": {
+          "status": "已通过",
+          "date": "2026-11-24",
+          "scope": "同演员×英雄造型复用"
         }
       }
     ],
@@ -5855,7 +5914,7 @@
         "source_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
       }
     },
-    "status": "按集核对，未生成",
+    "status": "人物已通过；场景、道具及镜头素材持续制作",
     "confirmed_continuity": {
       "account": "温以宁替顾行舟打训练赛，实际登录的是顾行舟本人的 Crown 账号。ZG 只让她当陪练，没打算给她一队上场机会。",
       "personal_peripherals": "参赛选手使用自己的外设。温以宁背的是装她本人外设的大包；坐的是 Crown 机位，登录的是 Crown 账号，键盘鼠标等外设是她自己的。",
@@ -5863,7 +5922,7 @@
     },
     "portrait_input_review": {
       "P-009": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
         "dimensions": [
           1536,
@@ -5871,7 +5930,7 @@
         ]
       },
       "P-040": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
         "dimensions": [
           1536,
@@ -5879,7 +5938,7 @@
         ]
       },
       "P-051": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
         "dimensions": [
           1536,
@@ -5887,7 +5946,7 @@
         ]
       },
       "P-052": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
         "dimensions": [
           1536,
@@ -5895,7 +5954,7 @@
         ]
       },
       "P-053": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
         "dimensions": [
           2160,
@@ -5903,7 +5962,7 @@
         ]
       },
       "P-054": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
         "dimensions": [
           1536,
@@ -5912,7 +5971,7 @@
         "filename": "周牧_MuZ.png"
       },
       "P-055": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
         "dimensions": [
           1536,
@@ -5920,7 +5979,7 @@
         ]
       },
       "X-3866297EF": {
-        "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+        "status": "已通过，可作为身份参考",
         "url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
         "dimensions": [
           1536,
@@ -5936,7 +5995,7 @@
           2560,
           1440
         ],
-        "status": "Drive 新版，已目验，待锁定",
+        "status": "已通过",
         "source_url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
         "previous_path": "assets/characters/P-009_single_16x9_v2.png",
         "review": "左三全身加右四细节，深灰连帽衫贯穿同一版设定。Drive 正脸肖像仍保留为身份参考。"
@@ -6568,6 +6627,7 @@
         "prompt": "图1｜C1 真人空景，作为唯一画面参考。\n\n生成一张 16:9 真人短剧外景空镜。图1是同一段中路的真人参考。沿图1朝红方的拍摄方向，把相机移至同一片铺地靠低断墙与树根的一侧，距地约 0.55 米，用等效 35mm 镜头沿道路斜拍。保持在原轴线同侧。用视差表现换机位，红塔仍在原道路远端，树根、断墙、浅槽开口和宽石坡都处于原来的位置，随真实遮挡决定哪些入镜。\n\n近处石板占画面下方，能看到碎砂、石材细颗粒、被磨圆的接缝和少量枯叶，中段保持可横移的开阔铺地。石坡后方的薄雾贴着硬质石床，石面和落脚点清晰。同一时段自然侧光，沿用图1的石材色差、空气湿度和红塔灯室亮度。靠近镜头的石板细节至中段可辨，远处有自然空气透视。无人，无技能、字幕或 HUD。",
         "source_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
       }
-    ]
+    ],
+    "character_approval_note": "2026-11-24 用户明确确认已有角色人物资产均已通过，无需重新验收。未制作的后续人物造型不计为成品。"
   }
 }

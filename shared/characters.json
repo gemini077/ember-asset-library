@@ -648,10 +648,10 @@
     "cosplay_count": 6,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
-    "portrait_status": "Drive旧图可核对；并非合格全身三视",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
-    "image_status": "待制作及验收",
+    "image_status": "已通过",
     "reference_uploads": [
       {
         "name": "温以宁｜已检出真人肖像原图",
@@ -715,11 +715,11 @@
         ]
       },
       "no_separate_view_images": true,
-      "status": "图片待生成及验收",
+      "status": "已通过",
       "file_name": "P-009_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1leFi3P72rEflCvTa8dxvKXdlHj3wK2jd/view?usp=drivesdk",
       "dimensions": [
         1536,
@@ -733,10 +733,15 @@
         2560,
         1440
       ],
-      "status": "Drive 新版，已目验，待锁定",
+      "status": "已通过",
       "source_url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
       "previous_path": "assets/characters/P-009_single_16x9_v2.png",
       "review": "左三全身加右四细节，深灰连帽衫贯穿同一版设定。Drive 正脸肖像仍保留为身份参考。"
+    },
+    "approval": {
+      "status": "已通过",
+      "date": "2026-11-24",
+      "scope": "跨集身份"
     }
   },
   {
@@ -3148,7 +3153,7 @@
     "cosplay_count": 1,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
-    "portrait_status": "Drive旧图可核对；并非合格全身三视",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -3219,7 +3224,7 @@
       "file_name": "P-040_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1W21ShP-NdQfR2SHvY5rJJeZkMV-11THP/view?usp=drivesdk",
       "dimensions": [
         1536,
@@ -4036,7 +4041,7 @@
     "cosplay_count": 2,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
-    "portrait_status": "Drive旧图可核对；并非合格全身三视",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -4107,7 +4112,7 @@
       "file_name": "P-051_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1LcAN8YgST0SXE4JX9S_UTsmoVU9avhjz/view?usp=drivesdk",
       "dimensions": [
         1536,
@@ -4124,7 +4129,7 @@
     "cosplay_count": 5,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
-    "portrait_status": "Drive旧图可核对；并非合格全身三视",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -4195,7 +4200,7 @@
       "file_name": "P-052_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1W3maNboCISQTHliLM_ThErKFT3GAQ65i/view?usp=drivesdk",
       "dimensions": [
         1536,
@@ -4212,7 +4217,7 @@
     "cosplay_count": 3,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
-    "portrait_status": "Drive旧图可核对；并非合格全身三视",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -4283,7 +4288,7 @@
       "file_name": "P-053_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1yCf4J2JkPHQgnN8R_2z3DXQt1lgKNSc3/view?usp=drivesdk",
       "dimensions": [
         2160,
@@ -4300,7 +4305,7 @@
     "cosplay_count": 1,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
-    "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -4371,7 +4376,7 @@
       "file_name": "P-054_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1n_RUjYcdzV_P-2_Xid7WJqh9DOTjdm7u/view",
       "dimensions": [
         1536,
@@ -4389,7 +4394,7 @@
     "cosplay_count": 1,
     "priority": "P0-有出镜COS",
     "portrait_source_url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
-    "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
     "image_status": "待制作及验收",
@@ -4460,7 +4465,7 @@
       "file_name": "P-055_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/1PBtDxwA9dxmMqWWuSI1Z4GRN8K0IlKRR/view",
       "dimensions": [
         1536,
@@ -4877,7 +4882,7 @@
     "cosplay_count": 0,
     "priority": "现实戏人物",
     "portrait_source_url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
-    "portrait_status": "Drive 正脸原图已登记，设定板待生成",
+    "portrait_status": "已通过，可作为身份参考",
     "faces_required": "一张16:9画布内：正面/左侧/背面全身三视＋胸口以上正脸、侧颜、后脑发型、眼妆面部特写（共1张PNG）",
     "source": "https://docs.google.com/document/d/117A9jkfN4enV54X1ClmuFIQttiC6C0sxzc3ANUIOe1g/edit",
     "image_status": "待绑定人物母版",
@@ -4948,7 +4953,7 @@
       "file_name": "X-3866297EF_single_16x9.png"
     },
     "reference_review": {
-      "status": "Drive 正面肖像已目验，可作身份输入；全身比例、侧颜与后脑待核。",
+      "status": "已通过，可作为身份参考",
       "url": "https://drive.google.com/file/d/15sipR1V8tPd1EHOZA5OVeo-VHfWwQQvs/view",
       "dimensions": [
         1536,

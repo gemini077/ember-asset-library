@@ -7,7 +7,7 @@
   "cos_master_with_full_design": 14,
   "cos_master_needs_design": 88,
   "cos_unknown_script_mentions": 31,
-  "image_approved": 0,
+  "image_approved": 10,
   "cos_matrix_source": "https://docs.google.com/spreadsheets/d/1UbLLKlpJNlfNbsrZ4bxMtUIqC4sbzvJKUnhsWrGnGD0/edit",
   "hero_design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
   "source_script_volumes": 4,
@@ -50,5 +50,7 @@
     "no_separate_view_images": true,
     "status": "图片待生成及验收"
   },
-  "episode_html_self_contained": true
+  "episode_html_self_contained": true,
+  "approval_scope": "已登记并经用户确认的10张人物设定板；不含身份参考肖像、场景和道具，不代表全部待制作资产已完成",
+  "production_state_source": "shared/production-state.json"
 }
