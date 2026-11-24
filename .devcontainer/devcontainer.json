@@ -1,0 +1,12 @@
+{
+  "name": "EMBER asset library",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.13-bookworm",
+  "forwardPorts": [56889],
+  "portsAttributes": {
+    "56889": {
+      "label": "EMBER asset library",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postStartCommand": "nohup python -m http.server 56889 --bind 127.0.0.1 >/tmp/ember-preview.log 2>&1 </dev/null &"
+}
