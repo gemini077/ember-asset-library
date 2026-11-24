@@ -23,9 +23,9 @@ try{
   const shots={"01":{"title":"ZG 基地一队训练室｜01 空间主视角","path":"assets/scenes/ZG-training-room-01.png","url":"https://drive.google.com/file/d/1wgQvoCj2D7olWHHTEV2B_ZRxMyLCJQJp/view","width":2560,"height":1440,"status":"已有成图"},"02":{"title":"ZG 基地一队训练室｜02 入口反向机位","path":"assets/scenes/ZG-training-room-02.png","url":"https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view","width":2560,"height":1440,"status":"已有成图"},"03":{"title":"ZG 基地一队训练室｜03 主要动作全景","path":"assets/scenes/ZG-training-room-03.png","url":"https://drive.google.com/file/d/17Gxa09JFVtxXfqqHYaJteVaYV_1T_srk/view","width":2560,"height":1440,"status":"已有成图"},"04":{"title":"ZG 基地一队训练室｜04 窗侧五席","path":"assets/scenes/ZG-training-room-04.png","url":"https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view","width":2560,"height":1440,"status":"已有成图"},"05":{"title":"ZG 基地一队训练室｜05 第三席屏幕近景","path":"assets/scenes/ZG-training-room-05.png","url":"https://drive.google.com/file/d/1ormn5k46q27bUgn_oZFvBol7AB-heNiV/view","width":2560,"height":1440,"status":"已有成图"}};
   const assetURL=x=>x.path?new URL("../"+x.path,location.href).href:x.image_url;
   for(const c of cards.filter(c=>id(c)===hw.scene_id)){
-   if(c.querySelector(".hardware-reference"))continue;
    const legacyScript=document.getElementById("views-"+hw.scene_id);
    if(!legacyScript)continue;
+   c.querySelector(".hardware-reference")?.remove();
    const cover=c.querySelector(".cover");
    if(cover){const f=document.createElement("figure");f.className="scene-cover-image";const a=document.createElement("a");a.href=hw.master.url;a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=assetURL(hw.master);im.alt="ZG一队训练室已有母图（待硬件局部修订）";im.loading="lazy";im.style.cssText="width:100%;height:auto;display:block";a.append(im);f.append(a);const cap=document.createElement("figcaption");cap.textContent="已有母图 · 待硬件局部修订";f.append(cap);cover.replaceWith(f);}
    const stale=[...c.children].find(n=>n.tagName==="P"&&n.textContent.includes("母图直接文字生图"));if(stale)stale.textContent="已有母图与01–05机位成图；保留原图，按机位局部修订。06–09尚无已入库原图，按母图和现有参考补制。";
@@ -41,7 +41,8 @@ try{
     const refs=[first,...(close?[]:[hw.references[0]]),hw.references[1],hw.references[2]].filter((x,i,a)=>a.findIndex(y=>y.path===x.path)===i);
     const list=refs.map((x,i)=>"图"+(i+1)+"："+x.name+"；"+x.purpose).join("\n");
     const lead=shot?"局部修订图1，不重画房间或改变原图视角。":"按图1母图补制新机位，不宣称已有原图。";
-    const prompt="【本次上传顺序】\n"+list+"\n\n"+lead+"\n\n【本次机位 "+v.no+"】"+v.camera+"\n\n"+(close?hw.references[1].purpose+" 只保留画面实际可见的设备，不新增画外主机。":hw.continuity)+"\n\n教练桌、椅和屏幕方向以02原图为准，保持现有光照及布局。真人实景摄影，单张16:9，无人物、无HUD、无新增文字。";
+    const originalDetails=v.prompt.replace(/【参考图】[^\n]*\n*/g,"").split("【固定硬件外观】")[0].replace(/^上传训练室母图。/,"").trim();
+    const prompt="【本次上传顺序】\n"+list+"\n\n"+lead+"\n\n"+(shot?"【本次机位 "+v.no+"】"+v.camera+"\n原图的透视、裁切、门窗、桌椅、光照和反射必须保持不变。只修订可见的设备及走线。":originalDetails)+"\n\n"+(close?hw.references[1].purpose+" 只保留画面实际可见的设备，不新增画外主机。":hw.continuity)+"\n\n教练桌、椅和屏幕方向以02原图为准，保持现有光照及布局。真人实景摄影，单张16:9，无人物、无HUD、无新增文字。";
     return {...v,prompt,reference_uploads:refs,hasOriginal:!!shot};
    });
    legacyScript.textContent=JSON.stringify(raw);
