@@ -125,7 +125,7 @@ dialog{border-radius:10px;background:#202224;border-color:#484a4c;padding:24px;b
 </style><link rel="stylesheet" href="asset-production.css?v=1"></head><body>
 <header class="top"><div class="brand"><span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4 5h16v14H4zM4 9h16M8 5l3 4m3-4 3 4"/><path d="m10 12 5 3-5 3z" fill="currentColor" stroke="none"/></svg></span><span>STUDIO<small>FILM WORKSPACE</small></span></div><select id="project" aria-label="项目"></select><nav class="nav" id="nav"></nav><div class="right"><small>未同步草稿</small><button id="import">导入草稿</button><button id="export">导出草稿</button><input type="file" accept=".json,application/json" id="file" hidden></div></header>
 <div class="banner"><strong>原型模式</strong><span>云端源只读 · 修改仅在当前会话，刷新前导出草稿</span><a href="../index.html">正式资产库 ↗</a></div>
-<div class="shell"><aside><div class="side-heading">剧集</div><select id="episode" aria-label="剧集"></select><div class="side-heading"><span id="sideTitle">制作段落</span><button id="newSegment">＋ 新建</button></div><div id="sideList" class="list"></div><p id="sideNote" class="muted compact"></p></aside><main id="main" class="content"><p>读取云端项目数据…</p></main></div>
+<div class="shell"><aside><div class="side-heading">剧集</div><span id="autoSync" aria-live="polite" style="font-size:11px;white-space:nowrap;opacity:.75">自动同步</span><select id="episode" aria-label="剧集"></select><div class="side-heading"><span id="sideTitle">制作段落</span><button id="newSegment">＋ 新建</button></div><div id="sideList" class="list"></div><p id="sideNote" class="muted compact"></p></aside><main id="main" class="content"><p>读取云端项目数据…</p></main></div>
 <dialog id="viewer"><div class="modal-head"><h2 id="viewTitle"></h2><button id="close">关闭</button></div><img id="viewImage" alt=""><p><a id="viewSource" target="_blank" rel="noopener">原始来源 ↗</a></p></dialog>
 <dialog id="addDialog"><div class="modal-head"><h2 id="addTitle">添加参考素材</h2><button id="closeAdd">关闭</button></div><div id="addBody"></div></dialog>
 <script src="identity.js?v=1"></script><script src="asset-production.js?v=3"></script>
@@ -133,10 +133,10 @@ dialog{border-radius:10px;background:#202224;border-color:#484a4c;padding:24px;b
 "use strict";
 const $=id=>document.getElementById(id),esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const root=new URL("../",location.href);
-const url=x=>{if(!x)return "";try{const u=new URL(x,root);return /^https?:$/.test(u.protocol)?u.href:""}catch{return ""}};
+const url=x=>{if(!x)return "";try{const u=new URL(x,root);if(u.origin===root.origin&&u.pathname.startsWith(root.pathname)){const t=thumbnailMap?.[u.pathname.slice(root.pathname.length)];if(t?.source_sha)u.searchParams.set("v",t.source_sha)}return /^https?:$/.test(u.protocol)?u.href:""}catch{return ""}};
 const api=async p=>{const r=await fetch(new URL(p,root),{cache:"no-cache"});if(!r.ok)throw Error(p+" "+r.status);return r.json()};
 const tabs=[["overview","概览"],["script","剧本"],["assets","资产"],["production","制作"],["delivery","交付"]];
-let state={project:"EMBER",episode:"EP01",tab:"production",segment:"01",asset:"",shot:"00",drafts:{},extras:{},result:{},projects:{},query:"",category:"全部"},index,hw,ep,segments=[],assets=[],epoch=0;
+let state={project:"EMBER",episode:"EP01",tab:"production",segment:"01",asset:"",shot:"00",drafts:{},extras:{},result:{},projects:{},query:"",category:"全部"},index,hw,ep,segments=[],assets=[],epoch=0,loadingEpisode=false;
 const key=()=>state.project+"/"+state.episode;
 const draftKey=s=>key()+"/"+s.segment;
 const clean=s=>typeof s==="string"?s.replace(/\\n/g,"\n"):String(s??"");
@@ -275,9 +275,33 @@ function projectLinks(s){
 function newProject(){$("addTitle").textContent="新建通用项目草稿";$("addBody").innerHTML='<label class="label">项目名称</label><input id="projectName" placeholder="项目名称"><button id="saveProject" class="primary" style="margin-top:12px">创建</button><p id="projectStatus" class="task-status"></p>';$("saveProject").onclick=()=>{const n=$("projectName").value.trim();if(!n||n.includes("/")||n==="EMBER"||state.projects[n]||["__proto__","constructor","prototype"].includes(n)){$("projectStatus").textContent="请输入未使用的项目名称。";return}state.projects[n]={title:n,episodes:[{id:"MAIN",title:"单部作品"}],data:{MAIN:{title:n,occurrences:[],embedded_assets:{}}}};state.project=n;state.episode="MAIN";$("addDialog").close();populateProjects();populateEpisodes();loadEpisode()};$("addDialog").showModal();}
 function populateProjects(){$("project").innerHTML=["EMBER",...Object.keys(state.projects)].map(n=>'<option '+(n===state.project?"selected":"")+'>'+esc(n)+'</option>').join("");}
 function populateEpisodes(){const eps=state.project==="EMBER"?index.episodes:state.projects[state.project].episodes;if(!eps.some(x=>x.id===state.episode))state.episode=eps[0].id;$("episode").innerHTML=eps.map(x=>'<option value="'+esc(x.id)+'" '+(x.id===state.episode?"selected":"")+'>'+esc(x.title)+'</option>').join("");}
-async function loadEpisode(){const token=++epoch;const p=state.project,e=state.episode;$("main").innerHTML='<p class="muted">读取项目数据…</p>';try{const data=p==="EMBER"?await api("data/"+e+".json"):state.projects[p].data[e];if(token!==epoch)return;ep=data;ep.occurrences??=[];segments=[...(ep.ep01_review?.director_segments||ep.director_segments||[]),...(state.extras[key()]||[])];if(!segments.some(x=>x.segment===state.segment))state.segment=segments[0]?.segment||"";state.asset="";state.category="全部";state.query="";buildAssets();render();}catch(e){if(token===epoch)$("main").innerHTML='<p class="warn">无法加载项目源：'+esc(e.message)+'</p>';}}
+async function loadEpisode(){const token=++epoch;loadingEpisode=true;const p=state.project,e=state.episode;$("main").innerHTML='<p class="muted">读取项目数据…</p>';try{const data=p==="EMBER"?await api("data/"+e+".json"):state.projects[p].data[e];if(token!==epoch)return;ep=data;ep.occurrences??=[];segments=[...(ep.ep01_review?.director_segments||ep.director_segments||[]),...(state.extras[key()]||[])];if(!segments.some(x=>x.segment===state.segment))state.segment=segments[0]?.segment||"";state.asset="";state.category="全部";state.query="";buildAssets();render();}catch(e){if(token===epoch)$("main").innerHTML='<p class="warn">无法加载项目源：'+esc(e.message)+'</p>';}finally{if(token===epoch)loadingEpisode=false}}
 $("project").onchange=e=>{state.project=e.target.value;state.episode=state.project==="EMBER"?"EP01":"MAIN";state.segment="01";populateEpisodes();loadEpisode()};$("episode").onchange=e=>{state.episode=e.target.value;state.segment="01";loadEpisode()};$("newSegment").onclick=()=>newSegment();$("close").onclick=()=>$("viewer").close();$("closeAdd").onclick=()=>$("addDialog").close();
 $("export").onclick=()=>download({schema:"studio-draft-v1",drafts:state.drafts,extras:state.extras,projects:state.projects},"studio-draft.json");
 $("import").onclick=()=>$("file").click();$("file").onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const obj=JSON.parse(await f.text());if(obj.schema!=="studio-draft-v1"||!obj.drafts||!obj.extras||!obj.projects||typeof obj.drafts!=="object"||typeof obj.extras!=="object"||typeof obj.projects!=="object")throw Error("不支持的草稿格式");if(!confirm("导入会替换当前会话草稿，不会修改正式云端数据。继续？"))return;state.drafts=obj.drafts;state.extras=obj.extras;state.projects=obj.projects;if(state.project!=="EMBER"&&!state.projects[state.project])state.project="EMBER";populateProjects();populateEpisodes();loadEpisode()}catch(err){alert("导入失败："+err.message)}finally{e.target.value=""}};
-(async()=>{try{[index,hw,thumbnailMap]=await Promise.all([api("shared/production-state.json"),api("shared/hardware-references.json"),api("studio/thumbnails.json").catch(()=>({}))]);populateProjects();populateEpisodes();await loadEpisode()}catch(e){$("main").innerHTML='<p class="warn">云端数据读取失败：'+esc(e.message)+'</p>'}})();
+(async()=>{try{[index,hw,thumbnailMap]=await Promise.all([api("shared/production-state.json"),api("shared/hardware-references.json"),api("studio/thumbnails.json").catch(()=>({}))]);populateProjects();populateEpisodes();await loadEpisode();startAutoSync()}catch(e){$("main").innerHTML='<p class="warn">云端数据读取失败：'+esc(e.message)+'</p>'}})();
+
+/* Poll the published data only. Never reload the page or write source data. */
+let syncBusy=false,syncPending=false,syncEnabled=false;
+const syncInterval=15000;
+function syncLabel(t){const el=$("autoSync");if(el){el.textContent=t;el.title="每15秒检查已发布的云端数据；返回标签页时立即检查。编辑期间延后应用，不覆盖草稿。"}}
+function syncEditing(){const a=document.activeElement;return !!(a&&(a.matches("input:not([type=button]):not([type=submit]),textarea,select,[contenteditable=true]")||a.isContentEditable))||!!window.getSelection()?.toString()}
+async function syncFetch(p){const u=new URL(p,root);u.searchParams.set("_sync",String(Date.now()));const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error(p+" "+r.status);return r.json()}
+function syncEqual(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function startAutoSync(){if(syncEnabled)return;syncEnabled=true;syncLabel("自动同步");setInterval(()=>checkCloud(),syncInterval);document.addEventListener("visibilitychange",()=>{if(!document.hidden)checkCloud()});window.addEventListener("focus",()=>checkCloud());document.addEventListener("focusout",()=>{if(syncPending)setTimeout(()=>checkCloud(),100)})}
+
+async function checkCloud(){
+ if(syncBusy||document.hidden||!ep||!index||loadingEpisode||state.project!=="EMBER")return;
+ syncBusy=true;const n=epoch,id=state.episode;
+ try{
+  const [nextIndex,nextHW,nextThumbs,nextEP]=await Promise.all([syncFetch("shared/production-state.json"),syncFetch("shared/hardware-references.json"),syncFetch("studio/thumbnails.json"),syncFetch("data/"+id+".json")]);
+  if(n!==epoch||id!==state.episode||state.project!=="EMBER"||loadingEpisode)return;
+  if(syncEqual([index,hw,thumbnailMap,ep],[nextIndex,nextHW,nextThumbs,nextEP])){syncPending=false;syncLabel("自动同步");return}
+  if(syncEditing()||document.querySelector("dialog[open]")){syncPending=true;syncLabel("更新待应用");return}
+  const y=window.scrollY,main=$("main"),scroll=main.scrollTop;
+  index=nextIndex;hw=nextHW;thumbnailMap=nextThumbs;ep=nextEP;ep.occurrences??=[];segments=[...(ep.ep01_review?.director_segments||ep.director_segments||[]),...(state.extras[key()]||[])];buildAssets();
+  if(!segments.some(x=>x.segment===state.segment))state.segment=segments[0]?.segment||"";
+  populateEpisodes();render();main.scrollTop=scroll;window.scrollTo(0,y);syncPending=false;syncLabel("已同步 "+new Date().toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit",second:"2-digit"}));
+ }catch(e){syncLabel("同步暂不可用 · 自动重试")}finally{syncBusy=false}
+}
 </script></body></html>
