@@ -27,7 +27,7 @@ try{
    if(!legacyScript)continue;
    c.querySelector(".hardware-reference")?.remove();
    const cover=c.querySelector(".cover");
-   if(cover){const f=document.createElement("figure");f.className="scene-cover-image";const a=document.createElement("a");a.href=hw.master.url;a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=assetURL(hw.master);im.alt="ZG一队训练室旧版空间参考";im.loading="lazy";im.style.cssText="width:100%;height:auto;display:block";a.append(im);f.append(a);const cap=document.createElement("figcaption");cap.textContent=hw.master.status;f.append(cap);cover.replaceWith(f);}
+   if(cover){const f=document.createElement("figure");f.className="scene-cover-image";const a=document.createElement("a");a.href=hw.master.url;a.target="_blank";a.rel="noopener";const im=document.createElement("img");im.src=assetURL(hw.master);im.alt="ZG一队训练室空间母图";im.loading="lazy";im.style.cssText="width:100%;height:auto;display:block";a.append(im);f.append(a);const cap=document.createElement("figcaption");cap.textContent=hw.master.status;f.append(cap);cover.replaceWith(f);}
    const stale=[...c.children].find(n=>n.tagName==="P"&&n.textContent.includes("母图直接文字生图"));if(stale)stale.textContent=hw.status;
    const panel=c.querySelector(".viewpanel");
    const section=document.createElement("div");section.className="hardware-reference";

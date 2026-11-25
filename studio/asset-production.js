@@ -2,7 +2,7 @@
 function studioSceneTasks(a,raw,hardware){
  const r=raw||{},special=hardware?.scene_id===a.id,src=special?hardware:r;
  const images=Object.values(r.current_images||{}),master=special?hardware.master:(r.current_image||images.find(x=>!(/^\d{2}\s/.test(x.title||""))))||{};
- const out=[{no:"00",name:"母图",path:master.path||a.path||"",source:master.url||a.source||"",status:special?hardware.status:(master.status||a.status),prompt:src.master_prompt||a.prompt||"",refs:src.master_reference_uploads||src.reference_uploads||[],blocked:!!(!special&&r.blocked)}];
+ const out=[{no:"00",name:"母图",path:master.path||a.path||"",source:master.url||a.source||"",status:special?hardware.status:(master.status||a.status),prompt:src.master_prompt||a.prompt||"",refs:src.master_reference_uploads||src.reference_uploads||[],blocked:!!(!special&&r.blocked),approved:special?!hardware.master_pending:master.status==="已通过"}];
  for(const v of src.views||[]){
    const n=String(v.no||"").padStart(2,"0"),im=(special?hardware.shots?.[n]:r.shot_images?.[n])||images.find(x=>String(x.title||"").startsWith(n+" "))||{};
    out.push({no:n,name:v.name||n,path:im.path||"",source:im.url||"",status:v.status||im.status||(v.blocked?"待前置资产":"待制作"),prompt:v.prompt||"",refs:v.reference_uploads||[],blocked:!!(v.blocked||(special&&hardware.master_pending&&n!=="05")),approved:!!v.approved,camera:v.camera||""});
