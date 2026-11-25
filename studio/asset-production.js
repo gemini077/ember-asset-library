@@ -18,12 +18,12 @@ function studioRefMedia(r,assets,href,preview){
  const id=driveId(source);
  return {preview:path?preview(path):id?"https://drive.google.com/thumbnail?id="+id+"&sz=w720":"",source:href(source||path),original:href(path||source)};
 }
-function studioReferencePanel(refs,assets,escape,href,preview){
+function studioReferencePanel(refs,assets,escape,href,preview,prefix="图"){
  const list=Array.isArray(refs)?refs:[];
  if(!list.length)return '<p class="sr-empty">源任务未登记参考图。</p>';
  return '<div class="sr-grid">'+list.map((r,i)=>{
    const x=studioRefMedia(r,assets,href,preview),name=r.name||r.title||r.id||"参考素材",link=x.source||x.original;
-   const label="图"+(i+1);
+   const label=prefix+(i+1);
    return '<article class="sr-card" data-reference-index="'+(i+1)+'"><div class="sr-visual">'+
     (x.preview?'<a href="'+escape(x.original||link)+'" target="_blank" rel="noopener"><img src="'+escape(x.preview)+'" alt="'+escape(name)+'" loading="lazy" decoding="async"><span class="sr-unavailable" hidden>预览未加载 · 打开原文件</span></a>':'<span class="sr-unavailable">'+(link?"仅资料链接 · 未绑定图片":"参考图未绑定 / 待提供")+'</span>')+
     '<span class="sr-number">'+label+'</span></div><div class="sr-info"><strong>'+escape(name)+'</strong><small>'+escape(r.purpose||"")+'</small><small class="sr-status">'+escape(r.availability||r.status||(link?"来源已登记":"未绑定来源"))+'</small>'+
@@ -31,3 +31,11 @@ function studioReferencePanel(refs,assets,escape,href,preview){
  }).join("")+'</div>';
 }
 function studioBindReferenceImages(el){el.querySelectorAll(".sr-visual img").forEach(img=>{const fail=()=>{img.hidden=true;const msg=img.parentElement.querySelector(".sr-unavailable");if(msg)msg.hidden=false};img.addEventListener("error",fail);if(img.complete&&!img.naturalWidth)fail()})}
+
+function studioAuxiliaryPanel(record,assets,escape,href,preview){
+ const r=record||{},inputs=Array.isArray(r.composition_inputs)?r.composition_inputs:[],links=[...(Array.isArray(r.styling_web_references)?r.styling_web_references:[]),...(Array.isArray(r.campaign_references)?r.campaign_references:[]),...(r.design_reference?.url?[r.design_reference]:[])];
+ const resolved=inputs.map(x=>{const n=String(x.name||"").match(/(?:^|\s)(0[1-9])(?:\s|$)/)?.[1];const a=assets.find(y=>y.id===(n?x.asset_id+":"+n:x.asset_id));return {...x,...(!x.url&&!x.path&&a&&!a.blocked&&!/待制作|待新版母图|旧版参考|待生成/.test(String(a.status))&&a.path?{path:a.path,url:a.source||a.path}:{})}});
+ const result=resolved.length?'<div class="sp-head"><h3>合成输入 · 非生图上传参考</h3></div>'+studioReferencePanel(resolved,assets,escape,href,preview,"输入"):"";
+ const bibliography=links.filter(x=>x&&href(x.url||x.source_url||"")).map(x=>'<a class="sr-source" href="'+escape(href(x.url||x.source_url))+'" target="_blank" rel="noopener">'+escape(x.title||x.name||"设计资料")+' ↗</a>').join("<br>");
+ return result+(bibliography?'<div class="sp-head"><h3>设计资料 · 不参与参考图编号</h3></div><p class="sr-empty">'+bibliography+'</p>':"");
+}
