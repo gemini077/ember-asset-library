@@ -95,7 +95,7 @@
       "scene_ids": [
         "2-1"
       ],
-      "status": "母图已补齐主机；02–04、06–09 待更新；01、05屏幕近景已通过",
+      "status": "母图已补齐主机；03–04、06–09 待更新；01、02、05屏幕近景已通过",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -198,7 +198,7 @@
           "url": "https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待更新"
+          "status": "已通过，主机已补齐"
         },
         "03 主要动作全景": {
           "title": "ZG 基地一队训练室｜03 主要动作全景",
@@ -269,12 +269,10 @@
           "purpose": "仅锁定桌椅相对位置、屏幕朝向、门洞与教练桌位置。"
         }
       ],
-      "master_edit_status": "待重制",
+      "master_edit_status": "已完成",
       "shot_rebuild": {
-        "status": "待新版母图",
+        "status": "分机位更新中",
         "required_shots": [
-          "01",
-          "02",
           "03",
           "04",
           "06",
@@ -284,9 +282,7 @@
         ],
         "old_images_role": "01–04旧图仅作历史参考；05仍为有效场景成图",
         "monitor_reference_role": "05独立屏幕近景已通过，可直接调用，同时作为设备外形与标识参考",
-        "approved_shots": [
-          "05"
-        ]
+        "approved_shots": ["01", "02", "05"]
       }
     },
     {
@@ -2460,7 +2456,7 @@
             "url": "https://drive.google.com/file/d/1ZdFPl_hPbLOaPtj4gQr2YAkwCg-xzkbZ/view",
             "width": 2560,
             "height": 1440,
-            "status": "已有成图"
+            "status": "已通过，主机已补齐"
           },
           "03 主要动作全景": {
             "title": "ZG 基地一队训练室｜03 主要动作全景",
