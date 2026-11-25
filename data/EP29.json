@@ -136,7 +136,7 @@
       "scene_ids": [
         "29-2"
       ],
-      "status": "新版母图、01、02、03、05 已通过；04、06–09 待制作",
+      "status": "新版母图、01–05 已通过；06–09 待制作",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -216,8 +216,8 @@
           "url": "https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view",
           "width": 2560,
           "height": 1440,
-          "status": "旧版参考 · 待重做",
-          "drive_filename": "04 窗侧五席（旧版）.png"
+          "status": "已通过",
+          "drive_filename": "04 窗侧五席.png"
         },
         "05 第三席屏幕近景": {
           "title": "05 第三席屏幕近景",
@@ -230,9 +230,8 @@
         }
       },
       "shot_rebuild": {
-        "status": "母图及01、02、03、05已通过，五个机位待制作",
+        "status": "母图及01–05已通过，四个机位待制作",
         "required_shots": [
-          "04",
           "06",
           "07",
           "08",
@@ -242,9 +241,10 @@
           "01",
           "02",
           "03",
+          "04",
           "05"
         ],
-        "old_images_role": "04旧图仅供历史对照，不作为新版机位成图或生图参考；01、02、03、05已通过。",
+        "old_images_role": "01–05新版有效成图均已通过，05保持原样。",
         "monitor_reference_role": "05显示器、木纹桌面和浅灰背景局部为固定连续性基准。"
       },
       "master_prompt": "",
@@ -7883,47 +7883,21 @@
             "no": "04",
             "name": "窗侧五席",
             "camera": "35mm，摄影机在西窗一侧朝东，看五席沿长桌的连续排列，第三席居中，玻璃隔断在远处。",
-            "approved": false,
+            "approved": true,
             "hasOriginal": true,
-            "status": "旧版参考 · 待重做",
-            "prompt": "【参考图】图1为ZG基地一队训练室空景母图，锁定同一房间、装修、家具、设备位置和灯光。图2为黑色中塔机箱外形；图3为光年LIGHTYEAR显示器与第三席桌面背景局部。\n\n【固定空间】矩形训练室，北墙为队徽墙，西墙是连续窗，东墙是黑框玻璃隔断和一扇可通行玻璃门。五人连续训练长桌紧邻北墙沿东西向布置，从西向东为上单、打野、中单、射手、辅助。五把黑色高背电竞椅在长桌南侧朝北，五台显示器在对应椅子的正前方，显示面朝南。教练独立小桌在东门以南的固定玻璃段旁，桌长边沿东侧玻璃方向，教练椅在桌西侧朝东，显示面朝西。门扇开合范围、入口到第三席椅后的连续动线和椅后净通道完全留空。保持原房间开间、进深及门窗比例，不扩建，不交换左右，不增加选手席。\n\n【装修与战队识别】北墙下部从桌面到显示器后方保持浅暖灰哑光细纹饰面，带少量垂直拼缝；第三席背后的颜色、拼缝与桌面木纹须与图3的可见局部一致。北墙上部采用大面积浅灰底和两侧炭黑织物吸音板，按五席的整体节奏做竖向细分，不变成五间隔间。中央浅灰完整墙面上安装母图中的黑色ZG与金色四芒星原标志，下方保留原英文ZENITH GAMING字标；队标周边留白，金色只用于两侧吸音板边缘各一条细窄哑金装饰线，不铺满金属或加入其他文字。西窗保留原窗框，安装浅灰卷帘，部分拉下过滤日光。东侧玻璃隔断保留原门洞及黑框分格，视线高度使用原半透明磨砂条，不在门口增加家具。天花由浅灰基底与选手桌上方连续炭灰色吸音吊顶带组成，配平行于桌的两道细长中性白光线性灯、隐藏间接补光及真实空调送回风口；不设置彩色灯带。地面采用深炭灰低绒耐磨方块地毯，弱纹理、无图案。整体黑灰白为主、少量ZG金色，克制的成熟职业俱乐部，不是网吧、赛事舞台或豪华展厅。\n\n【训练工位】保留图3的暖中棕细木纹桌面、薄边及真实哑光质感，训练长桌为连续同款木纹台面、黑色金属承重框架，桌深足以容纳显示器、键盘、前臂及大范围鼠标操作。每席一台显示器、一把黑色布面或哑光皮革高背电竞椅、一套键鼠、一张宽幅黑色鼠标垫、一副带麦克风的头戴通讯耳机，耳机收纳在各席桌侧或固定挂钩，鼠标右侧留出操作区；椅背不印未确认标识。外设不同席可有细小使用差异，五席均有完整设备，不摆人、衣服、奖杯、个人海报、宣传大屏或零食杂物。第三席屏幕正面与底座附近保持空净，避免新增物体进入图3近景的取景范围。个别桌侧可有一两只无标识深色水杯，不整齐复制、不占手部操作区。\n\n【教练席】独立木纹小桌、黑色网布办公椅、一台同款光年显示器，键鼠、合上的深色记录本和两三张平放的训练记录纸；屏幕休眠为黑屏，纸面无可辨识假文字。教练席能观察训练区且不挡门、不占选手席、不增设第二台主机。\n\n【固定硬件外观】主机为黑色实体钢板中塔，约深42×宽21×高48厘米。前脸具有立体折面细冲孔进风网，顶部电源键与USB接口，侧面哑光钢板，底部短脚，后部真实散热网、供电与视频接口。禁止无结构纯黑盒、音箱、文件柜、服务器、透明海景房或夸张RGB；不复制参考产品商标。五台选手主机同款，分别置于各席左侧（西侧）靠北墙的独立抬高托架：西窗侧桌腿与上单椅之间、上单与打野椅之间、打野与中单椅之间、中单与射手椅之间、射手与辅助椅之间；共五台，逐席对应，机箱进排风无遮挡，留足腿部空间；教练第六台置于原独立桌下靠东玻璃侧，不挡门。电源线、视频线各自真实连接、向桌下线槽收束，不穿墙、不悬空。显示器采用光年显示器的工业外形：黑色平面屏、窄三边框和较宽下边框、中央立柱、红色圆理线孔、低矮矩形底座；屏幕与椅一一相对，五席统一型号。设备标识统一为：银灰光年图形标加 LIGHTYEAR 英文字标，立柱无队徽；赞助宣传保留正式中文组合标。仅显示当前摄影机实际拍到的设备，遮挡关系自然；教练桌方向固定。\n\n【本次机位】35mm，摄影机在西窗一侧朝东，看五席沿长桌的连续排列，第三席居中，玻璃隔断在远处。\n\n【拍摄质感】当代中国职业电竞俱乐部基地的真实室内摄影，真实成人家具与人体尺度，水平竖线自然，墙面、织物、木纹、金属和磨砂玻璃材质各自成立；窗侧漫射日光与4000K左右中性白人工光形成柔和明暗层次，桌下机箱仍清楚可辨，玻璃有低对比真实反射，椅脚接触阴影完整。不用夸张景深、强烈光晕、电影黑场、游戏CG、塑料质感或过分整洁的产品展厅效果。\n\n单张16:9、2560×1440空景照片，仅改变摄影机位置和构图。画外设备不强行展示，无人物、人形倒影、HUD、额外文字、水印或拼图。",
+            "status": "已通过",
+            "prompt": "",
             "reference_uploads": [
               {
-                "name": "新版空景母图",
-                "path": "assets/scenes/ZG-training-room-master.png",
-                "url": "https://drive.google.com/file/d/11LDYCplegh0rFIzR9HA-I-Rpx8wu2Gxy/view",
-                "required": true,
-                "availability": "新版母图 · 已通过",
-                "purpose": "锁定同一房间的装修、家具、六个工位、硬件位置、灯光与空间连续性。",
+                "title": "04 窗侧五席",
+                "path": "assets/scenes/ZG-training-room-04.png",
+                "url": "https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view",
                 "width": 2560,
                 "height": 1440,
                 "status": "已通过",
-                "drive_filename": "00 母图.png",
-                "approval": "已通过"
-              },
-              {
-                "id": "HW-ZG-PC-01",
-                "name": "机箱｜Fractal Meshify 2 Compact Black Solid 官方产品原图",
-                "url": "https://www.fractal-design.com/products/cases/meshify-series/meshify-2-compact/meshify-2-compact-black/",
-                "image_url": "https://assets.fractal-design.com/images/uxzbxy2o/production/e872fcecc35f8117154ff5b062a231e8f5b8d02d-2560x2560.jpg?w=900",
-                "availability": "厂家外观参考，非剧内正式品牌或已通过成图",
-                "required": true,
-                "purpose": "黑色实板中塔，立体折面细冲孔前网、哑光钢板侧面、顶部I/O、真实脚垫与散热结构；约深424×宽210×高475 mm；不复制实物厂商标志。",
-                "path": "assets/props/HW-ZG-PC-01_meshify2_compact_black.jpg",
-                "source_image_url": "https://assets.fractal-design.com/images/uxzbxy2o/production/e872fcecc35f8117154ff5b062a231e8f5b8d02d-2560x2560.jpg?w=900"
-              },
-              {
-                "id": "HW-ZG-MONITOR-01",
-                "name": "光年 LIGHTYEAR 显示器参考",
-                "path": "assets/scenes/ZG-training-room-05.png",
-                "url": "https://drive.google.com/file/d/1ormn5k46q27bUgn_oZFvBol7AB-heNiV/view",
-                "availability": "05屏幕近景已通过 · 设备外形基准",
-                "required": true,
-                "purpose": "黑色16:9平面屏，窄三边框、较宽下边框、中央升降立柱、红圈贯通理线孔、低矮矩形哑光底座。下边框中央银灰光年图形标与 LIGHTYEAR 英文字标，立柱无队徽，右下单一状态灯；真实线缆。",
-                "approval": "已通过",
-                "width": 2560,
-                "height": 1440,
-                "brand_logo_url": "https://drive.google.com/file/d/1Jtfj4i6n-oJ-v_qgp5qjA4tIBQPkEamc/view"
+                "drive_filename": "04 窗侧五席.png",
+                "name": "04 窗侧五席",
+                "purpose": "本机位成图，可直接调用。"
               }
             ],
             "blocked": false
@@ -8705,7 +8679,7 @@
             }
           }
         ],
-        "status": "新版母图、01、02、03、05 已通过；04、06–09 待制作",
+        "status": "新版母图、01–05 已通过；06–09 待制作",
         "blocked": false,
         "source": "https://docs.google.com/document/d/117A9jkfN4enV54X1ClmuFIQttiC6C0sxzc3ANUIOe1g/edit",
         "candidate_images": [
@@ -8793,8 +8767,8 @@
             "url": "https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view",
             "width": 2560,
             "height": 1440,
-            "status": "旧版参考 · 待重做",
-            "drive_filename": "04 窗侧五席（旧版）.png"
+            "status": "已通过",
+            "drive_filename": "04 窗侧五席.png"
           },
           "05 第三席屏幕近景": {
             "title": "05 第三席屏幕近景",
@@ -8807,9 +8781,8 @@
           }
         },
         "shot_rebuild": {
-          "status": "母图及01、02、03、05已通过，五个机位待制作",
+          "status": "母图及01–05已通过，四个机位待制作",
           "required_shots": [
-            "04",
             "06",
             "07",
             "08",
@@ -8819,9 +8792,10 @@
             "01",
             "02",
             "03",
+            "04",
             "05"
           ],
-          "old_images_role": "04旧图仅供历史对照，不作为新版机位成图或生图参考；01、02、03、05已通过。",
+          "old_images_role": "01–05新版有效成图均已通过，05保持原样。",
           "monitor_reference_role": "05显示器、木纹桌面和浅灰背景局部为固定连续性基准。"
         },
         "master_reference_uploads": [],
