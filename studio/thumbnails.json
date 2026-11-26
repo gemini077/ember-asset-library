@@ -210,5 +210,9 @@
   "assets/scenes/ZG-training-room-06.png": {
     "filename": "68021bb63e971230354499e5c2e07349f0abd481.webp",
     "source_sha": "68021bb63e971230354499e5c2e07349f0abd481"
+  },
+  "assets/props/HW-ZG-keyboard-ANSI-layout-reference.png": {
+    "filename": "d0a76f2711bf6bb461572a1c6d682f14637f528c.webp",
+    "source_sha": "d0a76f2711bf6bb461572a1c6d682f14637f528c"
   }
 }
