@@ -241,7 +241,7 @@
       "scene_ids": [
         "6-3A"
       ],
-      "status": "?????01?06?09 ????07?08 ???",
+      "status": "新版母图、01–06、09 已通过；07–08 待制作",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -344,18 +344,18 @@
           "status": "已通过",
           "drive_filename": "09 垂直俯视校验.png"
         },
-        "06 ?????": {
-          "title": "06 ?????",
+        "06 第三席反打": {
+          "title": "06 第三席反打",
           "path": "assets/scenes/ZG-training-room-06.png",
           "url": "https://drive.google.com/file/d/1ogQHn-aQ8wB7_stZAc11a1ggOmxyzDPv/view",
           "width": 2560,
           "height": 1440,
-          "status": "???",
-          "drive_filename": "06 ?????.png"
+          "status": "已通过",
+          "drive_filename": "06 第三席反打.png"
         }
       },
       "shot_rebuild": {
-        "status": "01?06?09????07?08???",
+        "status": "01–06、09已通过；07–08待制作",
         "required_shots": [
           "07",
           "08"
@@ -369,7 +369,7 @@
           "06",
           "09"
         ],
-        "old_images_role": "01?06?09?????????05?????????",
+        "old_images_role": "01–06、09均为已通过成图；旧05仅保留于历史版本。",
         "monitor_reference_role": "新版母图与04锁定空间和设备位置；新版05为已通过的第三席黑屏贴屏底图。",
         "production_order": [
           "07",
@@ -10440,19 +10440,19 @@
             "camera": "小型摄影机位于第三席显示器顶边上方，贴近屏幕中心线，近水平反拍椅面；第三席居中，相邻第四席在左、第二席在右，按真实视野裁切。屏幕顶边可自然出画，不挪动设备。椅后开放区域延伸至远端素墙；若教练席入镜，其桌长边贴左侧玻璃、远端短边紧邻后墙。",
             "approved": true,
             "hasOriginal": true,
-            "status": "???",
+            "status": "已通过",
             "prompt": "",
             "reference_uploads": [
               {
-                "title": "06 ?????",
+                "title": "06 第三席反打",
                 "path": "assets/scenes/ZG-training-room-06.png",
                 "url": "https://drive.google.com/file/d/1ogQHn-aQ8wB7_stZAc11a1ggOmxyzDPv/view",
                 "width": 2560,
                 "height": 1440,
-                "status": "???",
-                "drive_filename": "06 ?????.png",
-                "name": "06 ?????",
-                "purpose": "?????????????"
+                "status": "已通过",
+                "drive_filename": "06 第三席反打.png",
+                "name": "06 第三席反打",
+                "purpose": "正式反打成图，可直接调用。"
               }
             ],
             "blocked": false
@@ -11141,7 +11141,7 @@
             }
           }
         ],
-        "status": "?????01?06?09 ????07?08 ???",
+        "status": "新版母图、01–06、09 已通过；07–08 待制作",
         "blocked": false,
         "source": "https://docs.google.com/document/d/117A9jkfN4enV54X1ClmuFIQttiC6C0sxzc3ANUIOe1g/edit",
         "candidate_images": [
@@ -11252,18 +11252,18 @@
             "status": "已通过",
             "drive_filename": "09 垂直俯视校验.png"
           },
-          "06 ?????": {
-            "title": "06 ?????",
+          "06 第三席反打": {
+            "title": "06 第三席反打",
             "path": "assets/scenes/ZG-training-room-06.png",
             "url": "https://drive.google.com/file/d/1ogQHn-aQ8wB7_stZAc11a1ggOmxyzDPv/view",
             "width": 2560,
             "height": 1440,
-            "status": "???",
-            "drive_filename": "06 ?????.png"
+            "status": "已通过",
+            "drive_filename": "06 第三席反打.png"
           }
         },
         "shot_rebuild": {
-          "status": "01?06?09????07?08???",
+          "status": "01–06、09已通过；07–08待制作",
           "required_shots": [
             "07",
             "08"
@@ -11277,7 +11277,7 @@
             "06",
             "09"
           ],
-          "old_images_role": "01?06?09?????????05?????????",
+          "old_images_role": "01–06、09均为已通过成图；旧05仅保留于历史版本。",
           "monitor_reference_role": "新版母图与04锁定空间和设备位置；新版05为已通过的第三席黑屏贴屏底图。",
           "production_order": [
             "07",
