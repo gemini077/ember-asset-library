@@ -2,7 +2,7 @@
   {
     "id": "MAP-D1",
     "label": "D1",
-    "status": "造型通过／待真人同框校验",
+    "status": "已通过",
     "name": "云鲸·同一角色正侧正俯三视",
     "production_order": 1,
     "dependency": "独立单体制作，不依赖任何地图成图。",
@@ -15,7 +15,33 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D1",
     "blocked": false,
-    "review_note": "本轮候选纯积云造型通过，侧视鲸长约4.2个成人体模高度，正俯视展示比例偏小。保留造型，不再为比例标尺反复重生三视图；最终3–3.5成人高度目标须以正常成人英雄同地面同透视、低位近战可及的独立同框测试核定。源图1672×941，待完成尺度校验后再2K归档；不计入正式成图。"
+    "review_note": "D1正式造型母版通过：纯积云、金色微光、头鳍尾三视形态一致性可用于影视参考。原1672×941非生成式放大至2560×1440。画中侧视鲸长约4.2倍人体模、俯视展示比例不同；本板仅锁造型，不作为工程比例尺。实际场景以1.75米成人和5.3–6.1米鲸长（优先6.1米）、1.8–2.2米主体厚度、0.5–0.8米最低悬浮高度校准；C3验收时确认真人近战可及、同地面同透视及多人走位，不再阻塞单体归档。",
+    "path": "assets/scenes/yunyuan-D1-cloud-whale.png",
+    "url": "https://drive.google.com/file/d/1-ndSOZBmYs7pE0x4TF4cYpkbWrA_Hdtb/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true,
+    "scale_calibration": {
+      "human_m": 1.75,
+      "preferred_length_m": 6.1,
+      "length_range_m": [
+        5.3,
+        6.1
+      ],
+      "body_thickness_m": [
+        1.8,
+        2.2
+      ],
+      "hover_clearance_m": [
+        0.5,
+        0.8
+      ],
+      "board_side_to_human_ratio_approx": 4.2,
+      "board_uniform_scale": false,
+      "verification_asset": "C3",
+      "status": "设计尺度已登记；实景交互待场景验收"
+    }
   },
   {
     "id": "MAP-D2",
