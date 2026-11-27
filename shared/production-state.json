@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "approval_note": "用户确认：现有的人物资产均已通过，无需重新验收。未制作的资产保持待制作。",
+  "approval_note": "已确认演员身份与造型设计仍通过；十张旧设定板仅作造型参考，四格成图待替换。独立身份肖像不重做。",
   "approved": {
     "P-009": {
       "id": "P-009",
@@ -12,7 +12,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-009": {
       "id": "RB-P-009",
@@ -24,7 +25,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-053": {
       "id": "RB-P-053",
@@ -36,7 +38,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-051": {
       "id": "RB-P-051",
@@ -48,7 +51,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-052": {
       "id": "RB-P-052",
@@ -60,7 +64,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-054": {
       "id": "RB-P-054",
@@ -72,7 +77,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-P-055": {
       "id": "RB-P-055",
@@ -84,7 +90,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "RB-X-3866297EF": {
       "id": "RB-X-3866297EF",
@@ -96,7 +103,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "C-069": {
       "id": "C-069",
@@ -108,7 +116,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     },
     "C-018": {
       "id": "C-018",
@@ -120,7 +129,8 @@
       "width": 2560,
       "height": 1440,
       "status": "已通过",
-      "date": "2026-11-24"
+      "date": "2026-11-24",
+      "format_status": "四格待替换"
     }
   },
   "portraits": {
@@ -1803,6 +1813,221 @@
         "outline_type": "原稿精修",
         "outline_text": "周砚推门而入，盛棠认出他神色微变；周砚盯着划掉的第五条签字，问手伤几成，答七成，他道“那就按七成练”→深夜墙上重画“0”，拉满第二季终极悬念。"
       }
+    }
+  },
+  "board_format": {
+    "version": "four-panel-9x16-v1",
+    "view_spec": {
+      "layout": "单张9:16竖版四格设定板",
+      "views_in_same_image": [
+        "高清正面头肩近景",
+        "高清45°四分之三侧脸头肩近景",
+        "正面全身（仅面部五官模糊）",
+        "背面全身"
+      ],
+      "top_face_views": [
+        "高清正面头肩近景",
+        "高清45°四分之三侧脸头肩近景"
+      ],
+      "bottom_fullbody_views": [
+        "正面全身（仅面部五官模糊）",
+        "背面全身"
+      ],
+      "background": "中性灰无缝影棚",
+      "image_count": 1,
+      "file_count": 1,
+      "one_image_only": true,
+      "same_identity_all_panels": true,
+      "face_detail_required": true,
+      "face_blur": "仅下排全身可见五官局部模糊；上排高清脸及发饰衣装不模糊"
+    },
+    "output_spec": {
+      "kind": "单张人物四格设定板",
+      "image_count": 1,
+      "file_count": 1,
+      "aspect_ratio": "9:16",
+      "preferred_resolution": "1440×2560（2K级）",
+      "file_format": "PNG",
+      "layout": {
+        "top_two": [
+          "高清正面头肩近景",
+          "高清45°四分之三侧脸头肩近景"
+        ],
+        "bottom_two": [
+          "正面全身（仅面部五官模糊）",
+          "背面全身"
+        ],
+        "top_height_ratio": 0.35,
+        "bottom_height_ratio": 0.65,
+        "columns_equal": true
+      },
+      "no_separate_view_images": true,
+      "status": "图片待生成及验收"
+    },
+    "prompt_rule": "【四格交付硬约束】只输出一张竖版9:16 PNG，1440×2560（2K级）。左右两列等宽，上排约占全高35%，下排约占65%，四格紧凑排列，细窄中性分隔线。左上为高清正面头肩近景；右上为高清四分之三侧脸头肩近景，转头约45°，不是90°纯侧脸。上排清楚呈现同一演员的五官、皮肤纹理、妆发、发际线及贴脸配饰，头顶与发饰完整，不磨皮、不模糊。左下为正面全身，右下为背面全身，头顶、鞋底与衣摆完整，等高、鞋底齐平、自然站姿，保持同一演员、同一套妆发、服装、鞋履、配饰与身材比例。下排只提供体态和服装信息：正面全身的面部五官区域主动做柔和局部高斯模糊，使眉眼鼻唇不可作为第二身份参考；脸部外轮廓、发际线、发型、耳饰、颈部与衣装保持清楚。背面全身保持真实后脑发型，若露出面部，仅模糊露出的五官。绝不模糊上排高清脸、头发、衣装、手脚或整张全身图。中性灰无缝棚底与同向柔光，真实材质，无文字、色卡、额外小格、水印或剧情场景；已有正式服装标志原样保留，不新增品牌。",
+    "scope": "人物身份设定板、现实妆造、换装妆造及真人COS；独立身份肖像、服装单品、队服三视、场景、道具不变。",
+    "existing_policy": "演员身份和美术设计继续通过，旧板仅作四格替换的造型依据。新板验收后原资产ID、Drive文件ID和GitHub路径原位覆盖，不保留并行当前版。"
+  },
+  "board_migration": {
+    "P-009": {
+      "status": "四格待替换",
+      "source": {
+        "id": "P-009",
+        "title": "温以宁｜身份母版",
+        "kind": "身份母版",
+        "scope": "跨集身份",
+        "path": "assets/characters/P-009_single_16x9_Drive.png",
+        "url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-009": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-009",
+        "title": "温以宁（Vigil）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-009_ZG_Drive.png",
+        "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-053": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-053",
+        "title": "顾行舟（Crown）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-053_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-051": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-051",
+        "title": "陆川（Ash）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-051_ZG_casual_final.png",
+        "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-052": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-052",
+        "title": "贺之扬（Blaze）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-052_ZG_casual_final.png",
+        "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-054": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-054",
+        "title": "周牧（MuZ）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-054_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-P-055": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-P-055",
+        "title": "谭屹（Yi7）｜ZG 基地私服定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-P-055_EP01_casual_final.png",
+        "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "RB-X-3866297EF": {
+      "status": "四格待替换",
+      "source": {
+        "id": "RB-X-3866297EF",
+        "title": "秦岳｜ZG 基地工作定妆板",
+        "kind": "现实妆造",
+        "scope": "ZG 基地 / EP01 对应造型",
+        "path": "assets/characters/RB-X-3866297EF_EP01_final.png",
+        "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "C-069": {
+      "status": "四格待替换",
+      "source": {
+        "id": "C-069",
+        "title": "欧阳嘉树 × 伊格尼",
+        "kind": "真人COS",
+        "scope": "同演员×英雄造型复用",
+        "path": "assets/characters/C-069_single_16x9_final.png",
+        "url": "https://drive.google.com/file/d/1Vz57YvxvN0BltGrb_JDOOcjUm7cgE3xp/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
+    },
+    "C-018": {
+      "status": "四格待替换",
+      "source": {
+        "id": "C-018",
+        "title": "温以宁 × 绮罗",
+        "kind": "真人COS",
+        "scope": "同演员×英雄造型复用",
+        "path": "assets/characters/C-018_single_16x9_final.png",
+        "url": "https://drive.google.com/file/d/1rHgfvocnxkbY1oRYOymYw-mBtl8GioVU/view",
+        "width": 2560,
+        "height": 1440,
+        "status": "已通过",
+        "date": "2026-11-24"
+      },
+      "target_format": "four-panel-9x16-v1"
     }
   }
 }
