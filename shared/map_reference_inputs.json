@@ -2,7 +2,7 @@
   {
     "id": "MAP-D1",
     "label": "D1",
-    "status": "待制作／按依赖验收",
+    "status": "待局部修正",
     "name": "云鲸·同一角色正侧正俯三视",
     "production_order": 1,
     "dependency": "独立单体制作，不依赖任何地图成图。",
@@ -14,12 +14,13 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#D1",
-    "blocked": false
+    "blocked": false,
+    "review_note": "待修：鲸长约十二个图中成人高度，应为八个；统一三视标尺。"
   },
   {
     "id": "MAP-D2",
     "label": "D2",
-    "status": "待制作／按依赖验收",
+    "status": "待局部修正",
     "name": "穹主·古代半身天神三状态",
     "production_order": 2,
     "dependency": "独立单体制作，不依赖任何地图成图。",
@@ -31,12 +32,13 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#D2",
-    "blocked": false
+    "blocked": false,
+    "review_note": "待修：冠顶至岩座约十个图中成人高度，应为六个；保留石雕造型。"
   },
   {
     "id": "MAP-D3",
     "label": "D3",
-    "status": "待制作／按依赖验收",
+    "status": "已通过",
     "name": "石卫·背负断城门碑的石巨人三视",
     "production_order": 3,
     "dependency": "D2完成后，保留同源石材/青铜工艺",
@@ -48,12 +50,19 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#D3",
-    "blocked": true
+    "blocked": false,
+    "review_note": "正侧背石碑和负重一致，脚底至头顶约2.5成人高度；1672×941原图非生成式放大至2560×1440。",
+    "path": "assets/scenes/yunyuan-D3-stone-guardian.png",
+    "url": "https://drive.google.com/file/d/13AX_P5koq5wAYEMkBo_vK_psqyoVPDqN/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true
   },
   {
     "id": "MAP-D4",
     "label": "D4",
-    "status": "待制作／按依赖验收",
+    "status": "待局部修正",
     "name": "四野区常规野怪·五类集合",
     "production_order": 4,
     "dependency": "先完成D3或直接按统一古城语言出图",
@@ -65,12 +74,13 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#D4",
-    "blocked": true
+    "blocked": false,
+    "review_note": "待修：青灯守整体高度约成人七成，目标半高；赤岩犀角需短厚圆钝。"
   },
   {
     "id": "MAP-C1",
     "label": "C1",
-    "status": "待制作／按依赖验收",
+    "status": "待G01及地面前置验收",
     "name": "中央石庭·真人中路建立全景",
     "production_order": 5,
     "dependency": "D组及塔体、基础材质确认后；R01仅锁拓扑。",
@@ -86,12 +96,13 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#C1",
-    "blocked": true
+    "blocked": true,
+    "review_note": "暂缓：G01未通过，远处折磬跨道路，缺独立塔基；须先确认塔体与地面通行关系。"
   },
   {
     "id": "MAP-C2",
     "label": "C2",
-    "status": "待制作／按依赖验收",
+    "status": "待G01及地面前置验收",
     "name": "中央石庭·真人低机位交锋侧景",
     "production_order": 6,
     "dependency": "C1通过后，锁定同一地面与侧景。",
@@ -111,7 +122,8 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/yunyuan/index.html#C2",
-    "blocked": true
+    "blocked": true,
+    "review_note": "暂缓：依赖C1通过及G01通过；保留现有实拍材质方向。"
   },
   {
     "id": "MAP-B1",
