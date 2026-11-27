@@ -46,7 +46,7 @@
   {
     "id": "MAP-D2",
     "label": "D2",
-    "status": "待局部修正",
+    "status": "已通过",
     "name": "穹主·古代半身天神三状态",
     "production_order": 2,
     "dependency": "独立单体制作，不依赖任何地图成图。",
@@ -59,7 +59,24 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D2",
     "blocked": false,
-    "review_note": "当前候选造型可保留，但人体标尺仅约石像总高21%，折算穹主约8.4米；觉醒举印而非空手攻击，未通过。下一张以人体约占石像高度36%为排版优先约束，古印低位固定、空手前伸、正侧同姿态。"
+    "review_note": "D2正式单体通过。左栏沉睡闭眼、左手低位持印；中栏觉醒睁眼、右空手前伸；右栏同一觉醒动作侧面。冠饰、石袍、古印和岩座连续。沉睡石像含冠约2.6个成人高度，按1.75米成人换算约4.55米，符合4.5–5.2米设计范围；画面比例为目测，非工程测量。原1672×941非生成式放大至2560×1440。G03-02仍需验证实景近战与走位，不阻塞正式单体归档。",
+    "path": "assets/scenes/yunyuan-D2-sky-lord.png",
+    "url": "https://drive.google.com/file/d/118wi7q-Arz381BcbPNbjyJLtt8EqA2JG/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true,
+    "scale_calibration": {
+      "human_m": 1.75,
+      "total_height_range_m": [
+        4.5,
+        5.2
+      ],
+      "board_height_to_human_ratio_approx": 2.6,
+      "preferred_height_m": 4.55,
+      "verification_asset": "G03-02",
+      "status": "单体设计尺度通过；真人实景同框仍按G03-02验收"
+    }
   },
   {
     "id": "MAP-D3",
