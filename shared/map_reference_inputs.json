@@ -1,56 +1,821 @@
 [
   {
-    "id": "MAP-A1",
-    "label": "A1",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "id": "MAP-D1",
+    "label": "D1",
+    "status": "待制作／按依赖验收",
+    "name": "云鲸·同一角色正侧正俯三视",
+    "production_order": 1,
+    "dependency": "独立单体制作，不依赖任何地图成图。",
+    "reference_order": [
+      {
+        "ref": "无",
+        "usage": "先定稿独立单体造型及多视一致性。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#D1",
+    "blocked": false
+  },
+  {
+    "id": "MAP-D2",
+    "label": "D2",
+    "status": "待制作／按依赖验收",
+    "name": "穹主·古代半身天神三状态",
+    "production_order": 2,
+    "dependency": "独立单体制作，不依赖任何地图成图。",
+    "reference_order": [
+      {
+        "ref": "无",
+        "usage": "先定稿独立单体造型及多视一致性。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#D2",
+    "blocked": false
+  },
+  {
+    "id": "MAP-D3",
+    "label": "D3",
+    "status": "待制作／按依赖验收",
+    "name": "石卫·背负断城门碑的石巨人三视",
+    "production_order": 3,
+    "dependency": "D2完成后，保留同源石材/青铜工艺",
+    "reference_order": [
+      {
+        "ref": "新D2",
+        "usage": "建议：同文明真实风化白石与铜绿，需与穹主在同一影视世界，但体型明显不同。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#D3",
+    "blocked": true
+  },
+  {
+    "id": "MAP-D4",
+    "label": "D4",
+    "status": "待制作／按依赖验收",
+    "name": "四野区常规野怪·五类集合",
+    "production_order": 4,
+    "dependency": "先完成D3或直接按统一古城语言出图",
+    "reference_order": [
+      {
+        "ref": "新D3",
+        "usage": "建议：石雕与旧铜真实摄影材质参考，仅借材质，不借体型。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#D4",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C1",
+    "label": "C1",
+    "status": "待制作／按依赖验收",
+    "name": "中央石庭·真人中路建立全景",
+    "production_order": 5,
+    "dependency": "D组及塔体、基础材质确认后；R01仅锁拓扑。",
+    "reference_order": [
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C1",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C2",
+    "label": "C2",
+    "status": "待制作／按依赖验收",
+    "name": "中央石庭·真人低机位交锋侧景",
+    "production_order": 6,
+    "dependency": "C1通过后，锁定同一地面与侧景。",
+    "reference_order": [
+      {
+        "ref": "新C1",
+        "usage": "必须：同一地面、断墙、高草、光向。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C2",
+    "blocked": true
   },
   {
     "id": "MAP-B1",
     "label": "B1",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "status": "待制作／按依赖验收",
+    "name": "中路中央石庭·双河口战术俯视",
+    "production_order": 7,
+    "dependency": "C1/C2及双河口遗漏细节确认后，才生成区域55°高位图。",
+    "reference_order": [
+      {
+        "ref": "新C1",
+        "usage": "必须：中央石庭地面实景。"
+      },
+      {
+        "ref": "新C2",
+        "usage": "必须：同一地面的侧景。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "补齐双河口局部",
+        "usage": "如C1/C2未覆盖坡口及入口，须先补齐并验收。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B1",
+    "blocked": true
   },
   {
-    "id": "MAP-D1",
-    "label": "D1",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "id": "MAP-B2",
+    "label": "B2",
+    "status": "待制作／按依赖验收",
+    "name": "残城高廊上路·左上外缘直角弯",
+    "production_order": 8,
+    "dependency": "上路地面补齐卡G02通过后；继承真实护墙、内草和转角。",
+    "reference_order": [
+      {
+        "ref": "补齐G02",
+        "usage": "必须：上路真人地面转角及野口正式图。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：统一石材与自然光。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B2",
+    "blocked": true
   },
   {
-    "id": "MAP-B4",
-    "label": "B4",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
-  },
-  {
-    "id": "MAP-D2-D3",
-    "label": "D2/D3",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
-  },
-  {
-    "id": "MAP-B6",
-    "label": "B6",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
-  },
-  {
-    "id": "MAP-B8",
-    "label": "B8",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "id": "MAP-C10",
+    "label": "C10",
+    "status": "待制作／按依赖验收",
+    "name": "右下旧坊市·下路90°实体转角真人机位",
+    "production_order": 9,
+    "dependency": "先确认R04的L形几何，建立下路真人地面细节。",
+    "reference_order": [
+      {
+        "ref": "R04",
+        "usage": "必须：只锁L形道路及内外侧，不继承灰模材质。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：白石及光向。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C10",
+    "blocked": true
   },
   {
     "id": "MAP-B3",
     "label": "B3",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "status": "待制作／按依赖验收",
+    "name": "旧坊市下路·右下L形转角高位实景校验",
+    "production_order": 10,
+    "dependency": "C10通过且下路遗漏的草阵、野口、护墙均确认后。",
+    "reference_order": [
+      {
+        "ref": "新C10",
+        "usage": "必须：下路L形转角、内草、护墙和野口真实细节。"
+      },
+      {
+        "ref": "R04",
+        "usage": "只锁道路弯折结构。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B3",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C3",
+    "label": "C3",
+    "status": "待制作／按依赖验收",
+    "name": "云鲸池·真人坡口平视与云鲸",
+    "production_order": 11,
+    "dependency": "D1通过；先确认椭圆石床、双入口和云鲸实际尺度。",
+    "reference_order": [
+      {
+        "ref": "新D1",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：统一石材与天光。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C3",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C11",
+    "label": "C11",
+    "status": "待制作／按依赖验收",
+    "name": "下半云河·鲸池外侧真人河口机位",
+    "production_order": 12,
+    "dependency": "C3通过后，确认下半云河与鲸池外侧入口的衔接。",
+    "reference_order": [
+      {
+        "ref": "新C3",
+        "usage": "必须：同一椭圆池沿、柱脚与台阶。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：石材及光向。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C11",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C4",
+    "label": "C4",
+    "status": "待制作／按依赖验收",
+    "name": "云鲸池·真人高机位俯拍同一场地",
+    "production_order": 13,
+    "dependency": "C3/C11均通过且双入口已确认后，抬高到真人吊臂机位。",
+    "reference_order": [
+      {
+        "ref": "新C3",
+        "usage": "必须：同一池及云鲸姿态。"
+      },
+      {
+        "ref": "新C11",
+        "usage": "必须：外部河床和坡口衔接。"
+      },
+      {
+        "ref": "新D1",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C4",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B4",
+    "label": "B4",
+    "status": "待制作／按依赖验收",
+    "name": "下半云鲸池·有云鲸资源状态",
+    "production_order": 14,
+    "dependency": "C3/C11/C4及D1通过，先锁真实石床、双入口与云鲸。",
+    "reference_order": [
+      {
+        "ref": "新C3",
+        "usage": "必须：地面、鲸体及池沿。"
+      },
+      {
+        "ref": "新C11",
+        "usage": "必须：河床外侧入口。"
+      },
+      {
+        "ref": "新C4",
+        "usage": "必须：同池较高机位。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新D1",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B4",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B5",
+    "label": "B5",
+    "status": "待制作／按依赖验收",
+    "name": "下半云鲸池·未刷新空池状态",
+    "production_order": 15,
+    "dependency": "B4通过后，仅移除云鲸，机位和所有地貌不变。",
+    "reference_order": [
+      {
+        "ref": "新B4",
+        "usage": "必须：同一机位有云鲸状态。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B5",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C6",
+    "label": "C6",
+    "status": "待制作／按依赖验收",
+    "name": "上半云河·真人35mm向穹主的纵深镜头",
+    "production_order": 16,
+    "dependency": "C1/C2及上半河口边界确认后，先锁上半云河真人纵深。",
+    "reference_order": [
+      {
+        "ref": "新C1",
+        "usage": "必须：中路一侧的河口和石材。"
+      },
+      {
+        "ref": "新C2",
+        "usage": "补足坡脚及墙草关系。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C6",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C5",
+    "label": "C5",
+    "status": "待制作／按依赖验收",
+    "name": "上半穹主坑·真人影视高位全景",
+    "production_order": 17,
+    "dependency": "D2、C6及上半穹主坑地面补齐卡G03通过后，才抬高摄影机。",
+    "reference_order": [
+      {
+        "ref": "补齐G03",
+        "usage": "必须：圆坑地面、岩座、战斗环、三个入口实景。"
+      },
+      {
+        "ref": "新C6",
+        "usage": "必须：云河到坑入口的衔接。"
+      },
+      {
+        "ref": "新D2",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C5",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B6",
+    "label": "B6",
+    "status": "待制作／按依赖验收",
+    "name": "上半穹主坑·穹主刷新状态",
+    "production_order": 18,
+    "dependency": "C5/C6、G03及D2通过，才生成区域高位穹主状态。",
+    "reference_order": [
+      {
+        "ref": "新C5",
+        "usage": "必须：圆坑高位实景。"
+      },
+      {
+        "ref": "补齐G03",
+        "usage": "必须：已定的圆坑地面细节。"
+      },
+      {
+        "ref": "新C6",
+        "usage": "必须：上半云河入口。"
+      },
+      {
+        "ref": "新D2",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B6",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B7",
+    "label": "B7",
+    "status": "待制作／按依赖验收",
+    "name": "上半同一圆坑·石卫早期刷新",
+    "production_order": 19,
+    "dependency": "B6/D3通过后，同机位仅切换到石卫时态。",
+    "reference_order": [
+      {
+        "ref": "新B6",
+        "usage": "必须：同一圆坑地形、机位。"
+      },
+      {
+        "ref": "新D3",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B7",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B8",
+    "label": "B8",
+    "status": "待制作／按依赖验收",
+    "name": "上半云河口·高草与视野地形",
+    "production_order": 20,
+    "dependency": "C6/C1/C2及B1已通过；上半河口草墙细节已确认。",
+    "reference_order": [
+      {
+        "ref": "新C6",
+        "usage": "必须：河床、草墙、野口及走位。"
+      },
+      {
+        "ref": "新B1",
+        "usage": "必须：已校验的中路与双河口位置。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "补足真人尺度。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B8",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C7",
+    "label": "C7",
+    "status": "待制作／按依赖验收",
+    "name": "蓝方上半野区·真人青灯守营地",
+    "production_order": 21,
+    "dependency": "D4通过，R01核对蓝上野区方位，先做林苑地面。",
+    "reference_order": [
+      {
+        "ref": "新D4",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：同一石材、日光。"
+      },
+      {
+        "ref": "新C6",
+        "usage": "可选：与上半云河相接的材质及路线。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C7",
+    "blocked": true
   },
   {
     "id": "MAP-B9",
     "label": "B9",
-    "status": "待登记或生成",
-    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit"
+    "status": "待制作／按依赖验收",
+    "name": "蓝方上半野区·青灯守林苑",
+    "production_order": 22,
+    "dependency": "C7/D4通过且林苑三出口和相邻路径全部确认。",
+    "reference_order": [
+      {
+        "ref": "新C7",
+        "usage": "必须：营地地面、三出口、树根、草墙。"
+      },
+      {
+        "ref": "新D4",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B9",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C8",
+    "label": "C8",
+    "status": "待制作／按依赖验收",
+    "name": "红方基地·真人水晶台冲塔机位",
+    "production_order": 23,
+    "dependency": "塔体已确认；先做红方基地地面，三级台、晶体和三铜环定型。",
+    "reference_order": [
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "新C1",
+        "usage": "可选：同一材质与日光。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C8",
+    "blocked": true
+  },
+  {
+    "id": "MAP-C9",
+    "label": "C9",
+    "status": "待制作／按依赖验收",
+    "name": "蓝方基地·真人水晶台冲塔机位",
+    "production_order": 24,
+    "dependency": "C8确认同文明工艺后制作独立蓝方地面，不镜像。",
+    "reference_order": [
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "新C8",
+        "usage": "只锁三级台、三铜环工艺，不复制红方布局。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#C9",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B10",
+    "label": "B10",
+    "status": "待制作／按依赖验收",
+    "name": "蓝方基地·冰蓝矿晶三级核心台",
+    "production_order": 25,
+    "dependency": "C9通过；蓝方三个入口和基地台阶补齐后。",
+    "reference_order": [
+      {
+        "ref": "新C9",
+        "usage": "必须：蓝方实体台阶、晶体、铜环。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "补齐基地三路入口",
+        "usage": "必须：C9画外尚未确认的入口及守塔位置。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B10",
+    "blocked": true
+  },
+  {
+    "id": "MAP-B11",
+    "label": "B11",
+    "status": "待制作／按依赖验收",
+    "name": "红方基地·朱砂矿晶三级核心台",
+    "production_order": 26,
+    "dependency": "C8、B10通过；红方三个入口和基地台阶补齐后。",
+    "reference_order": [
+      {
+        "ref": "新C8",
+        "usage": "必须：红方实体台阶、晶体、铜环。"
+      },
+      {
+        "ref": "新B10",
+        "usage": "仅锁同文明工艺，不镜像。"
+      },
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "补齐基地三路入口",
+        "usage": "必须：红方画外尚未确认的入口及守塔位置。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#B11",
+    "blocked": true
+  },
+  {
+    "id": "MAP-A1",
+    "label": "A1",
+    "status": "待前置验收／禁止生成",
+    "name": "云垣全图·90°正俯视最终校验图",
+    "production_order": 27,
+    "dependency": "禁止提前制作：D1–D4、C1–C11、B1–B11全部通过；G01–G06及全地图覆盖检查完成，所有地形/塔位/营地/材质已冻结。",
+    "reference_order": [
+      {
+        "ref": "R01",
+        "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "补齐全图覆盖登记",
+        "usage": "必须：所有区域已验收的坐标、接口、十八塔及细节记录，非摄影母图。"
+      },
+      {
+        "ref": "新B1–B11",
+        "usage": "必须：全部已验收区域高位成图；B5、B7仅供状态一致性校验，画面时态用B4/B6。"
+      },
+      {
+        "ref": "新C1–C11",
+        "usage": "必须：对应区域地面与影视机位；包括补齐的地面细节图。"
+      },
+      {
+        "ref": "新D1/D2/D4",
+        "usage": "必须：已验收云鲸、穹主及野怪实际形体。"
+      },
+      {
+        "ref": "已确认G02/G03/G04/G05/G06",
+        "usage": "必须：此前未覆盖的上路、圆坑、其余三野区、全部路线接口与地形细节成图。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#A1",
+    "blocked": true
+  },
+  {
+    "id": "MAP-A2",
+    "label": "A2",
+    "status": "待前置验收／禁止生成",
+    "name": "云垣全图·35°高空斜俯视最终校验图",
+    "production_order": 28,
+    "dependency": "仅在A1最终验收通过，且全部局部资产仍一致后生成最终35°全图。",
+    "reference_order": [
+      {
+        "ref": "新A1",
+        "usage": "必须：最终全图正俯视，只校验统一坐标。"
+      },
+      {
+        "ref": "新B1–B11及新C1–C11",
+        "usage": "必须：各区域已确认的实际建筑高度、材质、道路、植被与地标；使用同一批局部成图。"
+      },
+      {
+        "ref": "已确认鸣霄磬",
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+      },
+      {
+        "ref": "新D1",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "新D2",
+        "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "补齐全图覆盖登记",
+        "usage": "必须：各地形高差、接口、十八塔和四野区已确认资料。"
+      }
+    ],
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#A2",
+    "blocked": true
+  },
+  {
+    "id": "MAP-R01",
+    "label": "R01",
+    "status": "候选参考／仅锁空间",
+    "path": "studio/yunyuan/参考图_可直接上传/01_V4.2非镜像古城_地图拓扑候选_仅锁空间.png",
+    "purpose": "仅锁地理拓扑与方位的草稿，须经接口核对；绝不是正式摄影母图。"
+  },
+  {
+    "id": "MAP-R02",
+    "label": "R02",
+    "status": "候选造型／G01待确认",
+    "path": "studio/yunyuan/参考图_可直接上传/02_鸣霄磬_候选B_完整设定板.png",
+    "purpose": "候选B尚未最终美术锁定；须经G01确认后才可作为正式塔体参考。"
+  },
+  {
+    "id": "MAP-R03",
+    "label": "R03",
+    "status": "候选造型／G01待确认",
+    "path": "studio/yunyuan/参考图_可直接上传/03_鸣霄磬_候选B_正面轮廓.png",
+    "purpose": "候选轮廓补图；经G01确认后用于悬链及折磬，不作为场景摄影参考。"
+  },
+  {
+    "id": "MAP-R04",
+    "label": "R04",
+    "status": "候选参考／仅锁空间",
+    "path": "studio/yunyuan/参考图_可直接上传/04_C10下路90度折角_空间灰模_仅锁L形结构.png",
+    "purpose": "C10与B3的直角道路形状结构参考，不是视觉风格，不能画成灰模。"
+  },
+  {
+    "id": "MAP-D2-D3",
+    "label": "D2/D3",
+    "status": "兼容索引；按新版D2/D3分别验收",
+    "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
+    "workbench_path": "studio/yunyuan/index.html#D2"
+  },
+  {
+    "id": "MAP-G01",
+    "label": "G01",
+    "name": "塔体与共用细节",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
+  },
+  {
+    "id": "MAP-G02",
+    "label": "G02",
+    "name": "上路地面转角",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
+  },
+  {
+    "id": "MAP-G03",
+    "label": "G03",
+    "name": "上半穹主坑地面",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
+  },
+  {
+    "id": "MAP-G04",
+    "label": "G04",
+    "name": "其余三片野区",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
+  },
+  {
+    "id": "MAP-G05",
+    "label": "G05",
+    "name": "十八塔与所有路线接口",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
+  },
+  {
+    "id": "MAP-G06",
+    "label": "G06",
+    "name": "全图覆盖与冻结",
+    "status": "待确认",
+    "workbench_path": "studio/yunyuan/index.html#gates",
+    "blocked": true
   }
 ]
