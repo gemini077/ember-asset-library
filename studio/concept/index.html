@@ -147,30 +147,50 @@ function showSceneProduction(a,no){
 }
 async function loadEpisode(id,page=state.page){const n=++seq;loadingEpisode=true;app.innerHTML='<div class="loading">读取 '+esc(id)+'…</div>';try{const data=await api("data/"+id+".json");if(n!==seq)return;ep=data;state.episode=id;state.page=page;state.q="";state.category="全部";state.assetMode="images";makeAssets();if(!conceptMapLink())render();window.scrollTo(0,0)}catch(e){if(n===seq)app.innerHTML='<div class="loading">无法读取项目数据：'+esc(e.message)+'</div>'}finally{if(n===seq)loadingEpisode=false}}
 $("brand").onclick=()=>goto("home");window.addEventListener("hashchange",()=>{if(ep)conceptMapLink()});
-(async()=>{try{[index,hw,thumbs,mapPlan]=await Promise.all([api("shared/production-state.json"),api("shared/hardware-references.json"),api("studio/thumbnails.json").catch(()=>({})),api("shared/yunyuan-production.json").catch(()=>null)]);const requested=new URLSearchParams(location.search).get("episode");await loadEpisode(index.episodes.some(x=>x.id===requested)?requested:"EP01","home");startAutoSync()}catch(e){app.innerHTML='<div class="loading">数据加载失败：'+esc(e.message)+'</div>'}})();
+(async()=>{try{[index,hw,thumbs,mapPlan]=await Promise.all([api("shared/production-state.json"),api("shared/hardware-references.json"),api("studio/thumbnails.json").catch(()=>({})),api("shared/yunyuan-production.json").catch(()=>null)]);const resume=takeSyncResume();const requested=resume?.state?.episode||new URLSearchParams(location.search).get("episode");await loadEpisode(index.episodes.some(x=>x.id===requested)?requested:"EP01","home");restoreSyncResume(resume);startAutoSync()}catch(e){app.innerHTML='<div class="loading">数据加载失败：'+esc(e.message)+'</div>'}})();
 
-/* Poll the published data only. Never reload the page or write source data. */
+/* One canonical workbench: poll deployed data and detect a new UI build. */
 let syncBusy=false,syncPending=false,syncEnabled=false;
-const syncInterval=15000;
-function syncLabel(t){const el=$("autoSync");if(el){el.textContent=t;el.title="每15秒检查已发布的云端数据；返回标签页时立即检查。编辑期间延后应用，不覆盖草稿。"}}
+const syncInterval=15000,syncResumeKey="ember.concept.sync.resume.v1";
+function syncLabel(t){const el=$("autoSync");if(el){el.textContent=t;el.title="每15秒检查已发布的数据与页面版本；返回标签页立即检查。GitHub Pages尚未发布的提交无法实时显示。编辑期间延后应用。"}}
 function syncEditing(){const a=document.activeElement;return !!(a&&(a.matches("input:not([type=button]):not([type=submit]),textarea,select,[contenteditable=true]")||a.isContentEditable))||!!window.getSelection()?.toString()}
-async function syncFetch(p){const u=new URL(p,root);u.searchParams.set("_sync",String(Date.now()));const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error(p+" "+r.status);return r.json()}
+async function syncFetch(p,asText=false){const u=new URL(p,root);u.searchParams.set("_sync",String(Date.now()));const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error(p+" "+r.status);return asText?r.text():r.json()}
 function syncEqual(a,b){return JSON.stringify(a)===JSON.stringify(b)}
-function startAutoSync(){if(syncEnabled)return;syncEnabled=true;syncLabel("自动同步");setInterval(()=>checkCloud(),syncInterval);document.addEventListener("visibilitychange",()=>{if(!document.hidden)checkCloud()});window.addEventListener("focus",()=>checkCloud());document.addEventListener("focusout",()=>{if(syncPending)setTimeout(()=>checkCloud(),100)})}
-
+function uiSignature(doc){return JSON.stringify([...doc.querySelectorAll("script,style,link[rel=stylesheet]")].map(n=>[n.tagName,n.getAttribute("src")||n.getAttribute("href")||"",n.textContent.replace(/\r\n/g,"\n").trim()]))}
+function takeSyncResume(){try{const raw=sessionStorage.getItem(syncResumeKey);sessionStorage.removeItem(syncResumeKey);const v=raw&&JSON.parse(raw);return v&&Date.now()-v.at<300000?v:null}catch{return null}}
+function restoreSyncResume(v){if(!v)return;for(const [k,d] of v.drafts||[])drafts.set(k,d);Object.assign(state,v.state);makeAssets();render();const dialog=$("viewer");if(dialog.open)dialog.close();restoreSyncDialog(v.dialog);window.scrollTo(0,v.y||0)}
+function snapshotSyncDialog(){const d=$("viewer");return {open:d.open,id:d.dataset.assetId,shot:d.dataset.shot||"00",offsets:Object.fromEntries([".asset-workspace",".viewer-media",".viewer-side",".sp-prompt"].map(k=>[k,d.querySelector(k)?.scrollTop||0]))}}
+function restoreSyncDialog(v){if(!v?.open)return;const d=$("viewer"),a=assets.find(x=>x.id===v.id);if(!a){if(d.open)d.close();return}if(a.mapGroup||a.mapChild||a.mapAlias)showMapProduction(a,v.shot);else if(a.tasks?.length)showSceneProduction(a,v.shot);else openViewer(v.id);if(!d.open)d.showModal();for(const [k,top] of Object.entries(v.offsets||{})){const el=d.querySelector(k);if(el)el.scrollTop=top}}
+function reloadSyncUI(){try{sessionStorage.setItem(syncResumeKey,JSON.stringify({at:Date.now(),state:{...state},drafts:[...drafts],dialog:snapshotSyncDialog(),y:window.scrollY}));const u=new URL(location.href);u.searchParams.set("_ui",String(Date.now()));location.replace(u.href);return true}catch(e){syncLabel("界面已更新 · 请保存草稿后刷新");return false}}
+function startAutoSync(){if(syncEnabled)return;syncEnabled=true;syncLabel("自动同步");setInterval(()=>checkCloud(),syncInterval);document.addEventListener("visibilitychange",()=>{if(!document.hidden)checkCloud()});window.addEventListener("focus",()=>checkCloud());document.addEventListener("focusout",()=>{if(syncPending)setTimeout(()=>checkCloud(),100)});document.addEventListener("selectionchange",()=>{if(syncPending&&!window.getSelection()?.toString())checkCloud()});checkCloud()}
 async function checkCloud(){
  if(syncBusy||document.hidden||!ep||!index||loadingEpisode)return;
  syncBusy=true;const n=seq,id=state.episode;
  try{
-  const [nextIndex,nextHW,nextThumbs,nextEP,nextMap]=await Promise.all([syncFetch("shared/production-state.json"),syncFetch("shared/hardware-references.json"),syncFetch("studio/thumbnails.json"),syncFetch("data/"+id+".json"),syncFetch("shared/yunyuan-production.json").catch(()=>mapPlan)]);
+  const paths=["shared/production-state.json","shared/hardware-references.json","studio/thumbnails.json","data/"+id+".json","shared/yunyuan-production.json"];
+  const old=[index,hw,thumbs,ep,mapPlan];
+  const results=await Promise.allSettled([syncFetch("studio/concept/index.html",true),...paths.map(p=>syncFetch(p))]);
   if(n!==seq||id!==state.episode||loadingEpisode)return;
-  if(syncEqual([index,hw,thumbs,ep,mapPlan],[nextIndex,nextHW,nextThumbs,nextEP,nextMap])){syncPending=false;syncLabel("自动同步");return}
+  if(results[0].status==="fulfilled"){
+   const remote=new DOMParser().parseFromString(results[0].value,"text/html");
+   if(remote.querySelector("#app")&&uiSignature(remote)!==uiSignature(document)){
+    if(syncEditing()){syncPending=true;syncLabel("新版界面待应用");return}
+    reloadSyncUI();return;
+   }
+  }else{syncLabel("页面版本检查失败 · 自动重试");return}
+  const next=results.slice(1).map((r,i)=>r.status==="fulfilled"?r.value:old[i]);
+  const failed=results.slice(1).some(r=>r.status==="rejected");
+  if(syncEqual(old,next)){syncPending=false;syncLabel(failed?"部分数据未同步 · 自动重试":"已核对 "+new Date().toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit",second:"2-digit"}));return}
   if(syncEditing()){syncPending=true;syncLabel("更新待应用");return}
-  const dialog=$("viewer"),wasOpen=dialog.open,assetId=dialog.dataset.assetId,shot=dialog.dataset.shot||"00",y=window.scrollY;
-  const offsets=Object.fromEntries([".asset-workspace",".viewer-media",".viewer-side",".sp-prompt"].map(k=>[k,dialog.querySelector(k)?.scrollTop||0]));
-  index=nextIndex;hw=nextHW;thumbs=nextThumbs;mapPlan=nextMap;ep=nextEP;makeAssets();render();
-  if(wasOpen){const a=assets.find(x=>x.id===assetId);if(a){if(a.mapGroup||a.mapChild||a.mapAlias)showMapProduction(a,shot);else if(a.tasks?.length)showSceneProduction(a,shot);else openViewer(assetId);for(const [k,v] of Object.entries(offsets)){const el=dialog.querySelector(k);if(el)el.scrollTop=v}}else dialog.close()}
-  window.scrollTo(0,y);syncPending=false;syncLabel("已同步 "+new Date().toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit",second:"2-digit"}));
- }catch(e){syncLabel("同步暂不可用 · 自动重试")}finally{syncBusy=false}
+  const dialog=snapshotSyncDialog(),y=window.scrollY;
+  try{
+   [index,hw,thumbs,ep,mapPlan]=next;makeAssets();render();restoreSyncDialog(dialog);window.scrollTo(0,y);
+  }catch(e){
+   [index,hw,thumbs,ep,mapPlan]=old;
+   try{makeAssets();render();restoreSyncDialog(dialog);window.scrollTo(0,y)}catch(restoreError){console.error(restoreError)}
+   throw e;
+  }
+  syncPending=false;syncLabel((failed?"部分已同步 ":"已同步 ")+new Date().toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit",second:"2-digit"}));
+ }catch(e){console.error("STUDIO sync",e);syncLabel("同步暂不可用 · 自动重试")}finally{syncBusy=false}
 }
 </script></body></html>
