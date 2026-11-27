@@ -3402,5 +3402,6 @@
     "status": "图片待生成及验收"
   },
   "single_image_output_per_character_card": true,
-  "asset_display_note": "人物设定板统一单张9:16四格；上排高清正脸/45°侧脸，下排正背全身且仅可见五官模糊。身份肖像、服装单品、场景及道具不变。"
+  "asset_display_note": "人物设定板统一单张9:16四格；上排高清正脸/45°侧脸，下排正背全身且仅可见五官模糊。身份肖像、服装单品、场景及道具不变。",
+  "hero_equipment_refs": []
 }

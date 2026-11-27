@@ -1906,7 +1906,8 @@
     },
     "prompt_rule": "【四格交付硬约束】只输出一张竖版9:16 PNG，1440×2560（2K级）。左右两列等宽，上排约占全高35%，下排约占65%，四格紧凑排列，细窄中性分隔线。左上为高清正面头肩近景；右上为高清四分之三侧脸头肩近景，转头约45°，不是90°纯侧脸。上排清楚呈现同一演员的五官、皮肤纹理、妆发、发际线及贴脸配饰，头顶与发饰完整，不磨皮、不模糊。左下为正面全身，右下为背面全身，头顶、鞋底与衣摆完整，等高、鞋底齐平、自然站姿，保持同一演员、同一套妆发、服装、鞋履、配饰与身材比例。下排只提供体态和服装信息：正面全身的面部五官区域主动做柔和局部高斯模糊，使眉眼鼻唇不可作为第二身份参考；脸部外轮廓、发际线、发型、耳饰、颈部与衣装保持清楚。背面全身保持真实后脑发型，若露出面部，仅模糊露出的五官。绝不模糊上排高清脸、头发、衣装、手脚或整张全身图。中性灰无缝棚底与同向柔光，真实材质，无文字、色卡、额外小格、水印或剧情场景；已有正式服装标志原样保留，不新增品牌。",
     "scope": "人物身份设定板、现实妆造、换装妆造及真人COS；独立身份肖像、服装单品、队服三视、场景、道具不变。",
-    "existing_policy": "原已通过的10张设定板原位转换完成，未改变脸、衣装或发型。保留原图侧脸角度，不为追求45°重生面容。新制资产统一四格，独立身份肖像及其他资产不变。"
+    "existing_policy": "原已通过的10张设定板原位转换完成，未改变脸、衣装或发型。保留原图侧脸角度，不为追求45°重生面容。新制资产统一四格，独立身份肖像及其他资产不变。",
+    "cos_equipment_policy": "【人物与武器分离】本张只展示演员本人及英雄衣装、妆发、固定穿戴饰件；双手空置自然下垂或微离身体。禁止手持、背挂、腰挂或悬浮任何独立武器、持物及动态技能效果。不为装备腾位置，不引入其他演员或武器参考图。固定在服装上的装甲、头冠、护腕、羽翼等既定穿戴结构保留；单独道具在其他资产任务制作，战斗镜头按需组合。"
   },
   "board_migration": {
     "P-009": {
@@ -2149,5 +2150,733 @@
         "profile": "保留原图侧脸角度；不强制改变为45°"
       }
     }
+  },
+  "hero_equipment": {
+    "HE-73942CAB2": {
+      "id": "HE-73942CAB2",
+      "hero": "绯",
+      "name": "绯｜红莲长刀",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "女剑客所持红莲长刀；刀柄、纹样未定。",
+      "prompt": "《天穹》第一季第2年，绯的红莲长刀，独立写实影视美术道具设定板。女剑客所持红莲长刀；刀柄、纹样未定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-001",
+        "C-016"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-4F39BB2B9": {
+      "id": "HE-4F39BB2B9",
+      "hero": "卡杜",
+      "name": "卡杜｜铜钥匙与铜锁",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "腰挂一大串铜钥匙和铜锁；与千鹤拘魂链不同。",
+      "prompt": "《天穹》第一季第2年，卡杜的铜钥匙与铜锁，独立写实影视美术道具设定板。腰挂一大串铜钥匙和铜锁；与千鹤拘魂链不同。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-002",
+        "C-025",
+        "C-043",
+        "C-054",
+        "C-059",
+        "C-061",
+        "C-074",
+        "C-078"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-5BAC0DFF6": {
+      "id": "HE-5BAC0DFF6",
+      "hero": "鸢",
+      "name": "鸢｜双弯刃短刀",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "双手各持一把弯刃短刀；红色鸟翼是穿戴造型件，仍保留。",
+      "prompt": "《天穹》第一季第2年，鸢的双弯刃短刀，独立写实影视美术道具设定板。双手各持一把弯刃短刀；红色鸟翼是穿戴造型件，仍保留。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-003",
+        "C-036",
+        "C-067",
+        "C-098"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-64ABBB529": {
+      "id": "HE-64ABBB529",
+      "hero": "乌尔格",
+      "name": "乌尔格｜双斧",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "双斧蛮族，双斧造型细节尚未锁定。",
+      "prompt": "《天穹》第一季第2年，乌尔格的双斧，独立写实影视美术道具设定板。双斧蛮族，双斧造型细节尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-004",
+        "C-034",
+        "C-040",
+        "C-053",
+        "C-056",
+        "C-101"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-D84C69730": {
+      "id": "HE-D84C69730",
+      "hero": "德拉克",
+      "name": "德拉克｜火枪",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "持火枪的游侠；仅影视外观道具，具体外形尚未锁定。",
+      "prompt": "《天穹》第一季第2年，德拉克的火枪，独立写实影视美术道具设定板。持火枪的游侠；仅影视外观道具，具体外形尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-005",
+        "C-011",
+        "C-027",
+        "C-041",
+        "C-050",
+        "C-055",
+        "C-079",
+        "C-102"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-43D70F54D": {
+      "id": "HE-43D70F54D",
+      "hero": "洛玛",
+      "name": "洛玛｜灯笼",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "提灯笼的老人；灯笼外形尚未锁定。",
+      "prompt": "《天穹》第一季第2年，洛玛的灯笼，独立写实影视美术道具设定板。提灯笼的老人；灯笼外形尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-007",
+        "C-044"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-38C15E7E8": {
+      "id": "HE-38C15E7E8",
+      "hero": "千鹤",
+      "name": "千鹤｜拘魂铁链与铜铃",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "细铁链，链端一枚铜铃；甩出时白光为特效。",
+      "prompt": "《天穹》第一季第2年，千鹤的拘魂铁链与铜铃，独立写实影视美术道具设定板。细铁链，链端一枚铜铃；甩出时白光为特效。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-008",
+        "C-068",
+        "C-092"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-89EEB9FE3": {
+      "id": "HE-89EEB9FE3",
+      "hero": "塞西莉亚",
+      "name": "塞西莉亚｜大盾",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "持大盾的修女；盾面形制尚未锁定。",
+      "prompt": "《天穹》第一季第2年，塞西莉亚的大盾，独立写实影视美术道具设定板。持大盾的修女；盾面形制尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-009",
+        "C-045",
+        "C-096"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-42A2DF29E": {
+      "id": "HE-42A2DF29E",
+      "hero": "阿斯特拉",
+      "name": "阿斯特拉｜星图长弓",
+      "type": "实体道具",
+      "status": "待确认第2年版次",
+      "design_brief": "白金长弓，高于角色肩部，弓臂刻星图，银色弓弦；第2年视觉改动时点待确认。",
+      "prompt": "《天穹》第一季第2年，阿斯特拉的星图长弓，独立写实影视美术道具设定板。白金长弓，高于角色肩部，弓臂刻星图，银色弓弦；第2年视觉改动时点待确认。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-010"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-5309D02FC": {
+      "id": "HE-5309D02FC",
+      "hero": "加尔文",
+      "name": "加尔文｜半扇城门盾",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "白石与青铜城门守将，以半扇城门为盾；盾独立，人物保留衣甲。",
+      "prompt": "《天穹》第一季第2年，加尔文的半扇城门盾，独立写实影视美术道具设定板。白石与青铜城门守将，以半扇城门为盾；盾独立，人物保留衣甲。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-013",
+        "C-084"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-CB8F4F9F2": {
+      "id": "HE-CB8F4F9F2",
+      "hero": "赛菈",
+      "name": "赛菈｜长枪",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "长枪比角色高一头，枪头造型、材质细节尚未锁定。",
+      "prompt": "《天穹》第一季第2年，赛菈的长枪，独立写实影视美术道具设定板。长枪比角色高一头，枪头造型、材质细节尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-015",
+        "C-085"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-0080B939C": {
+      "id": "HE-0080B939C",
+      "hero": "莉莉安",
+      "name": "莉莉安｜蝶群",
+      "type": "技能特效",
+      "status": "视频阶段制作",
+      "design_brief": "蝶群范围致盲；衣装蛾翼纹样保留，动态发光蝶群单独处理。",
+      "prompt": "《天穹》第一季第2年，莉莉安的蝶群，独立技能视觉参考。蝶群范围致盲；衣装蛾翼纹样保留，动态发光蝶群单独处理。。只呈现效果形态、颜色、透明度与运动阶段，不出现演员脸、身体或服装；不虚构实体兵器。实际运动与接触按镜头制作。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-017"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立技能视觉参考",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-76302B77E": {
+      "id": "HE-76302B77E",
+      "hero": "绮罗",
+      "name": "绮罗｜白光琴弦",
+      "type": "技能特效",
+      "status": "视频阶段制作",
+      "design_brief": "第2年极细白光琴弦，随十指出手、缠绕手腕或脚踝；第9年才改暗金。温以宁定稿明确在视频阶段生成，不新增实体琴或法杖。",
+      "prompt": "《天穹》第一季第2年，绮罗的白光琴弦，独立技能视觉参考。第2年极细白光琴弦，随十指出手、缠绕手腕或脚踝；第9年才改暗金。温以宁定稿明确在视频阶段生成，不新增实体琴或法杖。。只呈现效果形态、颜色、透明度与运动阶段，不出现演员脸、身体或服装；不虚构实体兵器。实际运动与接触按镜头制作。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-018",
+        "C-093"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立技能视觉参考",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-BB098023B": {
+      "id": "HE-BB098023B",
+      "hero": "薇欧",
+      "name": "薇欧｜铜柄双短刺",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "腰后两柄铜柄短刺独立；服装前臂黄铜丝保留，紫电另外在视频阶段生成。",
+      "prompt": "《天穹》第一季第2年，薇欧的铜柄双短刺，独立写实影视美术道具设定板。腰后两柄铜柄短刺独立；服装前臂黄铜丝保留，紫电另外在视频阶段生成。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-019"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-985E70AAF": {
+      "id": "HE-985E70AAF",
+      "hero": "伊格尼",
+      "name": "伊格尼｜蓄火、袍角火与火星",
+      "type": "技能特效",
+      "status": "视频阶段制作",
+      "design_brief": "已定稿为掌心蓄火、袍角火与火星消散，视频阶段生成；没有已确认实体持武器。",
+      "prompt": "《天穹》第一季第2年，伊格尼的蓄火、袍角火与火星，独立技能视觉参考。已定稿为掌心蓄火、袍角火与火星消散，视频阶段生成；没有已确认实体持武器。。只呈现效果形态、颜色、透明度与运动阶段，不出现演员脸、身体或服装；不虚构实体兵器。实际运动与接触按镜头制作。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-020",
+        "C-037",
+        "C-049",
+        "C-057",
+        "C-069"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立技能视觉参考",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-A05BFBD2A": {
+      "id": "HE-A05BFBD2A",
+      "hero": "伊瑟琳",
+      "name": "伊瑟琳｜落下的冰棱",
+      "type": "技能特效",
+      "status": "视频阶段制作",
+      "design_brief": "一圈冰棱落下定住敌人；冰晶王冠、冰纹斗篷及冰棱流苏为造型件。",
+      "prompt": "《天穹》第一季第2年，伊瑟琳的落下的冰棱，独立技能视觉参考。一圈冰棱落下定住敌人；冰晶王冠、冰纹斗篷及冰棱流苏为造型件。。只呈现效果形态、颜色、透明度与运动阶段，不出现演员脸、身体或服装；不虚构实体兵器。实际运动与接触按镜头制作。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-021",
+        "C-100"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立技能视觉参考",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-82CC4F889": {
+      "id": "HE-82CC4F889",
+      "hero": "薇诺",
+      "name": "薇诺｜药锄与竹篮",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "长柄药锄与竹篮；紫色毒藤是另行制作的技能效果。",
+      "prompt": "《天穹》第一季第2年，薇诺的药锄与竹篮，独立写实影视美术道具设定板。长柄药锄与竹篮；紫色毒藤是另行制作的技能效果。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-023",
+        "C-091"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-068B31D24": {
+      "id": "HE-068B31D24",
+      "hero": "涅瑞",
+      "name": "涅瑞｜海螺",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "持海螺；具体纹理、色彩尚未锁定。",
+      "prompt": "《天穹》第一季第2年，涅瑞的海螺，独立写实影视美术道具设定板。持海螺；具体纹理、色彩尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-026"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-E76256EAE": {
+      "id": "HE-E76256EAE",
+      "hero": "小满",
+      "name": "小满｜连弩",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "背连弩的少年；外观细节尚未锁定。",
+      "prompt": "《天穹》第一季第2年，小满的连弩，独立写实影视美术道具设定板。背连弩的少年；外观细节尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-029",
+        "C-042",
+        "C-065",
+        "C-073",
+        "C-095"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-0A23F4CF2": {
+      "id": "HE-0A23F4CF2",
+      "hero": "岚",
+      "name": "岚｜双月牙风刃",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "双手各扣一枚月牙风刃，竹柄，薄铜色刃口；风效另做。",
+      "prompt": "《天穹》第一季第2年，岚的双月牙风刃，独立写实影视美术道具设定板。双手各扣一枚月牙风刃，竹柄，薄铜色刃口；风效另做。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-030"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-2AE68AC82": {
+      "id": "HE-2AE68AC82",
+      "hero": "巴托",
+      "name": "巴托｜半截长枪",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "独眼老兵握半截长枪；断端、枪头细节尚未锁定。",
+      "prompt": "《天穹》第一季第2年，巴托的半截长枪，独立写实影视美术道具设定板。独眼老兵握半截长枪；断端、枪头细节尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-032",
+        "C-038",
+        "C-052",
+        "C-064",
+        "C-066",
+        "C-082",
+        "C-094"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-B4E84122D": {
+      "id": "HE-B4E84122D",
+      "hero": "奥瑞安",
+      "name": "奥瑞安｜白金长剑",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "白金色长剑；第2年背后完整金色圆光轮为穿戴环架，不改成第4年王冠形。剑光另做。",
+      "prompt": "《天穹》第一季第2年，奥瑞安的白金长剑，独立写实影视美术道具设定板。白金色长剑；第2年背后完整金色圆光轮为穿戴环架，不改成第4年王冠形。剑光另做。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-046",
+        "C-086"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-F403B935B": {
+      "id": "HE-F403B935B",
+      "hero": "皮耶罗",
+      "name": "皮耶罗｜提线木偶",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "身后跟着木偶；木偶及提线独立，不进入人物四格。",
+      "prompt": "《天穹》第一季第2年，皮耶罗的提线木偶，独立写实影视美术道具设定板。身后跟着木偶；木偶及提线独立，不进入人物四格。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-047"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-448BB4666": {
+      "id": "HE-448BB4666",
+      "hero": "宗次郎",
+      "name": "宗次郎｜带鞘长刀",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "带鞘长刀，原定角色持刀时刀长到胸口；鬼面、黑红武士服保留在人物造型。",
+      "prompt": "《天穹》第一季第2年，宗次郎的带鞘长刀，独立写实影视美术道具设定板。带鞘长刀，原定角色持刀时刀长到胸口；鬼面、黑红武士服保留在人物造型。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-072"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-2BDE78C9A": {
+      "id": "HE-2BDE78C9A",
+      "hero": "阿烈",
+      "name": "阿烈｜红铜双短刀",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "两柄红铜短刀，刀身刻细火纹；刀光火焰为后期。",
+      "prompt": "《天穹》第一季第2年，阿烈的红铜双短刀，独立写实影视美术道具设定板。两柄红铜短刀，刀身刻细火纹；刀光火焰为后期。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-075"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-B4C4A941C": {
+      "id": "HE-B4C4A941C",
+      "hero": "赛斯克",
+      "name": "赛斯克｜双匕",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "黑衣双匕，具体形制未锁定。",
+      "prompt": "《天穹》第一季第2年，赛斯克的双匕，独立写实影视美术道具设定板。黑衣双匕，具体形制未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-080"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-5A7E488A1": {
+      "id": "HE-5A7E488A1",
+      "hero": "斯琵拉",
+      "name": "斯琵拉｜铁蒺藜",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "落地撒铁蒺藜；木翼滑翔装置作为穿戴件单独核实，不凭摘要定型。",
+      "prompt": "《天穹》第一季第2年，斯琵拉的铁蒺藜，独立写实影视美术道具设定板。落地撒铁蒺藜；木翼滑翔装置作为穿戴件单独核实，不凭摘要定型。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-081"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-93F75459D": {
+      "id": "HE-93F75459D",
+      "hero": "墨弈",
+      "name": "墨弈｜黑白棋子",
+      "type": "独立道具",
+      "status": "待设计及制作",
+      "design_brief": "执黑白棋子；棋子尺度、材质尚未锁定。",
+      "prompt": "《天穹》第一季第2年，墨弈的黑白棋子，独立写实影视美术道具设定板。执黑白棋子；棋子尺度、材质尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-087"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-1248D6EED": {
+      "id": "HE-1248D6EED",
+      "hero": "黎茵",
+      "name": "黎茵｜晨光法杖",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "持晨光法杖的女祭司；法杖细节尚未锁定。",
+      "prompt": "《天穹》第一季第2年，黎茵的晨光法杖，独立写实影视美术道具设定板。持晨光法杖的女祭司；法杖细节尚未锁定。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-089"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    },
+    "HE-8A74AE2A2": {
+      "id": "HE-8A74AE2A2",
+      "hero": "维斯顿",
+      "name": "维斯顿｜折叠三脚弩台",
+      "type": "实体道具",
+      "status": "待设计及制作",
+      "design_brief": "背折叠三脚弩台，黄铜目镜属于妆造；弩台细节待核实。",
+      "prompt": "《天穹》第一季第2年，维斯顿的折叠三脚弩台，独立写实影视美术道具设定板。背折叠三脚弩台，黄铜目镜属于妆造；弩台细节待核实。。单张横版2560×1440，中性灰无缝背景，完整主视与侧面结构、材质局部，所有角度保持同一造型和比例。画面仅有该道具，无人物、手、衣装、技能粒子、游戏UI、水印。未确定的细节须先设计确认，本提示词仅作为设计任务，不视为已确认造型。",
+      "reference_uploads": [],
+      "design_source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+      "source_cos_ids": [
+        "C-090"
+      ],
+      "version": "S1-Y2",
+      "output_spec": {
+        "kind": "独立道具设定板",
+        "preferred_resolution": "2560×1440",
+        "aspect_ratio": "16:9",
+        "file_count": 1
+      },
+      "review_note": "独立于演员身份及COS衣装；同英雄同版本共享，未确认外形不得标为已通过。"
+    }
+  },
+  "hero_equipment_policy": {
+    "source": "https://docs.google.com/document/d/1zcWbc8dLAyrucWTHW3yeqyaW3Fu0ObYMh4tF2m7Q88E/edit",
+    "rule": "【人物与武器分离】本张只展示演员本人及英雄衣装、妆发、固定穿戴饰件；双手空置自然下垂或微离身体。禁止手持、背挂、腰挂或悬浮任何独立武器、持物及动态技能效果。不为装备腾位置，不引入其他演员或武器参考图。固定在服装上的装甲、头冠、护腕、羽翼等既定穿戴结构保留；单独道具在其他资产任务制作，战斗镜头按需组合。",
+    "hero_count": 39,
+    "registered_hero_count": 30,
+    "unresolved_heroes": [
+      "塔卡",
+      "夜修",
+      "巴鲁",
+      "格朗",
+      "格里姆",
+      "欧比斯",
+      "玄霆",
+      "闻蝉",
+      "阿鸾"
+    ],
+    "note": "旧版分集关联仅用于生产资产索引，待新版剧本复核；不改BP、剧情和已通过成图。"
   }
 }
