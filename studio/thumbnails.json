@@ -214,5 +214,9 @@
   "assets/props/HW-ZG-keyboard-ANSI-layout-reference.png": {
     "filename": "d0a76f2711bf6bb461572a1c6d682f14637f528c.webp",
     "source_sha": "d0a76f2711bf6bb461572a1c6d682f14637f528c"
+  },
+  "assets/scenes/ZG-training-room-07.png": {
+    "filename": "69226a78cc4e53feadcd0df060817f27f3d92771.webp",
+    "source_sha": "69226a78cc4e53feadcd0df060817f27f3d92771"
   }
 }

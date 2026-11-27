@@ -253,7 +253,7 @@
       "scene_ids": [
         "13-2B"
       ],
-      "status": "新版母图、01–06、09 已通过；07–08 待制作",
+      "status": "新版母图、01–07、09 已通过；08 待制作",
       "hardware_references": [
         {
           "id": "HW-ZG-PC-01",
@@ -364,12 +364,20 @@
           "height": 1440,
           "status": "已通过",
           "drive_filename": "06 第三席反打.png"
+        },
+        "07 第三席外设近景": {
+          "title": "07 第三席外设近景",
+          "path": "assets/scenes/ZG-training-room-07.png",
+          "url": "https://drive.google.com/file/d/1zGjuHWhk29KlT78-2sMKetyKCmhUfrlx/view",
+          "width": 2560,
+          "height": 1440,
+          "status": "已通过",
+          "drive_filename": "07 第三席外设近景.png"
         }
       },
       "shot_rebuild": {
-        "status": "01–06、09已通过；07–08待制作",
+        "status": "01–07、09已通过；08待制作",
         "required_shots": [
-          "07",
           "08"
         ],
         "approved_shots": [
@@ -379,12 +387,12 @@
           "04",
           "05",
           "06",
+          "07",
           "09"
         ],
-        "old_images_role": "01–06、09均为已通过成图；旧05仅保留于历史版本。",
+        "old_images_role": "01–07、09均为已通过成图；旧05仅保留于历史版本。",
         "monitor_reference_role": "新版母图与04锁定空间和设备位置；新版05为已通过的第三席黑屏贴屏底图。",
         "production_order": [
-          "07",
           "08"
         ]
       },
@@ -2968,61 +2976,23 @@
             "no": "07",
             "name": "第三席外设近景",
             "camera": "摄影机从第三席座椅右扶手前上方朝键鼠操作区斜向下拍，约50mm、35–45度俯角。键盘在左，鼠标在右，共用宽幅鼠标垫；显示器底座在上方，耳机按原摆位自然裁切。以09锁定设备布局，不改变工位。",
-            "approved": false,
-            "hasOriginal": false,
-            "status": "待局部修复",
-            "prompt": "【任务类型】局部修复，不重新生成整张场景。将待修复的ZG一队训练室第三席外设近景放在编辑画布中作为底图（木纹桌面、光年显示器及红圈立柱、右侧无标识黑耳机、黑色宽幅鼠标垫、右下角电竞椅局部）。底图不是下列编号参考图。只处理键盘区域，其余画面保持原样。\n\n【参考图】图1为09垂直俯视校验，核对第三席键鼠摆位；图2为04窗侧五席，核对桌面及外设外观；图3为05显示器近景，核对光年显示器细节；图4为真实全尺寸ANSI英文键盘官方俯视照片，作为键位和键帽字符的唯一依据。图4不得引入新的厂商品牌、线缆或灯光。\n\n【修复方式】优先使用真实键盘图的透视变形、局部蒙版及贴图合成，而非再次依靠生成模型绘制文字。依据底图中键盘四边、功能键组、主键区及数字区的透视消失关系，将图4准确配准至键盘区域；保留底图原键盘的外壳边缘、厚度、接触阴影及黑色材质。若使用画布局部重绘，严格将蒙版限制于键盘，确保未蒙版区域不变。禁止重绘显示器、耳机、鼠标、鼠标垫、桌面和座椅，不改变镜头、焦距、位置、光线或画幅。\n\n【验收】键帽须与图4逐键对应。重点检查F1至F12连续且各一次；Q W E R T Y U I O P、A S D F G H J K L、Z X C V B N M三排英文主键区的实际排列正确，尤其QWER操作键不得错位或重复；数字行1至0正确，导航键、倒T方向键和数字小键盘位置正确。图4的品牌标记和线缆不得复制。不得以乱码、重复字母或刻意模糊核心操作键替代修复。若局部生成仍不能正确表现键位，停止生成，改为人工透视贴图或真实产品照片合成。输出与底图相同构图的16:9写实场景图，最终归档尺寸2560×1440。",
+            "approved": true,
+            "hasOriginal": true,
+            "status": "已通过",
+            "prompt": "已通过，无需重新制作。",
             "reference_uploads": [
               {
-                "title": "09 垂直俯视校验",
-                "path": "assets/scenes/ZG-training-room-09.png",
-                "url": "https://drive.google.com/file/d/1eK6Lc7696Ig8hbntdSOZBhZk8YLjm8IX/view",
+                "title": "07 第三席外设近景",
+                "path": "assets/scenes/ZG-training-room-07.png",
+                "url": "https://drive.google.com/file/d/1zGjuHWhk29KlT78-2sMKetyKCmhUfrlx/view",
                 "width": 2560,
                 "height": 1440,
                 "status": "已通过",
-                "drive_filename": "09 垂直俯视校验.png",
-                "name": "09 垂直俯视校验｜第三席外设布局",
+                "drive_filename": "07 第三席外设近景.png",
+                "name": "07 第三席外设近景｜修复后成图",
                 "required": true,
                 "availability": "已通过",
-                "purpose": "锁定第三席键鼠、共用宽幅鼠标垫、显示器底座及耳机支架的实际位置与朝向，不复制俯视机位。"
-              },
-              {
-                "title": "04 窗侧五席",
-                "path": "assets/scenes/ZG-training-room-04.png",
-                "url": "https://drive.google.com/file/d/1DYUQBdxBZLRkVRBFpG9aUmX47R8wrGAw/view",
-                "width": 2560,
-                "height": 1440,
-                "status": "已通过",
-                "drive_filename": "04 窗侧五席.png",
-                "name": "04 窗侧五席｜外设及材质",
-                "required": true,
-                "availability": "已通过",
-                "purpose": "锁定第三席真实桌面、键鼠、耳机外观及自然光，不复制全景构图。"
-              },
-              {
-                "title": "05 第三席屏幕近景",
-                "path": "assets/scenes/ZG-training-room-05.png",
-                "url": "https://drive.google.com/file/d/1ormn5k46q27bUgn_oZFvBol7AB-heNiV/view",
-                "width": 2560,
-                "height": 1440,
-                "status": "已通过",
-                "drive_filename": "05 第三席屏幕近景.png",
-                "name": "05 第三席屏幕近景｜显示器与桌面细节",
-                "required": true,
-                "availability": "已通过",
-                "purpose": "锁定显示器下边框、光年标识、立柱红圈理线孔、底座、木纹及墙板细节，不复制屏幕特写构图。"
-              },
-              {
-                "name": "真实全尺寸ANSI键盘｜键位校验",
-                "title": "真实全尺寸ANSI键盘｜键位校验",
-                "path": "assets/props/HW-ZG-keyboard-ANSI-layout-reference.png",
-                "url": "https://gemini077.github.io/ember-asset-library/assets/props/HW-ZG-keyboard-ANSI-layout-reference.png",
-                "source_url": "https://resource.logitechg.com/w_2560/content/dam/gaming/en/products/g413-se/g413-se-gallery-4-new.png",
-                "width": 2394,
-                "height": 839,
-                "required": true,
-                "availability": "官方产品参考 · 非正式资产",
-                "purpose": "只锁定真实英文键位、功能区间隔、键帽文字与符号，不复制罗技品牌、外壳造型、线缆或灯光，不改变第三席已定摆位。"
+                "purpose": "第三席外设摆位、键盘字符与近景构图的当前正式依据。"
               }
             ],
             "blocked": false,
@@ -3718,7 +3688,7 @@
             }
           }
         ],
-        "status": "新版母图、01–06、09 已通过；07–08 待制作",
+        "status": "新版母图、01–07、09 已通过；08 待制作",
         "blocked": false,
         "source": "https://docs.google.com/document/d/117A9jkfN4enV54X1ClmuFIQttiC6C0sxzc3ANUIOe1g/edit",
         "candidate_images": [
@@ -3837,12 +3807,20 @@
             "height": 1440,
             "status": "已通过",
             "drive_filename": "06 第三席反打.png"
+          },
+          "07 第三席外设近景": {
+            "title": "07 第三席外设近景",
+            "path": "assets/scenes/ZG-training-room-07.png",
+            "url": "https://drive.google.com/file/d/1zGjuHWhk29KlT78-2sMKetyKCmhUfrlx/view",
+            "width": 2560,
+            "height": 1440,
+            "status": "已通过",
+            "drive_filename": "07 第三席外设近景.png"
           }
         },
         "shot_rebuild": {
-          "status": "01–06、09已通过；07–08待制作",
+          "status": "01–07、09已通过；08待制作",
           "required_shots": [
-            "07",
             "08"
           ],
           "approved_shots": [
@@ -3852,12 +3830,12 @@
             "04",
             "05",
             "06",
+            "07",
             "09"
           ],
-          "old_images_role": "01–06、09均为已通过成图；旧05仅保留于历史版本。",
+          "old_images_role": "01–07、09均为已通过成图；旧05仅保留于历史版本。",
           "monitor_reference_role": "新版母图与04锁定空间和设备位置；新版05为已通过的第三席黑屏贴屏底图。",
           "production_order": [
-            "07",
             "08"
           ]
         },
