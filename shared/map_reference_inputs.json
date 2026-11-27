@@ -2,7 +2,7 @@
   {
     "id": "MAP-D1",
     "label": "D1",
-    "status": "待局部修正",
+    "status": "造型通过／待真人同框校验",
     "name": "云鲸·同一角色正侧正俯三视",
     "production_order": 1,
     "dependency": "独立单体制作，不依赖任何地图成图。",
@@ -15,7 +15,7 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D1",
     "blocked": false,
-    "review_note": "当前候选鲸身约7.5个成人剪影高度，未达到3–3.5倍目标。纯云体方向保留；设定板改用并肩成人体模与云鲸作为首要比例锚点，左侧正侧视、右侧上下排列正俯及正面。未通过，待比例校验。"
+    "review_note": "本轮候选纯积云造型通过，侧视鲸长约4.2个成人体模高度，正俯视展示比例偏小。保留造型，不再为比例标尺反复重生三视图；最终3–3.5成人高度目标须以正常成人英雄同地面同透视、低位近战可及的独立同框测试核定。源图1672×941，待完成尺度校验后再2K归档；不计入正式成图。"
   },
   {
     "id": "MAP-D2",
