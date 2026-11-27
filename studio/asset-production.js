@@ -44,15 +44,25 @@ function studioAuxiliaryPanel(record,assets,escape,href,preview){
 /* Canonical map asset adapter for the existing STUDIO asset library. */
 function studioMapApproved(a){return a?.approved===true&&a?.hasOriginal===true&&!!a.output_image?.path;}
 function studioMapGate(g){return g?.approved===true&&Array.isArray(g.evidence_assets)&&g.evidence_assets.length>0;}
+function studioMapEvidenceTask(m,id){return [...m.prerequisite_gates.flatMap(g=>g.production_tasks||[]),...m.assets.flatMap(a=>a.verification_tasks||[])].find(t=>t.id===id);}
+function studioMapReady(m,id){const a=m.assets.find(x=>x.id===id);if(a)return studioMapApproved(a);const g=m.prerequisite_gates.find(x=>x.id===id);if(g)return studioMapGate(g);const t=studioMapEvidenceTask(m,id);return !!(t?.approved&&t.output_image?.path);}
 function studioMapBlocked(a,m){
  if(studioMapApproved(a))return false;
  if(a.group==="A"&&(!m.assets.filter(x=>x.group!=="A").every(studioMapApproved)||!m.prerequisite_gates.every(studioMapGate)||(a.id==="A2"&&!studioMapApproved(m.assets.find(x=>x.id==="A1")))))return true;
+ if(Array.isArray(a.release_requires)){
+  if(!a.release_requires.every(id=>studioMapReady(m,id)))return true;
+  const check=m.prerequisite_gates.find(g=>g.id==="G05")?.regional_checks?.find(x=>x.id===a.id);
+  if(check&&!(check.approved&&check.evidence_assets?.length))return true;
+  return false;
+ }
  return a.blocked!==false;
 }
 function studioMapRefs(a,m){
  const out=[];
  for(const r of a.reference_order||[]){
   const k=r.ref;if(k==="无")continue;
+  if(r.evidence_task){const e=studioMapEvidenceTask(m,r.evidence_task),check=m.prerequisite_gates.find(g=>g.id==="G05")?.regional_checks?.find(x=>x.id===a.id);if(r.conditional_evidence&&!e?.approved&&check?.approved&&check.evidence_assets?.length){for(const ev of check.evidence_assets){const b=typeof ev==="string"?m.assets.find(x=>x.id===ev):null;out.push({name:b?b.id+"｜"+b.name:ev.name||ev.title||"接口校验证据",purpose:r.usage,path:b?.output_image?.path||ev.path,url:b?.output_image?.url||ev.url,availability:"接口已核验"});}continue;}out.push({name:e?e.id+"｜"+e.name:k,purpose:r.usage,path:e?.approved?e.output_image?.path:"",url:e?.approved?e.output_image?.url:"",availability:e?.approved?"已通过":r.conditional_evidence?"按区域接口检查决定是否补图":"待前置验收"});continue;}
+
   const x=m.references[k],match=k.match(/^新?([ABCD]\d+)$/),v=match&&m.assets.find(y=>y.id===match[1]),gate=k==="已确认鸣霄磬"?"G01":k.match(/^补齐(G\d+)$/)?.[1],g=gate&&m.prerequisite_gates.find(y=>y.id===gate);
   if(x){out.push({name:k,purpose:r.usage,path:x.path,availability:x.status});continue;}
   if(v){out.push({name:v.id+"｜"+v.name,purpose:r.usage,path:studioMapApproved(v)?v.output_image.path:"",url:studioMapApproved(v)?v.output_image.url:"",availability:studioMapApproved(v)?"已通过":"待前置验收",asset_id:"MAP-"+v.id});continue;}
@@ -65,7 +75,7 @@ function studioMapEntries(m){
  if(!m?.assets?.length)return [];
  const by=new Map(m.assets.map(a=>[a.id,a]));
  const ordered=m.execution_order.map(id=>by.get(id)).filter(Boolean);
- const tasks=ordered.map(a=>({no:a.id,name:a.name,kind:"地图资产",path:studioMapApproved(a)?a.output_image.path:"",source:studioMapApproved(a)?a.output_image.url:"",status:a.status,prompt:a.prompt,refs:studioMapRefs(a,m),blocked:studioMapBlocked(a,m),approved:studioMapApproved(a),raw:a,mapCode:a.id}));
+ const tasks=ordered.map(a=>({no:a.id,name:a.name,kind:"地图资产",path:studioMapApproved(a)?a.output_image.path:"",source:studioMapApproved(a)?a.output_image.url:"",status:studioMapApproved(a)?a.status:studioMapBlocked(a,m)?a.status:/待制作|前置|禁止生成/.test(a.status)?"待制作":a.status,prompt:a.prompt,refs:studioMapRefs(a,m),blocked:studioMapBlocked(a,m),approved:studioMapApproved(a),raw:a,mapCode:a.id}));
  const gates=m.prerequisite_gates.map(g=>({no:g.id,name:g.name,kind:"验收门槛",status:studioMapGate(g)?"已验收":"待确认",path:"",source:"",prompt:"",blocked:!studioMapGate(g),approved:studioMapGate(g),raw:g,mapCode:g.id,refs:[...(g.id==="G01"?["R02","R03"]:g.id==="G02"?["R01"]:[]).map(k=>({name:k,purpose:m.references[k].meaning,path:m.references[k].path,availability:m.references[k].status})),...(g.evidence_assets||[]).map(e=>typeof e==="string"?{name:e,availability:"已登记"}:{name:e.title||e.name||"验收证据",path:e.path,url:e.url,purpose:e.purpose,availability:e.status||"已登记"})]}));
  const done=tasks.filter(t=>t.approved).length;
  const parent={id:"MAP-YUNYUAN",title:"天穹 · 云垣｜地图资产组",kind:"地图资产",status:done+"/"+tasks.length+" 项已通过 · "+gates.filter(g=>g.approved).length+"/6 门槛验收",path:tasks.find(t=>t.approved)?.path||"",source:"",prompt:"",refs:[],mapGroup:true,tasks:[...tasks,...gates],searchText:tasks.map(t=>t.no+" "+t.name).join(" "),raw:{map_group:true}};

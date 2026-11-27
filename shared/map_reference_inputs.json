@@ -59,7 +59,7 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D2",
     "blocked": false,
-    "review_note": "旧六人高尺度作废；保留石雕造型方向，按4.5–5.2米重新校准标尺并做真人同框验证。"
+    "review_note": "重写独立定妆提示词：以正常成人体模为比例锚，岩座至冠顶4.5–5.2米，觉醒正面与侧面同一姿态。"
   },
   {
     "id": "MAP-D3",
@@ -101,7 +101,7 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D4",
     "blocked": false,
-    "review_note": "待修：青灯守整体高度约成人七成，目标半高；赤岩犀角需短厚圆钝。"
+    "review_note": "重写五类同尺度设定：青灯守半人高，赤岩犀短厚钝角，五石雀三灰狐；不混入其他大资源。"
   },
   {
     "id": "MAP-C1",
@@ -117,7 +117,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -143,7 +144,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -173,11 +175,14 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
         "ref": "补齐双河口局部",
-        "usage": "如C1/C2未覆盖坡口及入口，须先补齐并验收。"
+        "usage": "如C1/C2未覆盖坡口及入口，须先补齐并验收。",
+        "evidence_task": "G05-01",
+        "conditional_evidence": true
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -194,7 +199,8 @@
     "reference_order": [
       {
         "ref": "补齐G02",
-        "usage": "必须：上路真人地面转角及野口正式图。"
+        "usage": "必须：上路真人地面转角及野口正式图。",
+        "evidence_task": "G02-01"
       },
       {
         "ref": "R01",
@@ -206,7 +212,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -235,7 +242,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -264,7 +272,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -431,7 +440,8 @@
     "reference_order": [
       {
         "ref": "补齐G03",
-        "usage": "必须：圆坑地面、岩座、战斗环、三个入口实景。"
+        "usage": "必须：圆坑地面、岩座、战斗环、三个入口实景。",
+        "evidence_task": "G03-01"
       },
       {
         "ref": "新C6",
@@ -460,7 +470,8 @@
       },
       {
         "ref": "补齐G03",
-        "usage": "必须：已定的圆坑地面细节。"
+        "usage": "必须：已定的圆坑地面细节。",
+        "evidence_task": "G03-01"
       },
       {
         "ref": "新C6",
@@ -597,7 +608,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
         "ref": "新C1",
@@ -626,7 +638,8 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -651,11 +664,14 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
         "ref": "补齐基地三路入口",
-        "usage": "必须：C9画外尚未确认的入口及守塔位置。"
+        "usage": "必须：C9画外尚未确认的入口及守塔位置。",
+        "evidence_task": "G05-02",
+        "conditional_evidence": true
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -684,11 +700,14 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
         "ref": "补齐基地三路入口",
-        "usage": "必须：红方画外尚未确认的入口及守塔位置。"
+        "usage": "必须：红方画外尚未确认的入口及守塔位置。",
+        "evidence_task": "G05-03",
+        "conditional_evidence": true
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -709,27 +728,130 @@
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
-        "ref": "补齐全图覆盖登记",
-        "usage": "必须：所有区域已验收的坐标、接口、十八塔及细节记录，非摄影母图。"
+        "ref": "新B1",
+        "usage": "已确认区域高位形态与位置"
       },
       {
-        "ref": "新B1–B11",
-        "usage": "必须：全部已验收区域高位成图；B5、B7仅供状态一致性校验，画面时态用B4/B6。"
+        "ref": "新B2",
+        "usage": "已确认区域高位形态与位置"
       },
       {
-        "ref": "新C1–C11",
-        "usage": "必须：对应区域地面与影视机位；包括补齐的地面细节图。"
+        "ref": "新B3",
+        "usage": "已确认区域高位形态与位置"
       },
       {
-        "ref": "新D1/D2/D4",
-        "usage": "必须：已验收云鲸、穹主及野怪实际形体。"
+        "ref": "新B4",
+        "usage": "已确认区域高位形态与位置"
       },
       {
-        "ref": "已确认G02/G03/G04/G05/G06",
-        "usage": "必须：此前未覆盖的上路、圆坑、其余三野区、全部路线接口与地形细节成图。"
+        "ref": "新B5",
+        "usage": "区域高位正式参考；B5/B7仅用于资源状态一致性，不在本全图出现"
+      },
+      {
+        "ref": "新B6",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B7",
+        "usage": "区域高位正式参考；B5/B7仅用于资源状态一致性，不在本全图出现"
+      },
+      {
+        "ref": "新B8",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B9",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B10",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B11",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新C1",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C2",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C3",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C4",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C5",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C6",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C7",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C8",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C9",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C10",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C11",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新D1",
+        "usage": "资源实际形体和尺度"
+      },
+      {
+        "ref": "新D2",
+        "usage": "资源实际形体和尺度"
+      },
+      {
+        "ref": "新D4",
+        "usage": "资源实际形体和尺度"
+      },
+      {
+        "ref": "补齐G02",
+        "usage": "对应已验收的补充场景与接口证据",
+        "evidence_task": "G02-01"
+      },
+      {
+        "ref": "补齐G03",
+        "usage": "对应已验收的补充场景与接口证据",
+        "evidence_task": "G03-01"
+      },
+      {
+        "ref": "补齐G04",
+        "usage": "对应已验收的补充场景与接口证据"
+      },
+      {
+        "ref": "补齐G05",
+        "usage": "对应已验收的补充场景与接口证据"
+      },
+      {
+        "ref": "补齐G06",
+        "usage": "对应已验收的补充场景与接口证据"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -749,12 +871,13 @@
         "usage": "必须：最终全图正俯视，只校验统一坐标。"
       },
       {
-        "ref": "新B1–B11及新C1–C11",
-        "usage": "必须：各区域已确认的实际建筑高度、材质、道路、植被与地标；使用同一批局部成图。"
+        "ref": "R01",
+        "usage": "仅核对原始非镜像拓扑，不覆盖最终A1及接口坐标。"
       },
       {
         "ref": "已确认鸣霄磬",
-        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。"
+        "usage": "必须：已定稿的塔体设定板（R02/R03只有经确认后才能作为此参考）；锁残石架、三链和折磬。",
+        "evidence_task": "G01-01"
       },
       {
         "ref": "新D1",
@@ -765,8 +888,118 @@
         "usage": "必须：已验收的同一中立资源实体形态。"
       },
       {
-        "ref": "补齐全图覆盖登记",
-        "usage": "必须：各地形高差、接口、十八塔和四野区已确认资料。"
+        "ref": "新B1",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B2",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B3",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B4",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B5",
+        "usage": "区域高位正式参考；B5/B7仅用于资源状态一致性，不在本全图出现"
+      },
+      {
+        "ref": "新B6",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B7",
+        "usage": "区域高位正式参考；B5/B7仅用于资源状态一致性，不在本全图出现"
+      },
+      {
+        "ref": "新B8",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B9",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B10",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新B11",
+        "usage": "已确认区域高位形态与位置"
+      },
+      {
+        "ref": "新C1",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C2",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C3",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C4",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C5",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C6",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C7",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C8",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C9",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C10",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新C11",
+        "usage": "该区域已确认真人地面、立面和连接细节"
+      },
+      {
+        "ref": "新D4",
+        "usage": "资源实际形体和尺度"
+      },
+      {
+        "ref": "补齐G02",
+        "usage": "对应已验收的补充场景与接口证据",
+        "evidence_task": "G02-01"
+      },
+      {
+        "ref": "补齐G03",
+        "usage": "对应已验收的补充场景与接口证据",
+        "evidence_task": "G03-01"
+      },
+      {
+        "ref": "补齐G04",
+        "usage": "对应已验收的补充场景与接口证据"
+      },
+      {
+        "ref": "补齐G05",
+        "usage": "对应已验收的补充场景与接口证据"
+      },
+      {
+        "ref": "补齐G06",
+        "usage": "对应已验收的补充场景与接口证据"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
