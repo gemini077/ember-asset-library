@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "approval_note": "已确认演员身份与造型设计仍通过；十张旧设定板仅作造型参考，四格成图待替换。独立身份肖像不重做。",
+  "approval_note": "原已通过的10张人物设定板均已完成四格转换，原身份与造型审批有效；独立身份肖像保持不变。未制作的不同场次造型仍待制作。右上侧脸沿用原图角度，新制资产按四格规范。",
   "approved": {
     "P-009": {
       "id": "P-009",
@@ -9,11 +9,15 @@
       "scope": "跨集身份",
       "path": "assets/characters/P-009_single_16x9_Drive.png",
       "url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "30e377f9e8608811613ec6fadf606d69770a96ec9ced95356054f3fda946b81b",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-009": {
       "id": "RB-P-009",
@@ -22,11 +26,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-009_ZG_Drive.png",
       "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "55da9ee84b16865f7bdb0e15252c2ab16a9fc870f5984269727083beca856035",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-053": {
       "id": "RB-P-053",
@@ -35,11 +43,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-053_EP01_casual_final.png",
       "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "4683db274b9befedc4d8b65d7ee92017beea11f47052402641f14db889ccd5d4",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-051": {
       "id": "RB-P-051",
@@ -48,11 +60,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-051_ZG_casual_final.png",
       "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "53059d9710292c38482576043a65c341e7a410c7c9d4a60283eb3f370c14139c",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-052": {
       "id": "RB-P-052",
@@ -61,11 +77,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-052_ZG_casual_final.png",
       "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "16f9029da55fff22c1b11771557f8f4fe51f9f0cdaba19f7f7b4abd6b8ee9118",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-054": {
       "id": "RB-P-054",
@@ -74,11 +94,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-054_EP01_casual_final.png",
       "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "496945af82112554cb72471bfda4df32a05cd8a653d33a02466678537f7e2498",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-P-055": {
       "id": "RB-P-055",
@@ -87,11 +111,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-P-055_EP01_casual_final.png",
       "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "2893092104afbe11bd1442070b95b1b3c14f5ad7b143dfa59876d02654ff8aa9",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "RB-X-3866297EF": {
       "id": "RB-X-3866297EF",
@@ -100,11 +128,15 @@
       "scope": "ZG 基地 / EP01 对应造型",
       "path": "assets/characters/RB-X-3866297EF_EP01_final.png",
       "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "04f64a066f146c85b669f5fd21920fda4099cdeaeca9a39a1ddb96fd1c4069e6",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "C-069": {
       "id": "C-069",
@@ -113,11 +145,15 @@
       "scope": "同演员×英雄造型复用",
       "path": "assets/characters/C-069_single_16x9_final.png",
       "url": "https://drive.google.com/file/d/1Vz57YvxvN0BltGrb_JDOOcjUm7cgE3xp/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "8a8c369447f2a5f86fbf73c3c427412d940c3f1b0957c8f07cf1f62e683d107e",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     },
     "C-018": {
       "id": "C-018",
@@ -126,11 +162,15 @@
       "scope": "同演员×英雄造型复用",
       "path": "assets/characters/C-018_single_16x9_final.png",
       "url": "https://drive.google.com/file/d/1rHgfvocnxkbY1oRYOymYw-mBtl8GioVU/view",
-      "width": 2560,
-      "height": 1440,
+      "width": 1440,
+      "height": 2560,
       "status": "已通过",
       "date": "2026-11-24",
-      "format_status": "四格待替换"
+      "format_status": "四格已转换",
+      "format": "four-panel-9x16-v1",
+      "sha256": "64afe6c95b75b6e9da816c867d5bf97a8f8b63478974e67e774393ac4cb0c6dc",
+      "format_date": "2026-11-27",
+      "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     }
   },
   "portraits": {
@@ -1866,168 +1906,248 @@
     },
     "prompt_rule": "【四格交付硬约束】只输出一张竖版9:16 PNG，1440×2560（2K级）。左右两列等宽，上排约占全高35%，下排约占65%，四格紧凑排列，细窄中性分隔线。左上为高清正面头肩近景；右上为高清四分之三侧脸头肩近景，转头约45°，不是90°纯侧脸。上排清楚呈现同一演员的五官、皮肤纹理、妆发、发际线及贴脸配饰，头顶与发饰完整，不磨皮、不模糊。左下为正面全身，右下为背面全身，头顶、鞋底与衣摆完整，等高、鞋底齐平、自然站姿，保持同一演员、同一套妆发、服装、鞋履、配饰与身材比例。下排只提供体态和服装信息：正面全身的面部五官区域主动做柔和局部高斯模糊，使眉眼鼻唇不可作为第二身份参考；脸部外轮廓、发际线、发型、耳饰、颈部与衣装保持清楚。背面全身保持真实后脑发型，若露出面部，仅模糊露出的五官。绝不模糊上排高清脸、头发、衣装、手脚或整张全身图。中性灰无缝棚底与同向柔光，真实材质，无文字、色卡、额外小格、水印或剧情场景；已有正式服装标志原样保留，不新增品牌。",
     "scope": "人物身份设定板、现实妆造、换装妆造及真人COS；独立身份肖像、服装单品、队服三视、场景、道具不变。",
-    "existing_policy": "演员身份和美术设计继续通过，旧板仅作四格替换的造型依据。新板验收后原资产ID、Drive文件ID和GitHub路径原位覆盖，不保留并行当前版。"
+    "existing_policy": "原已通过的10张设定板原位转换完成，未改变脸、衣装或发型。保留原图侧脸角度，不为追求45°重生面容。新制资产统一四格，独立身份肖像及其他资产不变。"
   },
   "board_migration": {
     "P-009": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "P-009",
         "title": "温以宁｜身份母版",
         "kind": "身份母版",
         "scope": "跨集身份",
         "path": "assets/characters/P-009_single_16x9_Drive.png",
-        "url": "https://drive.google.com/file/d/1FxtQkSFmPTv0P32X3InQ7KtA2Xp6KXhI/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/P-009_single_16x9_Drive.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "30e377f9e8608811613ec6fadf606d69770a96ec9ced95356054f3fda946b81b",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-009": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-009",
         "title": "温以宁（Vigil）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-009_ZG_Drive.png",
-        "url": "https://drive.google.com/file/d/1iIOlua-ZhLCl3HgZLnVJ0DqkxQ-DYLqO/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-009_ZG_Drive.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "55da9ee84b16865f7bdb0e15252c2ab16a9fc870f5984269727083beca856035",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-053": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-053",
         "title": "顾行舟（Crown）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-053_EP01_casual_final.png",
-        "url": "https://drive.google.com/file/d/1EL7vczAA6AQ6eN7cOihEgTAgdQZuHZM-/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-053_EP01_casual_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "4683db274b9befedc4d8b65d7ee92017beea11f47052402641f14db889ccd5d4",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-051": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-051",
         "title": "陆川（Ash）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-051_ZG_casual_final.png",
-        "url": "https://drive.google.com/file/d/18FOfP-Yc39l23tfNk2W_qZGlrBC6AFIn/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-051_ZG_casual_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "53059d9710292c38482576043a65c341e7a410c7c9d4a60283eb3f370c14139c",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-052": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-052",
         "title": "贺之扬（Blaze）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-052_ZG_casual_final.png",
-        "url": "https://drive.google.com/file/d/1RVuV2jE2TVPn1GGOFPouB2-pKZF56ZqX/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-052_ZG_casual_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "16f9029da55fff22c1b11771557f8f4fe51f9f0cdaba19f7f7b4abd6b8ee9118",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-054": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-054",
         "title": "周牧（MuZ）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-054_EP01_casual_final.png",
-        "url": "https://drive.google.com/file/d/1nkLldo17WVk_49DBlxcAgraEqF--9tKm/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-054_EP01_casual_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "496945af82112554cb72471bfda4df32a05cd8a653d33a02466678537f7e2498",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-P-055": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-P-055",
         "title": "谭屹（Yi7）｜ZG 基地私服定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-P-055_EP01_casual_final.png",
-        "url": "https://drive.google.com/file/d/15pOKVwn994GQ-Y24VBxyo1oDQ8OxtiwQ/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-P-055_EP01_casual_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "2893092104afbe11bd1442070b95b1b3c14f5ad7b143dfa59876d02654ff8aa9",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "RB-X-3866297EF": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "RB-X-3866297EF",
         "title": "秦岳｜ZG 基地工作定妆板",
         "kind": "现实妆造",
         "scope": "ZG 基地 / EP01 对应造型",
         "path": "assets/characters/RB-X-3866297EF_EP01_final.png",
-        "url": "https://drive.google.com/file/d/1-RCv6gvmfFCpVO7ZOOtJw9eZDac_muTO/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/RB-X-3866297EF_EP01_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "04f64a066f146c85b669f5fd21920fda4099cdeaeca9a39a1ddb96fd1c4069e6",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "C-069": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "C-069",
         "title": "欧阳嘉树 × 伊格尼",
         "kind": "真人COS",
         "scope": "同演员×英雄造型复用",
         "path": "assets/characters/C-069_single_16x9_final.png",
-        "url": "https://drive.google.com/file/d/1Vz57YvxvN0BltGrb_JDOOcjUm7cgE3xp/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/C-069_single_16x9_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "8a8c369447f2a5f86fbf73c3c427412d940c3f1b0957c8f07cf1f62e683d107e",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     },
     "C-018": {
-      "status": "四格待替换",
+      "status": "四格已转换",
       "source": {
         "id": "C-018",
         "title": "温以宁 × 绮罗",
         "kind": "真人COS",
         "scope": "同演员×英雄造型复用",
         "path": "assets/characters/C-018_single_16x9_final.png",
-        "url": "https://drive.google.com/file/d/1rHgfvocnxkbY1oRYOymYw-mBtl8GioVU/view",
         "width": 2560,
         "height": 1440,
         "status": "已通过",
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "historical_commit": "65e967d822935b2ab419cf00c1eda18191dbc748",
+        "historical_url": "https://github.com/gemini077/ember-asset-library/blob/65e967d822935b2ab419cf00c1eda18191dbc748/assets/characters/C-018_single_16x9_final.png"
       },
-      "target_format": "four-panel-9x16-v1"
+      "target_format": "four-panel-9x16-v1",
+      "converted": {
+        "width": 1440,
+        "height": 2560,
+        "sha256": "64afe6c95b75b6e9da816c867d5bf97a8f8b63478974e67e774393ac4cb0c6dc",
+        "method": "原图裁切、保比例重排及局部模糊；非重新生图",
+        "profile": "保留原图侧脸角度；不强制改变为45°"
+      }
     }
   }
 }
