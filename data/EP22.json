@@ -201,7 +201,7 @@
         "asset_codes": [
           "B1"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -219,7 +219,7 @@
           "C1",
           "C2"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     }
@@ -575,7 +575,7 @@
         "asset_codes": [
           "B1"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -592,7 +592,7 @@
           "C1",
           "C2"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -9071,7 +9071,7 @@
           "asset_codes": [
             "B1"
           ],
-          "path": "index.html#scenes/yunyuan",
+          "path": "studio/index.html#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true
@@ -9408,7 +9408,7 @@
             "C1",
             "C2"
           ],
-          "path": "index.html#scenes/yunyuan",
+          "path": "studio/index.html#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true

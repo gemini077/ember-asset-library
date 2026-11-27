@@ -276,7 +276,7 @@
         "asset_codes": [
           "B8"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -294,7 +294,7 @@
         "asset_codes": [
           "C6"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -309,7 +309,7 @@
       "map_execution": {
         "version": "2026-11-27-detail-first-final-overhead-v4",
         "asset_codes": [],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     }
@@ -1005,7 +1005,7 @@
         "asset_codes": [
           "B8"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -1021,7 +1021,7 @@
         "asset_codes": [
           "C6"
         ],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -1035,7 +1035,7 @@
       "map_execution": {
         "version": "2026-11-27-detail-first-final-overhead-v4",
         "asset_codes": [],
-        "path": "index.html#scenes/yunyuan",
+        "path": "studio/index.html#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -6995,7 +6995,7 @@
           "asset_codes": [
             "B8"
           ],
-          "path": "index.html#scenes/yunyuan",
+          "path": "studio/index.html#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true,
@@ -7126,7 +7126,7 @@
           "asset_codes": [
             "C6"
           ],
-          "path": "index.html#scenes/yunyuan",
+          "path": "studio/index.html#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true,
@@ -7242,7 +7242,7 @@
         "map_execution": {
           "version": "2026-11-27-detail-first-final-overhead-v4",
           "asset_codes": [],
-          "path": "index.html#scenes/yunyuan",
+          "path": "studio/index.html#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true,
