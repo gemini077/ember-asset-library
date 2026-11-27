@@ -168,7 +168,7 @@
       "date": "2026-11-24",
       "format_status": "四格已转换",
       "format": "four-panel-9x16-v1",
-      "sha256": "64afe6c95b75b6e9da816c867d5bf97a8f8b63478974e67e774393ac4cb0c6dc",
+      "sha256": "228c977537f63db5637c5d009f43c5c36220e1cfbcd47881473b9181f3760d21",
       "format_date": "2026-11-27",
       "format_review": "原图四格裁切重排；上排原始清晰脸部，下排正面五官局部高斯模糊；右上保留原图侧脸角度。"
     }
@@ -2144,7 +2144,7 @@
       "converted": {
         "width": 1440,
         "height": 2560,
-        "sha256": "64afe6c95b75b6e9da816c867d5bf97a8f8b63478974e67e774393ac4cb0c6dc",
+        "sha256": "228c977537f63db5637c5d009f43c5c36220e1cfbcd47881473b9181f3760d21",
         "method": "原图裁切、保比例重排及局部模糊；非重新生图",
         "profile": "保留原图侧脸角度；不强制改变为45°"
       }
