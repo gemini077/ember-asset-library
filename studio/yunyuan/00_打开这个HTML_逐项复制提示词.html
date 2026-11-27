@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EMBER · 云垣地图入口已合并</title></head><body><p>云垣地图已归入 STUDIO 的资产模块。</p><a id="go" href="../concept/?v=9#assets/yunyuan">返回原工作台</a><script>
-const key=location.hash.slice(1);const code=key==="gates"?"G01":/^[ABCDG]\d+$/.test(key)?key:"";
-const target="../concept/?v=9#assets/yunyuan"+(code?"/"+code:"");
-document.getElementById("go").href=target;
-location.replace(target);
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EMBER · STUDIO 唯一工作台</title><link rel="canonical" href="https://gemini077.github.io/ember-asset-library/studio/concept/"></head>
+<body><p>此地址已停止提供独立工作台。</p><a id="go" href="../concept/">进入唯一正式 STUDIO 工作台</a><script>
+const target=new URL("../concept/",location.href);
+const key=location.hash.slice(1);target.hash="assets/yunyuan"+(key==="gates"?"/G01":/^[ABCDG]\d+$/.test(key)?"/"+key:"");
+document.getElementById("go").href=target.href;
+location.replace(target.href);
 </script></body></html>

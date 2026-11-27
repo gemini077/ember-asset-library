@@ -52,5 +52,12 @@
   },
   "episode_html_self_contained": true,
   "approval_scope": "已登记并经用户确认的10张人物设定板；不含身份参考肖像、场景和道具，不代表全部待制作资产已完成",
-  "production_state_source": "shared/production-state.json"
+  "production_state_source": "shared/production-state.json",
+  "canonical_workbench": {
+    "path": "studio/concept/index.html",
+    "url": "https://gemini077.github.io/ember-asset-library/studio/concept/",
+    "legacy_entrypoints": "redirect_only",
+    "asset_module": "assets",
+    "map_data_source": "shared/yunyuan-production.json"
+  }
 }

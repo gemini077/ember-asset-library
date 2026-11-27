@@ -184,7 +184,7 @@
         "asset_codes": [
           "B1"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -202,7 +202,7 @@
           "B4",
           "B5"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -220,7 +220,7 @@
           "C1",
           "C2"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -238,7 +238,7 @@
           "C3",
           "C4"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     }
@@ -771,7 +771,7 @@
         "asset_codes": [
           "B1"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -788,7 +788,7 @@
           "B4",
           "B5"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -805,7 +805,7 @@
           "C1",
           "C2"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -822,7 +822,7 @@
           "C3",
           "C4"
         ],
-        "path": "studio/concept/?v=9#assets/yunyuan",
+        "path": "studio/concept/#assets/yunyuan",
         "rule": "局部实景先于高位校验；A1/A2不得作前置。"
       }
     },
@@ -10981,7 +10981,7 @@
           "asset_codes": [
             "B1"
           ],
-          "path": "studio/concept/?v=9#assets/yunyuan",
+          "path": "studio/concept/#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true
@@ -11166,7 +11166,7 @@
             "B4",
             "B5"
           ],
-          "path": "studio/concept/?v=9#assets/yunyuan",
+          "path": "studio/concept/#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true,
@@ -11504,7 +11504,7 @@
             "C1",
             "C2"
           ],
-          "path": "studio/concept/?v=9#assets/yunyuan",
+          "path": "studio/concept/#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true
@@ -11727,7 +11727,7 @@
             "C3",
             "C4"
           ],
-          "path": "studio/concept/?v=9#assets/yunyuan",
+          "path": "studio/concept/#assets/yunyuan",
           "rule": "局部实景先于高位校验；A1/A2不得作前置。"
         },
         "master_pending": true,
