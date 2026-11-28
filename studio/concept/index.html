@@ -22,7 +22,18 @@
 .map-final-archive .sp-prompt{max-height:260px}
 .map-archive-note{color:inherit;line-height:1.65}
 .production-detail .sp-split.map-no-refs{grid-template-columns:minmax(0,1fr)}
-.map-extra{margin-top:18px;padding-top:12px;border-top:1px solid var(--line)}.map-extra-item{margin:10px 0;padding:10px;border:1px solid var(--line);border-radius:6px}.map-extra-item summary{cursor:pointer;font-weight:600}.map-extra-item .sp-prompt{white-space:pre-wrap}</style>
+.map-extra{margin-top:18px;padding-top:12px;border-top:1px solid var(--line)}.map-extra-item{margin:10px 0;padding:10px;border:1px solid var(--line);border-radius:6px}.map-extra-item summary{cursor:pointer;font-weight:600}.map-extra-item .sp-prompt{white-space:pre-wrap}
+.map-order-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:8px 0 12px}
+.map-order-controls #mapGoReady{margin-left:auto;max-width:100%;white-space:normal;text-align:left}
+.map-order-strip{display:flex;gap:8px;overflow-x:auto;overscroll-behavior-x:contain;position:relative;padding:2px 2px 8px;scrollbar-width:thin}
+.map-order-strip .sp-tile{flex:0 0 152px;min-width:0;max-width:152px}
+.map-order-strip .sp-image{height:50px;min-height:50px;aspect-ratio:auto}
+.map-order-strip .sp-text{font-size:11px;line-height:1.4}
+.map-order-all{font-size:12px;margin:7px 0 0;color:var(--muted)}
+.map-order-all summary{cursor:pointer;padding:6px 0}
+.map-order-all .sp-grid{margin-top:8px}
+@media(max-width:650px){.map-order-controls #mapGoReady{margin-left:0;width:100%}}
+</style>
 <link rel="stylesheet" href="../asset-production.css?v=1"><style>dialog.production-detail{width:min(1390px,96vw)}.production-detail .asset-workspace{padding:28px 32px;max-height:90vh;overflow:auto}.production-detail .viewer-layout{min-height:0}.production-detail .viewer-side{max-height:none}.production-detail .sp-prompt{max-height:330px;overflow:auto}.production-detail .ref-section{border-top:1px solid var(--line);margin-top:18px;padding-top:16px}.production-detail .ref-section h3{font-size:14px}.production-detail .viewer-side .sr-grid{grid-template-columns:1fr 1fr}.production-detail .viewer-side .sr-info{padding:8px}.production-detail .viewer-side .sr-visual{aspect-ratio:4/3}.production-detail .viewer-image{align-items:start}.production-detail .sp-task-image{margin-bottom:10px}@media(max-width:760px){.production-detail .asset-workspace{padding:18px}.production-detail .viewer-side .sr-grid{grid-template-columns:1fr 1fr}}</style><style>
 /* Asset details: intrinsic media height, references below the image, single scroll per column. */
 dialog.production-detail:has(.viewer-layout){overflow:hidden;max-height:92dvh}
@@ -110,27 +121,65 @@ function mapExtraRefs(task){return task.refs.map(k=>{if(k==="C3:geometry"){const
 function mapExtraPanel(v){const tasks=v.raw.production_tasks||v.raw.verification_tasks||[];const checks=v.raw.regional_checks||[];if(!tasks.length&&!checks.length)return "";return '<div class="map-extra"><h3>独立补充制作 · '+tasks.length+'</h3><p class="small muted">不计入28项主资产；每项单独出图及验收。</p>'+tasks.map(task=>{const refs=mapExtraRefs(task),ready=task.requires.every(mapExtraReady)&&(!task.needs_region_check||task.region_ground_verified===true);return '<details class="map-extra-item"><summary>'+esc(task.id+" "+task.name)+' · '+esc(task.approved?"已通过":ready?"待制作":"待前置")+'</summary><p class="small muted">'+esc(task.note||("前置："+task.requires.join("、")) )+'</p>'+(task.approved&&task.output_image?.path?'<a href="'+esc(uri(task.output_image.path))+'" target="_blank" rel="noopener">查看正式成图 ↗</a>':'<div class="sp-head"><h3>独立生图提示词</h3><button class="action" data-extra-copy="'+esc(task.id)+'" '+(ready?"":"disabled")+'>复制提示词</button></div><p class="sp-prompt">'+esc(task.prompt)+'</p><p class="small muted" data-extra-status="'+esc(task.id)+'"></p>')+studioReferencePanel(refs,assets,esc,uri,thumb)+'</details>';}).join("")+(checks.length?'<h3>区域接口校验</h3><ul>'+checks.map(c=>'<li>'+esc(c.id+' · '+c.name+' · '+(c.approved?'已确认':'待证据'))+'</li>').join('')+'</ul>':'')+'</div>';}
 function bindMapExtras(dialog){dialog.querySelectorAll("[data-extra-copy]").forEach(b=>b.onclick=async()=>{const task=mapExtraRecords().find(t=>t.id===b.dataset.extraCopy);if(!task||!task.requires.every(mapExtraReady)||(task.needs_region_check&&!task.region_ground_verified)||task.approved)return;const out=dialog.querySelector('[data-extra-status="'+task.id+'"]');try{await navigator.clipboard.writeText(task.prompt);if(out)out.textContent="已复制";}catch(e){if(out)out.textContent="复制未成功，请手动选择提示词。";}});}
 
+
+function mapProductionQueue(parent){
+ const main=parent.tasks.filter(x=>x.kind==="地图资产"),gates=parent.tasks.filter(x=>x.kind==="验收门槛"),all=[...main,...gates],extras=new Map();
+ for(const owner of all){
+  for(const task of [...(owner.raw.production_tasks||[]),...(owner.raw.verification_tasks||[])]){
+   const approved=!!(task.approved&&task.output_image?.path),ready=task.requires.every(mapExtraReady)&&(!task.needs_region_check||task.region_ground_verified===true);
+   extras.set(task.id,{no:task.id,name:task.name,kind:"补充制作",path:approved?task.output_image.path:"",source:approved?task.output_image.url:"",status:approved?"已通过":ready?"待制作":"待前置",prompt:task.prompt,refs:mapExtraRefs(task),blocked:!approved&&!ready,approved,raw:task,owner:owner.no});
+  }
+ }
+ // Insert local verification immediately before the main task it unlocks.
+ const before={C1:["G01-01","G01-02","G01"],B1:["G05-01"],B2:["G02-01","G02"],C5:["G03-01","G03-02","G03-03","G03"],C8:["G04-01","G04-04","G04-02","G04-05","G04-03","G04-06","G04"],B10:["G05-02"],B11:["G05-03"],A1:["G05","G06"]};
+ const by=new Map([...all.map(x=>[x.no,x]),...extras]),seen=new Set(),out=[];
+ const add=id=>{if(by.has(id)&&!seen.has(id)){seen.add(id);out.push(by.get(id));}};
+ for(const a of main){for(const id of before[a.no]||[])add(id);add(a.no);for(const task of a.raw.verification_tasks||[])add(task.id);}
+ // Future supplemental tasks are never silently omitted or placed after the final maps.
+ const remaining=[...by.keys()].filter(id=>!seen.has(id)),tail=out.findIndex(x=>x.no==="A1");
+ if(remaining.length){const pending=remaining.map(id=>by.get(id));out.splice(tail<0?out.length:tail,0,...pending);}
+ return out;
+}
+function mapNextProduction(queue){
+ return queue.find(v=>{
+  if(v.approved)return false;
+  if(v.kind==="验收门槛"){
+   if(v.no==="G06"&&queue.some(x=>x.no!=="G06"&&x.no!=="A1"&&x.no!=="A2"&&x.kind!=="补充制作"&&!x.approved))return false;
+   const tasks=v.raw.production_tasks||[],checks=v.raw.regional_checks||[];
+   return tasks.every(x=>x.approved&&x.output_image?.path)&&checks.every(x=>x.approved&&x.evidence_assets?.length);
+  }
+  if(v.no==="C3"&&v.raw.geometry_verified&&v.raw.verification_tasks?.some(t=>!t.approved))return false;
+  return !v.blocked;
+ })||queue.find(v=>!v.approved)||queue[queue.length-1];
+}
+
 function showMapProduction(a,no){
  const dialog=$("viewer"),parent=assets.find(x=>x.id==="MAP-YUNYUAN");
  if(!parent)return;
  const all=parent.tasks,main=all.filter(x=>x.kind==="地图资产"),gates=all.filter(x=>x.kind==="验收门槛");
- const code=no||(a.mapChild?a.mapCode:a.mapAlias?a.mapCodes[0]:""),v=all.find(x=>x.no===code)||main.find(x=>!x.approved&&!x.blocked)||main[0];
+ const queue=mapProductionQueue(parent),next=mapNextProduction(queue),code=no||(a.mapChild?a.mapCode:a.mapAlias?a.mapCodes[0]:""),v=queue.find(x=>x.no===code)||next||main[0],pos=queue.indexOf(v);
  dialog.classList.add("production-detail");dialog.dataset.assetId=parent.id;dialog.dataset.shot=v.no;
- const tile=x=>'<button class="sp-tile '+(x.no===v.no?"active":"")+'" data-map-task="'+esc(x.no)+'"><span class="sp-image">'+(x.path?'<img src="'+esc(thumb(x.path))+'" alt="'+esc(x.name)+'">':'<span class="sp-noimage">'+(x.kind==="验收门槛"?"验收门槛":"未成图")+'</span>')+'</span><span class="sp-text">'+esc(x.no+" "+x.name)+'<small class="'+(x.blocked?"sp-blocked":"")+'">'+esc(x.status)+'</small></span></button>';
- const isGate=v.kind==="验收门槛",criteria=isGate?'<p>'+esc(v.raw.when)+'</p><h3>验收标准</h3><p>'+esc(v.raw.criteria)+'</p><h3>放行证据</h3><p>'+esc(v.raw.evidence)+'</p>':'<p>'+esc(v.raw.dependency)+'</p><h3>验收标准</h3><ul>'+v.raw.acceptance.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>';
+ const tile=x=>'<button class="sp-tile '+(x.no===v.no?"active":"")+'" data-map-task="'+esc(x.no)+'"><span class="sp-image">'+(x.path?'<img src="'+esc(thumb(x.path))+'" alt="'+esc(x.name)+'">':'<span class="sp-noimage">'+(x.kind==="验收门槛"?"验收门槛":"未成图")+'</span>')+'</span><span class="sp-text">'+esc(String(queue.indexOf(x)+1).padStart(2,"0")+" · "+x.no+" "+x.name)+'<small class="'+(x.blocked?"sp-blocked":"")+'">'+esc(x.approved?x.status:x.blocked&&x.kind!=="验收门槛"?"待前置":x.status)+'</small></span></button>';
+ const isGate=v.kind==="验收门槛",isExtra=v.kind==="补充制作",criteria=isExtra?'<p class="small muted">'+esc(v.raw.note||("前置："+v.raw.requires.join("、")))+'</p><p class="small muted">独立补充制作 · 不计入28项主资产</p>':isGate?'<p>'+esc(v.raw.when)+'</p><h3>验收标准</h3><p>'+esc(v.raw.criteria)+'</p><h3>放行证据</h3><p>'+esc(v.raw.evidence)+'</p>':'<p>'+esc(v.raw.dependency)+'</p><h3>验收标准</h3><ul>'+v.raw.acceptance.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>';
  const historical=(mapPlan.historical_images||[]).filter(x=>x.code===v.no);
  const finalImage=!!(v.approved&&!isGate&&v.path),meta=v.raw.output_image||{},scale=v.raw.scale_calibration;
  const finalScale=v.raw.combat_scale_notes?'<div class="map-final-spec"><strong>场景绑定尺度</strong><span>青灯守 0.875 m · 石雀 成人拳头大小 · 灰狐 正常狐狸体型</span><small>集合板只锁造型；赤岩犀、苔甲野猪及其他野怪的实景尺度由 C7 / G04 验收。</small></div>':scale?.total_height_range_m?'<div class="map-final-spec"><strong>场景绑定尺度</strong><span>岩座底至冠顶 '+esc(scale.total_height_range_m.join("–"))+' m · 本板约 '+esc(scale.preferred_height_m)+' m</span><small>真人实景交互由 '+esc(scale.verification_asset)+' 验收。</small></div>':scale?'<div class="map-final-spec"><strong>场景绑定尺度</strong><span>体长 '+esc(scale.length_range_m.join("–"))+' m · 主体厚度 '+esc(scale.body_thickness_m.join("–"))+' m · 最低悬浮 '+esc(scale.hover_clearance_m.join("–"))+' m</span><small>造型参考非工程比例图；实景交互由 '+esc(scale.verification_asset)+' 验收。</small></div>':"";
  const finalPanel='<div class="map-final"><a class="map-final-image" href="'+esc(uri(v.path||""))+'" target="_blank" rel="noopener"><img src="'+esc(uri(v.path||""))+'" alt="'+esc(v.name)+'"></a><div class="map-final-links"><span class="small muted">'+(meta.width&&meta.height?esc(meta.width+" × "+meta.height)+" · PNG · ":"")+'正式成图</span><a class="quiet" href="'+esc(uri(v.path||""))+'" target="_blank" rel="noopener">查看原图 ↗</a>'+(v.source?'<a class="quiet" href="'+esc(uri(v.source))+'" target="_blank" rel="noopener">Drive 原文件 ↗</a>':'')+'</div>'+finalScale+'<p class="small muted map-final-done">已通过，无需重新制作。</p><details class="map-final-archive"><summary>查看归档记录</summary>'+(v.raw.review_note?'<p class="map-archive-note">'+esc(v.raw.review_note)+'</p>':'')+criteria+(v.prompt?'<details><summary>历史生图提示词（仅归档）</summary><p class="sp-prompt">'+esc(v.prompt)+'</p></details>':'')+'</details></div>';
 
- dialog.innerHTML='<div class="asset-workspace"><button class="close-dialog" id="closeViewer" aria-label="关闭">×</button><div class="eyebrow muted">MAP ASSET / '+esc(parent.id)+'</div><h2 style="font-size:25px;margin:6px 0 15px">'+esc(parent.title)+'</h2><p class="small muted">'+esc(parent.status)+'</p>'+(a.mapAlias&&!a.mapCodes.length?'<p class="sp-note">本集场景位置尚未锁定；以下是共用地图资产组。</p>':'')+'<div class="sp-head"><h3>地图主资产 · '+main.filter(x=>x.approved).length+'/'+main.length+'</h3><span class="small muted">按实际制作顺序 · A1/A2最后制作</span></div><div class="sp-grid">'+main.map(tile).join("")+'</div><div class="sp-head"><h3>强制验收门槛 · '+gates.filter(x=>x.approved).length+'/6</h3></div><div class="sp-grid">'+gates.map(tile).join("")+'</div><div class="rule"></div><div class="sp-head"><h3 id="sceneTaskTitle">'+esc(v.no+" "+v.name)+'</h3><span class="small muted">'+esc(v.status)+'</span></div>'+(finalImage?finalPanel:((v.blocked&&!isGate?'<p class="sp-note">等待前置资产及验收证据，不开放本项生产。</p>':'')+(v.raw.review_note?'<p class="sp-note">'+esc(v.raw.review_note)+'</p>':'')+'<div class="sp-split'+(!v.refs.length?' map-no-refs':'')+'"><section>'+(isGate?'':'<div class="sp-task-image">'+(v.path?'<img src="'+esc(thumb(v.path))+'" alt="'+esc(v.name)+'">':'<span>尚无正式成图</span>')+'</div><p class="small muted">'+(v.path?'<a target="_blank" rel="noopener" href="'+esc(uri(v.path))+'">查看高清图 ↗</a>':'')+(v.source?' · <a target="_blank" rel="noopener" href="'+esc(uri(v.source))+'">Drive 原文件 ↗</a>':'')+'</p>')+'<div class="map-criteria">'+criteria+'</div>'+(historical.length?'<details><summary>历史布局候选（非正式成图）</summary>'+historical.map(x=>'<a target="_blank" rel="noopener" href="'+esc(uri(x.path))+'">查看旧图存档 ↗</a>').join("")+'</details>':'')+(v.prompt?'<div class="sp-head"><h3>'+(v.approved?"归档生图提示词":"独立制作提示词")+'</h3><button class="action" id="copyAssetPrompt" '+(v.blocked||v.approved?"disabled":"")+'>复制提示词</button></div><p class="sp-prompt">'+esc(v.prompt)+'</p><p id="assetCopyStatus" class="sp-copy-status"></p>':'')+'</section>'+(v.refs.length?'<section><div class="sp-head"><h3>参考图 · '+v.refs.length+'</h3><span class="small muted">按源顺序</span></div>'+studioReferencePanel(v.refs,assets,esc,uri,thumb)+'</section>':'')+'</div>'))+mapExtraPanel(v)+'</div>';
+ dialog.innerHTML='<div class="asset-workspace"><button class="close-dialog" id="closeViewer" aria-label="关闭">×</button><div class="eyebrow muted">MAP ASSET / '+esc(parent.id)+'</div><h2 style="font-size:25px;margin:6px 0 15px">'+esc(parent.title)+'</h2><p class="small muted">'+esc(parent.status)+'</p>'+(a.mapAlias&&!a.mapCodes.length?'<p class="sp-note">本集场景位置尚未锁定；以下是共用地图资产组。</p>':'')+'<div class="sp-head map-order-head"><h3>地图主资产 · '+main.filter(x=>x.approved).length+'/'+main.length+'</h3><span class="small muted">验收 '+gates.filter(x=>x.approved).length+'/'+gates.length+' · 生图顺序</span></div><div class="map-order-controls"><button class="quiet" id="mapPrev" '+(pos===0?"disabled":"")+'>上一项</button><span class="small muted">当前 '+(pos+1)+' / '+queue.length+'</span><button class="quiet" id="mapNext" '+(pos===queue.length-1?"disabled":"")+'>后一项</button><button class="action" id="mapGoReady" '+(next.no===v.no?"disabled":"")+'>'+esc(next.approved?"全部已完成":"下一待办 · "+next.no+" "+next.name)+'</button></div><div class="map-order-strip" id="mapOrderStrip" aria-label="按实际生图顺序排列的全部任务">'+queue.map(tile).join("")+'</div><details class="map-order-all"><summary>展开全部制作顺序（'+queue.length+'项，含辅助与验收）</summary><div class="sp-grid">'+queue.map(tile).join("")+'</div></details><div class="rule"></div><div class="sp-head"><h3 id="sceneTaskTitle">'+esc(v.no+" "+v.name)+'</h3><span class="small muted">'+esc(v.status)+'</span></div>'+(finalImage?finalPanel:((v.blocked&&!isGate?'<p class="sp-note">等待前置资产及验收证据，不开放本项生产。</p>':'')+(v.raw.review_note?'<p class="sp-note">'+esc(v.raw.review_note)+'</p>':'')+'<div class="sp-split'+(!v.refs.length?' map-no-refs':'')+'"><section>'+(isGate?'':'<div class="sp-task-image">'+(v.path?'<img src="'+esc(thumb(v.path))+'" alt="'+esc(v.name)+'">':'<span>尚无正式成图</span>')+'</div><p class="small muted">'+(v.path?'<a target="_blank" rel="noopener" href="'+esc(uri(v.path))+'">查看高清图 ↗</a>':'')+(v.source?' · <a target="_blank" rel="noopener" href="'+esc(uri(v.source))+'">Drive 原文件 ↗</a>':'')+'</p>')+'<div class="map-criteria">'+criteria+'</div>'+(historical.length?'<details><summary>历史布局候选（非正式成图）</summary>'+historical.map(x=>'<a target="_blank" rel="noopener" href="'+esc(uri(x.path))+'">查看旧图存档 ↗</a>').join("")+'</details>':'')+(v.prompt?'<div class="sp-head"><h3>'+(v.approved?"归档生图提示词":"独立制作提示词")+'</h3><button class="action" id="copyAssetPrompt" '+(v.blocked||v.approved?"disabled":"")+'>复制提示词</button></div><p class="sp-prompt">'+esc(v.prompt)+'</p><p id="assetCopyStatus" class="sp-copy-status"></p>':'')+'</section>'+(v.refs.length?'<section><div class="sp-head"><h3>参考图 · '+v.refs.length+'</h3><span class="small muted">按源顺序</span></div>'+studioReferencePanel(v.refs,assets,esc,uri,thumb)+'</section>':'')+'</div>'))+mapExtraPanel(v)+'</div>';
  $("closeViewer").onclick=()=>dialog.close();
- dialog.querySelectorAll("[data-map-task]").forEach(b=>b.onclick=()=>{showMapProduction(parent,b.dataset.mapTask);dialog.querySelector("#sceneTaskTitle")?.scrollIntoView({block:"nearest"});});
+ const selectMap=id=>{showMapProduction(parent,id);dialog.scrollTop=0;const workspace=dialog.querySelector(".asset-workspace");if(workspace)workspace.scrollTop=0;};
+ dialog.querySelectorAll("[data-map-task]").forEach(b=>b.onclick=()=>selectMap(b.dataset.mapTask));
+ $("mapPrev").onclick=()=>{if(pos>0)selectMap(queue[pos-1].no)};
+ $("mapNext").onclick=()=>{if(pos<queue.length-1)selectMap(queue[pos+1].no)};
+ $("mapGoReady").onclick=()=>selectMap(next.no);
+ const strip=$("mapOrderStrip"),active=strip?.querySelector(".active");if(active)strip.scrollLeft=Math.max(0,active.offsetLeft-strip.offsetLeft-(strip.clientWidth-active.offsetWidth)/2);
+
  if($("copyAssetPrompt"))$("copyAssetPrompt").onclick=()=>{if(!v.blocked&&!v.approved)copyAssetPrompt(v.prompt);};
  bindMapExtras(dialog);studioBindReferenceImages(dialog);
 }
 function conceptMapLink(){
- const m=location.hash.match(/^#assets\/yunyuan(?:\/([ABCDG]\d+))?$/);
+ const m=location.hash.match(/^#assets\/yunyuan(?:\/([ABCDG]\d+(?:-\d+)?))?$/);
  const page=location.hash.slice(1);
  if(!m&&navs.some(([k])=>k===page)){state.page=page;render();return true;}
  if(!m)return false;
