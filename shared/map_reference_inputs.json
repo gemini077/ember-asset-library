@@ -216,7 +216,7 @@
   {
     "id": "MAP-B1",
     "label": "B1",
-    "status": "待制作",
+    "status": "待局部修正",
     "name": "中路中央石庭·双河口战术俯视",
     "production_order": 7,
     "dependency": "C1/C2及双河口遗漏细节确认后，才生成区域55°高位图。",
@@ -251,7 +251,8 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B1",
-    "blocked": false
+    "blocked": false,
+    "review_note": "五张高位候选未通过；左侧上半坡道变成从中路到高位林区的架高通路，低位河床与坡道断开，部分右侧坡脚也被挡墙截断。第3张右侧较接近。高位图必须复原C1/C2/G05-01，不生成旗幡、大型圆纹或额外桥台。暂定高差0.8–1.2米仅作视觉参照，不锁工程坐标。"
   },
   {
     "id": "MAP-B2",
