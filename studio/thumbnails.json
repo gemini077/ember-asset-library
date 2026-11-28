@@ -238,5 +238,9 @@
   "assets/scenes/yunyuan-G01-01-chime-tower.png": {
     "filename": "28ea6e1d81b1042ace5e7c4863b58066c0a55a94.webp",
     "source_sha": "28ea6e1d81b1042ace5e7c4863b58066c0a55a94"
+  },
+  "assets/scenes/yunyuan-G01-02-material-scale.png": {
+    "filename": "4003fd3ec6a9a838098d2e84d05e5bb6c7581a4a.webp",
+    "source_sha": "4003fd3ec6a9a838098d2e84d05e5bb6c7581a4a"
   }
 }

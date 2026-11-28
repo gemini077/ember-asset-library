@@ -144,7 +144,7 @@
   {
     "id": "MAP-C1",
     "label": "C1",
-    "status": "待G01及地面前置验收",
+    "status": "待制作",
     "name": "中央石庭·真人中路建立全景",
     "production_order": 5,
     "dependency": "D组及塔体、基础材质确认后；R01仅锁拓扑。",
@@ -157,11 +157,16 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C1",
-    "blocked": true,
+    "blocked": false,
     "review_note": "暂缓：G01未通过，远处折磬跨道路，缺独立塔基；须先确认塔体与地面通行关系。"
   },
   {
@@ -184,6 +189,11 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -221,6 +231,11 @@
         "usage": "如C1/C2未覆盖坡口及入口，须先补齐并验收。",
         "evidence_task": "G05-01",
         "conditional_evidence": true
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -252,6 +267,11 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -282,6 +302,11 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -312,6 +337,11 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -337,6 +367,11 @@
       {
         "ref": "新C1",
         "usage": "可选：统一石材与天光。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -362,6 +397,11 @@
       {
         "ref": "新C1",
         "usage": "可选：石材及光向。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -387,6 +427,11 @@
       {
         "ref": "新D1",
         "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -420,6 +465,11 @@
       {
         "ref": "新D1",
         "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -462,6 +512,11 @@
       {
         "ref": "R01",
         "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -488,6 +543,11 @@
       {
         "ref": "新D2",
         "usage": "必须：已验收的同一中立资源实体形态。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -522,6 +582,11 @@
       {
         "ref": "R01",
         "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -572,6 +637,11 @@
       {
         "ref": "R01",
         "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -601,6 +671,11 @@
       {
         "ref": "新C6",
         "usage": "可选：与上半云河相接的材质及路线。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -626,6 +701,11 @@
       {
         "ref": "R01",
         "usage": "仅锁非镜像拓扑、方位、既定通路及塔位；不继承草图造型或摄影风格。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -652,6 +732,11 @@
       {
         "ref": "新C1",
         "usage": "可选：同一材质与日光。"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -678,6 +763,11 @@
         "ref": "已确认鸣霄磬",
         "usage": "必须：G01-01正式定型板，锁残石架、三组承重链、折磬及独立塔基；尺寸按正文，不继承展示比例。",
         "evidence_task": "G01-01"
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -710,6 +800,11 @@
         "usage": "必须：C9画外尚未确认的入口及守塔位置。",
         "evidence_task": "G05-02",
         "conditional_evidence": true
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
@@ -746,6 +841,11 @@
         "usage": "必须：红方画外尚未确认的入口及守塔位置。",
         "evidence_task": "G05-03",
         "conditional_evidence": true
+      },
+      {
+        "ref": "G01-02 共用材质与动作尺度",
+        "usage": "G01-02正式样段，只锁白石、旧铜、古木、高草/低草、墙坡与真人尺度及光照质感；不继承布局、机位或体模。",
+        "evidence_task": "G01-02"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
