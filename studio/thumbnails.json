@@ -262,5 +262,9 @@
   "assets/scenes/yunyuan-G02-01-upper-lane-corner.png": {
     "filename": "e99401db183654321cc55953999df8f50e6b84e1.webp",
     "source_sha": "e99401db183654321cc55953999df8f50e6b84e1"
+  },
+  "assets/scenes/yunyuan-B2-upper-lane-overlook.png": {
+    "filename": "0a81459061fd9ddc3c65eb0721a4d62ebfaace7a.webp",
+    "source_sha": "0a81459061fd9ddc3c65eb0721a4d62ebfaace7a"
   }
 }

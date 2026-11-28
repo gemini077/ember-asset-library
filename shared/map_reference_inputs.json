@@ -263,7 +263,7 @@
   {
     "id": "MAP-B2",
     "label": "B2",
-    "status": "待制作",
+    "status": "已通过",
     "name": "残城高廊上路·左上外缘直角弯",
     "production_order": 8,
     "dependency": "上路地面补齐卡G02通过后；继承真实护墙、内草和转角。",
@@ -295,12 +295,18 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B2",
     "blocked": false,
-    "review_note": "G02-01地面已通过，B2先单张验证完整L角；保留地面墙草与野口，外侧连续护墙沿同一条主路折转。"
+    "review_note": "单张结构校验通过。继承G02-01左侧连续外缘护墙与云海、内侧古树厚墙、两处高草及较窄野口；主路宽阔连续圆弧转折，无第三条同宽主路、塔或架空分岔。接受近直角圆弧过渡，远端受树冠遮挡，精确角度和草内站位不作测绘结论。原1672×941非生成式等比适配2560×1440，未重绘。",
+    "path": "assets/scenes/yunyuan-B2-upper-lane-overlook.png",
+    "url": "https://drive.google.com/file/d/1pSyfj8ytrGhhljyDNlaRgVx6rK-9opND/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true
   },
   {
     "id": "MAP-C10",
     "label": "C10",
-    "status": "待制作／按依赖验收",
+    "status": "待制作",
     "name": "右下旧坊市·下路90°实体转角真人机位",
     "production_order": 9,
     "dependency": "先确认R04的L形几何，建立下路真人地面细节。",
@@ -326,7 +332,7 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C10",
-    "blocked": true
+    "blocked": false
   },
   {
     "id": "MAP-B3",
