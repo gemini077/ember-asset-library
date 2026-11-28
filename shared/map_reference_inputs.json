@@ -15,7 +15,7 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D1",
     "blocked": false,
-    "review_note": "D1原正式造型母版继续有效：纯积云、金色微光、头鳍尾三视一致。设定板侧视约4.2倍人体模且不同视图展示比例不统一，禁止作为工程尺。当前场景设计尺度：正常成人1.75米，鲸长8–9米（优先8.5米），主体厚2.7–3.2米，最低稳定云体悬浮0.5–0.8米。实际尺度及多人走位由C3-01核验，原图未重绘；原始验收记录保存在Git历史。",
+    "review_note": "D1正式造型母版保留，原侧视约4.2倍人体模且不同视图比例不统一，不用作尺度参考。Drive原C3/B4提示词规定约八名成人身高，恢复约14米，暂定厚4.5–5米、悬浮0.5–0.8米；同框校验C3-01。",
     "path": "assets/scenes/yunyuan-D1-cloud-whale.png",
     "url": "https://drive.google.com/file/d/1-ndSOZBmYs7pE0x4TF4cYpkbWrA_Hdtb/view",
     "width": 2560,
@@ -24,14 +24,14 @@
     "hasOriginal": true,
     "scale_calibration": {
       "human_m": 1.75,
-      "preferred_length_m": 8.5,
+      "preferred_length_m": 14,
       "length_range_m": [
-        8,
-        9
+        13.5,
+        14.5
       ],
       "body_thickness_m": [
-        2.7,
-        3.2
+        4.5,
+        5
       ],
       "hover_clearance_m": [
         0.5,
@@ -40,7 +40,7 @@
       "board_side_to_human_ratio_approx": 4.2,
       "board_uniform_scale": false,
       "verification_asset": "C3-01",
-      "status": "新版设计尺度；D1仅锁造型，实际尺度与走位待C3-01验收"
+      "status": "原设定约八名成人身高；厚度暂定；D1仅锁造型，C3-01验证"
     }
   },
   {
@@ -403,7 +403,25 @@
     "geometry_verified": false,
     "approved": false,
     "hasOriginal": false,
-    "review_note": "原候选只有浅台阶和近似平地广场，且鲸体缺少直接真人尺度证据；废止其几何初验与制作参考资格。保持D1造型和8–9米鲸长设定，先验证明确下沉资源坑及同地面成人尺度，再做无人资产。"
+    "review_note": "恢复原文档约八名成人身高的巨鲸（14米）；鲸池美术修订为自然岩土凹地，不采用原平地候选。先C3-01验真人尺度、下沉坑体、双入口与外围战斗环带，再去体模。",
+    "pit_design_calibration": {
+      "status": "自然岩土凹地方案／待C3-01核验",
+      "rim_above_floor_m": [
+        1.5,
+        1.8
+      ],
+      "combat_ring_clear_width_target_m": 3,
+      "floor_length_target_m": [
+        22,
+        24
+      ],
+      "floor_width_target_m": [
+        14,
+        18
+      ],
+      "surface": "自然岩土为主，局部古城残石",
+      "note": "均为暂定设计目标，依鲸胸鳍实际展开与连续净宽核验；双入口优先缓坡，不强制台阶数量。白石云河不改。"
+    }
   },
   {
     "id": "MAP-C11",
