@@ -216,7 +216,7 @@
   {
     "id": "MAP-B1",
     "label": "B1",
-    "status": "待局部修正",
+    "status": "已通过",
     "name": "中路中央石庭·双河口战术俯视",
     "production_order": 7,
     "dependency": "C1/C2及双河口遗漏细节确认后，才生成区域55°高位图。",
@@ -252,7 +252,13 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B1",
     "blocked": false,
-    "review_note": "五张高位候选未通过；左侧上半坡道变成从中路到高位林区的架高通路，低位河床与坡道断开，部分右侧坡脚也被挡墙截断。第3张右侧较接近。高位图必须复原C1/C2/G05-01，不生成旗幡、大型圆纹或额外桥台。暂定高差0.8–1.2米仅作视觉参照，不锁工程坐标。"
+    "review_note": "第二轮五选一，采用第2张。中路连续，左上坡口与上半实心河床接合，右下墙体开口与宽坡、石床、高草野口相连，古树及两侧非镜像草墙关系可辨，远端鸣霄磬独立并有外围通路。右侧坡度、净宽与精确坐标仍有透视不确定性，以正式地面参考和后续场景交叉核验，不将单张视图当工程测绘。原1672×941非生成式适配2560×1440，未重绘。",
+    "path": "assets/scenes/yunyuan-B1-central-mid-lane-overlook.png",
+    "url": "https://drive.google.com/file/d/1RsVmzPScU_jwtTHiVJ2RwF7sT0Z60Lrr/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true
   },
   {
     "id": "MAP-B2",
