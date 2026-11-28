@@ -263,7 +263,7 @@
   {
     "id": "MAP-B2",
     "label": "B2",
-    "status": "待制作／按依赖验收",
+    "status": "待制作",
     "name": "残城高廊上路·左上外缘直角弯",
     "production_order": 8,
     "dependency": "上路地面补齐卡G02通过后；继承真实护墙、内草和转角。",
@@ -294,7 +294,8 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B2",
-    "blocked": true
+    "blocked": false,
+    "review_note": "G02-01地面已通过，B2先单张验证完整L角；保留地面墙草与野口，外侧连续护墙沿同一条主路折转。"
   },
   {
     "id": "MAP-C10",
