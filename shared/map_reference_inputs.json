@@ -344,7 +344,7 @@
   {
     "id": "MAP-B3",
     "label": "B3",
-    "status": "待制作",
+    "status": "已通过",
     "name": "旧坊市下路·右下L形转角高位实景校验",
     "production_order": 10,
     "dependency": "C10通过且下路遗漏的草阵、野口、护墙均确认后。",
@@ -374,7 +374,14 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B3",
-    "blocked": false
+    "blocked": false,
+    "path": "assets/scenes/yunyuan-B3-lower-lane-overlook.png",
+    "url": "https://drive.google.com/file/d/1aivEAdeNjDj25hTo1MDuP3tWefl9TqE4/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true,
+    "review_note": "单张通过。与C10及R04的局部关系一致：左侧来路向右上连续折转，外缘白石护墙与崖下云海，内侧古树裸根、残墙、两处高草和较窄林间野口；无第三条同宽主路或云河。野口石阶在高位图中弱化，后续地面镜头以C10为准；远端鸣霄磬阵营、精确位置与绕行净宽留全图统一核对，不视为工程测绘。1672×941非生成式适配2560×1440，未重绘。"
   },
   {
     "id": "MAP-C3",
@@ -400,7 +407,7 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C3",
-    "blocked": true
+    "blocked": false
   },
   {
     "id": "MAP-C11",

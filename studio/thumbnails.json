@@ -270,5 +270,9 @@
   "assets/scenes/yunyuan-C10-lower-lane-corner.png": {
     "filename": "d3032a1a6a427f19979cca59bd20e76f097938f8.webp",
     "source_sha": "d3032a1a6a427f19979cca59bd20e76f097938f8"
+  },
+  "assets/scenes/yunyuan-B3-lower-lane-overlook.png": {
+    "filename": "664da0cb34851b8674962e54d7bad6784c83a1a2.webp",
+    "source_sha": "664da0cb34851b8674962e54d7bad6784c83a1a2"
   }
 }
