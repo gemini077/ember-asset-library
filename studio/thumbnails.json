@@ -246,5 +246,9 @@
   "assets/scenes/yunyuan-C1-central-mid-lane.png": {
     "filename": "ed692980ae7ded628c2a86762389655b474e0066.webp",
     "source_sha": "ed692980ae7ded628c2a86762389655b474e0066"
+  },
+  "assets/scenes/yunyuan-C2-mid-lane-low-angle.png": {
+    "filename": "6f0500804fdfab1b11d4aae247366ae4039eb3c6.webp",
+    "source_sha": "6f0500804fdfab1b11d4aae247366ae4039eb3c6"
   }
 }
