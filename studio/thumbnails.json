@@ -274,5 +274,9 @@
   "assets/scenes/yunyuan-B3-lower-lane-overlook.png": {
     "filename": "664da0cb34851b8674962e54d7bad6784c83a1a2.webp",
     "source_sha": "664da0cb34851b8674962e54d7bad6784c83a1a2"
+  },
+  "assets/scenes/yunyuan-C3-whale-pool-geometry-candidate.png": {
+    "filename": "f69494e22539843f5cf7ca6a3cd6c959eb9d1658.webp",
+    "source_sha": "f69494e22539843f5cf7ca6a3cd6c959eb9d1658"
   }
 }

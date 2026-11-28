@@ -386,7 +386,7 @@
   {
     "id": "MAP-C3",
     "label": "C3",
-    "status": "待制作／按依赖验收",
+    "status": "地形初验通过／待尺度校验",
     "name": "云鲸池·真人坡口平视与云鲸",
     "production_order": 11,
     "dependency": "D1通过；先确认椭圆石床、双入口和云鲸实际尺度。",
@@ -407,7 +407,19 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C3",
-    "blocked": false
+    "blocked": false,
+    "geometry_verified": true,
+    "candidate_image": {
+      "path": "assets/scenes/yunyuan-C3-whale-pool-geometry-candidate.png",
+      "url": "https://drive.google.com/file/d/1zjaf5Cm8ZIl7iajeIVCLTSBwDLs281Pd/view?usp=drivesdk",
+      "width": 2560,
+      "height": 1440,
+      "status": "地形初验通过／待尺度校验",
+      "sha256": "afaadf6ce128352e3b474467a1c05f26f4a1e95efbdff48a5bb075457780a178"
+    },
+    "approved": false,
+    "hasOriginal": false,
+    "review_note": "C3单张地形初验通过：连续干燥椭圆石床、前景宽台阶与左侧坡阶入口、远侧高草墙及可辨草口；D1纯积云、淡金眼与腹部细纹、头鳍尾形态基本一致。外围环带可见，胸鳍近地，实际鲸长、稳定云体悬浮高度及多人走位净宽尚不能由无人透视确定，须C3-01真人同框校验。原1672×941非生成式适配2560×1440；候选不计正式成图。"
   },
   {
     "id": "MAP-C11",
