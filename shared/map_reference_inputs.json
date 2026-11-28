@@ -386,35 +386,24 @@
   {
     "id": "MAP-C3",
     "label": "C3",
-    "status": "待局部修正",
+    "status": "待C3-01结构与尺度验收",
     "name": "云鲸池·真人坡口平视与云鲸",
     "production_order": 11,
     "dependency": "D1通过；先确认椭圆石床、双入口和云鲸实际尺度。",
     "reference_order": [
       {
-        "ref": "R06",
-        "usage": "必须：编辑底图，锁同一机位、池底、入口、草墙、古树、材质和日光；鲸体尺寸按文字绝对尺度调整。"
-      },
-      {
-        "ref": "新D1",
-        "usage": "必须：锁同一云鲸头鳍尾、云体与淡金细纹，仅锁造型，不用设定板作为比例尺。"
+        "ref": "C3-01",
+        "evidence_task": "C3-01",
+        "usage": "唯一编辑底图：已通过的真人同框下沉鲸池，锁定地形、鲸体、机位与日光，只移除两名体模及其各自投影。"
       }
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C3",
-    "blocked": false,
+    "blocked": true,
     "geometry_verified": false,
-    "candidate_image": {
-      "path": "assets/scenes/yunyuan-C3-whale-pool-geometry-candidate.png",
-      "url": "https://drive.google.com/file/d/1zjaf5Cm8ZIl7iajeIVCLTSBwDLs281Pd/view?usp=drivesdk",
-      "width": 2560,
-      "height": 1440,
-      "status": "地形参考／鲸体尺度待修正",
-      "sha256": "afaadf6ce128352e3b474467a1c05f26f4a1e95efbdff48a5bb075457780a178"
-    },
     "approved": false,
     "hasOriginal": false,
-    "review_note": "原候选地形初验有效，但鲸体视觉偏小，不能作为正式成图。用R06保留原机位、地形及环境，按新版8–9米（优先8.5米）尺寸局部编辑云鲸及其阴影、低雾；若现有池底无法同时满足双入口与战斗环带，再依据实景比例联动调整，不能挤占通路。新无人候选通过后才放行C3-01，旧候选禁止转正。"
+    "review_note": "原候选只有浅台阶和近似平地广场，且鲸体缺少直接真人尺度证据；废止其几何初验与制作参考资格。保持D1造型和8–9米鲸长设定，先验证明确下沉资源坑及同地面成人尺度，再做无人资产。"
   },
   {
     "id": "MAP-C11",
