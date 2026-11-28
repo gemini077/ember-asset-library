@@ -230,5 +230,9 @@
   "assets/scenes/yunyuan-D2-sky-lord.png": {
     "filename": "0c520c468f017a30a72633cd241147f5e8ff7084.webp",
     "source_sha": "0c520c468f017a30a72633cd241147f5e8ff7084"
+  },
+  "assets/scenes/yunyuan-D4-common-monsters.png": {
+    "filename": "6167388ef552d42144920400286f6b7bba2fa30d.webp",
+    "source_sha": "6167388ef552d42144920400286f6b7bba2fa30d"
   }
 }

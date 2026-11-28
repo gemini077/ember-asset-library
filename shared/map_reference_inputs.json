@@ -105,7 +105,7 @@
   {
     "id": "MAP-D4",
     "label": "D4",
-    "status": "待局部修正",
+    "status": "已通过",
     "name": "四野区常规野怪·五类集合",
     "production_order": 4,
     "dependency": "先完成D3或直接按统一古城语言出图",
@@ -118,7 +118,28 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/D4",
     "blocked": false,
-    "review_note": "重写五类同尺度设定：青灯守半人高，赤岩犀短厚钝角，五石雀三灰狐；不混入其他大资源。"
+    "review_note": "D4正式造型参考通过，五类形态独立，青灯守1、赤岩犀1、石雀5、灰狐3、苔甲野猪1。集合板人体参照不是精确比例尺：青灯守约0.73人高，石雀与灰狐也偏大。正式场景采用既定半人高青灯守、拳头大小石雀、正常狐狸和大型野猪尺度，赤岩犀不巨像化；由C7及G04野区地面验收实际尺度。原1672×941非生成式放大至2560×1440，不重绘。",
+    "path": "assets/scenes/yunyuan-D4-common-monsters.png",
+    "url": "https://drive.google.com/file/d/16YS5UrAJOqBnp9oHSPQwlsipTlPTrye9/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true,
+    "combat_scale_notes": {
+      "human_m": 1.75,
+      "lantern_height_m": 0.875,
+      "board_lantern_ratio_approx": 0.73,
+      "board_uniform_scale": false,
+      "bird": "成人拳头大小",
+      "fox": "正常成年狐狸体型",
+      "rhino": "肩高超过成人腰部，不巨像化",
+      "boar": "现实大型野猪尺度",
+      "verification_assets": [
+        "C7",
+        "G04"
+      ],
+      "instruction": "D4只锁五类资源形态及材质，不继承集合板展示比例。以1.75米正常成年英雄为尺度：青灯守含顶环及底座总高0.875米；石雀为成人拳头大小；灰狐采用现实成年狐狸体型、不是狼；赤岩犀肩高超过成人腰部但不巨像化，保留粗壮四足及短厚矿石独角；苔甲野猪为现实大型野猪尺度。仅出现本营地已登记的物种与数量，不把集合板所有野怪一起搬入；地面与进退路线适合真人战斗。"
+    }
   },
   {
     "id": "MAP-C1",
@@ -567,7 +588,7 @@
     "reference_order": [
       {
         "ref": "新D4",
-        "usage": "必须：已验收的同一中立资源实体形态。"
+        "usage": "仅锁正式五类野怪造型与材质；不采用集合板展示比例。实际尺寸按本任务正文及已确认地面。"
       },
       {
         "ref": "R01",
@@ -600,7 +621,7 @@
       },
       {
         "ref": "新D4",
-        "usage": "必须：已验收的同一中立资源实体形态。"
+        "usage": "仅锁正式五类野怪造型与材质；不采用集合板展示比例。实际尺寸按本任务正文及已确认地面。"
       },
       {
         "ref": "R01",
@@ -846,7 +867,7 @@
       },
       {
         "ref": "新D4",
-        "usage": "资源实际形体和尺度"
+        "usage": "仅锁正式五类野怪造型与材质；不采用集合板展示比例。实际尺寸按本任务正文及已确认地面。"
       },
       {
         "ref": "补齐G02",
@@ -994,7 +1015,7 @@
       },
       {
         "ref": "新D4",
-        "usage": "资源实际形体和尺度"
+        "usage": "仅锁正式五类野怪造型与材质；不采用集合板展示比例。实际尺寸按本任务正文及已确认地面。"
       },
       {
         "ref": "补齐G02",
