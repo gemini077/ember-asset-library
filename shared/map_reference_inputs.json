@@ -144,7 +144,7 @@
   {
     "id": "MAP-C1",
     "label": "C1",
-    "status": "待制作",
+    "status": "待局部修正",
     "name": "中央石庭·真人中路建立全景",
     "production_order": 5,
     "dependency": "D组及塔体、基础材质确认后；R01仅锁拓扑。",
@@ -167,7 +167,7 @@
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C1",
     "blocked": false,
-    "review_note": "暂缓：G01未通过，远处折磬跨道路，缺独立塔基；须先确认塔体与地面通行关系。"
+    "review_note": "当前候选白石旧铜、古树、高草、真人中路战位及鸣霄磬造型通过；左侧坡道向远处上升，旁边低位云河与中路的直接下行路线未明确，远处塔基外围通路也无法确认。须重建左侧开口→下坡→低位实心云河床的连续关系；塔体按既定位置与尺寸，至少一侧连续绕行可读，或自然出画。未归档，不放行依赖C1的正式资产。"
   },
   {
     "id": "MAP-C2",
