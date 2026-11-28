@@ -216,7 +216,7 @@
   {
     "id": "MAP-B1",
     "label": "B1",
-    "status": "待制作／按依赖验收",
+    "status": "待制作",
     "name": "中路中央石庭·双河口战术俯视",
     "production_order": 7,
     "dependency": "C1/C2及双河口遗漏细节确认后，才生成区域55°高位图。",
@@ -239,10 +239,9 @@
         "evidence_task": "G01-01"
       },
       {
-        "ref": "补齐双河口局部",
-        "usage": "如C1/C2未覆盖坡口及入口，须先补齐并验收。",
-        "evidence_task": "G05-01",
-        "conditional_evidence": true
+        "ref": "G05-01 下半云河入口",
+        "usage": "必须：正式下半河口，锁左厚墙、中央宽坡、右侧独立高草入口与低位石床。",
+        "evidence_task": "G05-01"
       },
       {
         "ref": "G01-02 共用材质与动作尺度",
@@ -252,7 +251,7 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B1",
-    "blocked": true
+    "blocked": false
   },
   {
     "id": "MAP-B2",
