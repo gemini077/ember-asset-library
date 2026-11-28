@@ -266,5 +266,9 @@
   "assets/scenes/yunyuan-B2-upper-lane-overlook.png": {
     "filename": "0a81459061fd9ddc3c65eb0721a4d62ebfaace7a.webp",
     "source_sha": "0a81459061fd9ddc3c65eb0721a4d62ebfaace7a"
+  },
+  "assets/scenes/yunyuan-C10-lower-lane-corner.png": {
+    "filename": "d3032a1a6a427f19979cca59bd20e76f097938f8.webp",
+    "source_sha": "d3032a1a6a427f19979cca59bd20e76f097938f8"
   }
 }

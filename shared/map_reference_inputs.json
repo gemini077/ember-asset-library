@@ -306,7 +306,7 @@
   {
     "id": "MAP-C10",
     "label": "C10",
-    "status": "待制作",
+    "status": "已通过",
     "name": "右下旧坊市·下路90°实体转角真人机位",
     "production_order": 9,
     "dependency": "先确认R04的L形几何，建立下路真人地面细节。",
@@ -332,12 +332,19 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/C10",
-    "blocked": false
+    "blocked": false,
+    "path": "assets/scenes/yunyuan-C10-lower-lane-corner.png",
+    "url": "https://drive.google.com/file/d/1tJKGB-7jCzpIHT5_6SP71Lm9zLTe7Df7/view",
+    "width": 2560,
+    "height": 1440,
+    "approved": true,
+    "hasOriginal": true,
+    "review_note": "单张校验通过。前景宽阔硬地与右侧沿崖主路连续折转，内侧古树裸露根系、残墙、两处高草及独立林间石阶野口，与上路圆弧高廊有区别；无云河、青灯守。远端鸣霄磬阵营及精确塔位、完整L形平面和草内站位留B3交叉验证，不把地面透视当测绘。原1672×941非生成式适配2560×1440，未重绘。"
   },
   {
     "id": "MAP-B3",
     "label": "B3",
-    "status": "待制作／按依赖验收",
+    "status": "待制作",
     "name": "旧坊市下路·右下L形转角高位实景校验",
     "production_order": 10,
     "dependency": "C10通过且下路遗漏的草阵、野口、护墙均确认后。",
@@ -367,7 +374,7 @@
     ],
     "source_document_url": "https://docs.google.com/document/d/1zFf-eXTQ7vUKqB4jIp35KTtxlPd48FJuaL3E0jCddLw/edit",
     "workbench_path": "studio/concept/#assets/yunyuan/B3",
-    "blocked": true
+    "blocked": false
   },
   {
     "id": "MAP-C3",
