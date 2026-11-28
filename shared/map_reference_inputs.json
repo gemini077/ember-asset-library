@@ -403,7 +403,7 @@
     "geometry_verified": false,
     "approved": false,
     "hasOriginal": false,
-    "review_note": "本轮候选鲸体观感改善、坑体高差保留，但裸土成为主体，河道窄如排水沟，不通过。锁原资源体量与双入口拓扑，改为浅灰白连续天然基岩及宽阔云河。",
+    "review_note": "C3-01当前图浅灰白基岩、云河、下沉地形和鲸体比例观感基本通过；近侧河口岩岸尚未形成清晰连续通行面，须局部修正；实际尺寸仍为视觉验收，不作工程测绘。",
     "pit_design_calibration": {
       "status": "自然岩质河谷／待C3-01验证",
       "rim_above_floor_m": [
