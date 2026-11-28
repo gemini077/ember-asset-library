@@ -200,12 +200,13 @@ $("brand").onclick=()=>goto("home");window.addEventListener("hashchange",()=>{if
 (async()=>{try{[index,hw,thumbs,mapPlan]=await Promise.all([api("shared/production-state.json"),api("shared/hardware-references.json"),api("studio/thumbnails.json").catch(()=>({})),api("shared/yunyuan-production.json").catch(()=>null)]);const resume=takeSyncResume();const requested=resume?.state?.episode||new URLSearchParams(location.search).get("episode");await loadEpisode(index.episodes.some(x=>x.id===requested)?requested:"EP01","home");restoreSyncResume(resume);startAutoSync()}catch(e){app.innerHTML='<div class="loading">数据加载失败：'+esc(e.message)+'</div>'}})();
 
 /* One canonical workbench: poll deployed data and detect a new UI build. */
-let syncMapBusy=false,syncOtherBusy=false,syncUIBusy=false,syncPending=false,syncEnabled=false,uiUpdateAvailable=false;
+let syncOtherBusy=false,syncUIBusy=false,syncPending=false,syncEnabled=false,uiUpdateAvailable=false;
+let mapWorker=null,mapRequest=null,mapLastSuccess=0,syncSelectionActive=false;
 let syncQueued={};const syncFailures=new Set();
-const syncInterval=15000,syncResumeKey="ember.concept.sync.resume.v1";
-function syncLabel(t){const el=$("autoSync");if(el){el.textContent=t;el.title="每15秒尝试同步已发布数据，后台也轮询，回到页面立即检查；云垣独立更新。浏览器可能限制或暂停后台标签页。界面新版只提示，不自动刷新；编辑期间延后应用。"}}
-function syncEditing(){const a=document.activeElement;return !!(a&&(a.matches("input:not([type=button]):not([type=submit]),textarea,select,[contenteditable=true]")||a.isContentEditable))||!!window.getSelection()?.toString()}
-async function syncFetch(p,asText=false){const u=new URL(p,root);u.searchParams.set("_sync",String(Date.now()));const r=await fetch(u,{cache:"no-store",signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error(p+" "+r.status);return asText?r.text():r.json()}
+const syncInterval=15000,mapSyncInterval=5000,syncResumeKey="ember.concept.sync.resume.v1";
+function syncLabel(t){const el=$("autoSync");if(el){el.textContent=t;el.title="云垣独立后台线程每5秒检查已发布数据，返回页面立即检查；其他数据每15秒检查。浏览器完全冻结标签页时仍可能延后。界面新版只提示，不自动刷新；实际编辑期间保护草稿。"}}
+function syncEditing(){const a=document.activeElement;return !!(a&&(a.matches("input:not([type=button]):not([type=submit]),textarea,select,[contenteditable=true]")||a.isContentEditable))||!!(syncSelectionActive&&!document.hidden&&document.hasFocus()&&window.getSelection()?.toString())}
+async function syncFetch(p,asText=false,signal=AbortSignal.timeout(12000)){const u=new URL(p,root);u.searchParams.set("_sync",String(Date.now()));const r=await fetch(u,{cache:"no-store",signal});if(!r.ok)throw Error(p+" "+r.status);return asText?r.text():r.json()}
 function syncEqual(a,b){return JSON.stringify(a)===JSON.stringify(b)}
 function uiSignature(doc){return JSON.stringify([...doc.querySelectorAll("script,style,link[rel=stylesheet]")].map(n=>[n.tagName,n.getAttribute("src")||n.getAttribute("href")||"",n.textContent.replace(/\r\n/g,"\n").trim()]))}
 function takeSyncResume(){try{const raw=sessionStorage.getItem(syncResumeKey);sessionStorage.removeItem(syncResumeKey);const v=raw&&JSON.parse(raw);return v&&Date.now()-v.at<300000?v:null}catch{return null}}
@@ -239,24 +240,90 @@ function syncApplyQueued(){
  }
 }
 function syncQueue(patch){const current=syncCurrent();for(const key of Object.keys(current)){if(key in patch&&syncEqual(current[key],patch[key])){delete patch[key];delete syncQueued[key]}}if(!("ep" in patch)){delete patch.episodeId;delete patch.episodeSeq}Object.assign(syncQueued,patch);syncApplyQueued()}
+// This worker is only a transport for the canonical published JSON, not a second state store.
+function mapPollWorker(){
+ let url="",interval=5000,active=null,lastSuccess=0,timer=null;
+ const poll=async(force=false)=>{
+  const now=Date.now();
+  if(active){
+   if(!force||now-active.started<1500)return;
+   active.controller.abort();active=null;
+  }
+  if(force&&now-lastSuccess<1000)return;
+  const request={started:now,controller:new AbortController()};active=request;
+  const timeout=setTimeout(()=>request.controller.abort(),8000);
+  try{
+   const u=new URL(url);u.searchParams.set("_sync",String(now));
+   const r=await fetch(u,{cache:"no-store",signal:request.controller.signal});
+   if(!r.ok)throw Error("map "+r.status);
+   const value=await r.json();
+   if(active!==request)return;
+   if(!Array.isArray(value?.assets)||!Array.isArray(value?.prerequisite_gates))throw Error("Invalid map data");
+   lastSuccess=Date.now();self.postMessage({type:"map",value});
+  }catch(e){if(active===request)self.postMessage({type:"error",message:String(e)})}
+  finally{clearTimeout(timeout);if(active===request)active=null}
+ };
+ self.onmessage=({data})=>{
+  if(data.type==="start"){
+   url=data.url;interval=data.interval;clearInterval(timer);timer=setInterval(()=>poll(),interval);poll();
+  }else if(data.type==="wake"&&url)poll(true);
+ };
+}
+function mapSyncAccept(value){
+ if(!Array.isArray(value?.assets)||!Array.isArray(value?.prerequisite_gates))throw Error("Invalid map data");
+ mapLastSuccess=Date.now();syncFailures.delete("mapPlan");syncQueue({mapPlan:value});syncReport();
+}
+function mapSyncFailure(e){syncFailures.add("mapPlan");syncReport();console.error("STUDIO map sync",e)}
+function startMapWorker(){
+ if(typeof Worker==="undefined")return;
+ let objectURL;
+ try{
+  objectURL=URL.createObjectURL(new Blob(["("+mapPollWorker.toString()+")()"],{type:"text/javascript"}));
+  const worker=new Worker(objectURL);mapWorker=worker;
+  worker.onmessage=({data})=>{
+   if(mapWorker!==worker)return;
+   try{if(data.type==="map")mapSyncAccept(data.value);else if(data.type==="error")mapSyncFailure(data.message)}catch(e){mapSyncFailure(e)}
+  };
+  worker.onerror=()=>{if(mapWorker!==worker)return;worker.terminate();mapWorker=null;checkMapCloud(true)};
+  worker.postMessage({type:"start",url:new URL("shared/yunyuan-production.json",root).href,interval:mapSyncInterval});
+ }catch(e){mapWorker?.terminate();mapWorker=null;console.debug("STUDIO worker unavailable",e)}
+ finally{if(objectURL)URL.revokeObjectURL(objectURL)}
+}
 function startAutoSync(){
  if(syncEnabled)return;syncEnabled=true;syncLabel("自动同步");
  $("applyUIUpdate").onclick=()=>{if(uiUpdateAvailable){if(syncEditing()){syncLabel("请结束当前编辑后应用界面更新");return}reloadSyncUI()}};
+ startMapWorker();
  setInterval(checkCloud,syncInterval);
- document.addEventListener("visibilitychange",checkCloud);
- window.addEventListener("focus",checkCloud);
- window.addEventListener("pageshow",checkCloud);
- window.addEventListener("online",checkCloud);
+ setInterval(()=>{if(!mapWorker)checkMapCloud()},mapSyncInterval);
+ const wake=()=>{if(!document.hidden){syncApplyQueued();checkCloud(true)}};
+ const releaseSelection=()=>{syncSelectionActive=false;if(syncPending)syncApplyQueued()};
+ document.addEventListener("visibilitychange",()=>{if(document.hidden)releaseSelection();else wake()});
+ window.addEventListener("blur",releaseSelection);
+ window.addEventListener("focus",wake);
+ window.addEventListener("pageshow",wake);
+ window.addEventListener("online",wake);
  document.addEventListener("focusout",()=>{if(syncPending)setTimeout(syncApplyQueued,0)});
- document.addEventListener("selectionchange",()=>{if(syncPending&&!window.getSelection()?.toString())syncApplyQueued()});
+ document.addEventListener("copy",()=>{syncSelectionActive=false;if(syncPending)setTimeout(syncApplyQueued,0)});
+ document.addEventListener("selectionchange",()=>{syncSelectionActive=!document.hidden&&document.hasFocus()&&!!window.getSelection()?.toString();if(syncPending&&!syncSelectionActive)syncApplyQueued()});
  checkCloud();
 }
-// Do not stop polling when hidden. Browsers may still throttle or freeze this tab.
-function checkCloud(){if(!ep||!index)return;syncApplyQueued();checkMapCloud();checkOtherCloud();checkUICloud()}
-async function checkMapCloud(){
- if(syncMapBusy)return;syncMapBusy=true;
- try{const value=await syncFetch("shared/yunyuan-production.json");if(!Array.isArray(value?.assets)||!Array.isArray(value?.prerequisite_gates))throw Error("Invalid map data");syncFailures.delete("mapPlan");syncQueue({mapPlan:value});syncReport()}
- catch(e){syncFailures.add("mapPlan");syncReport();console.error("STUDIO map sync",e)}finally{syncMapBusy=false}
+// Background polling is best effort; frozen/discarded tabs cannot run JavaScript.
+function checkCloud(force=false){if(!ep||!index)return;syncApplyQueued();checkMapCloud(force);checkOtherCloud();checkUICloud()}
+async function checkMapCloud(force=false){
+ if(mapWorker){if(force)mapWorker.postMessage({type:"wake"});return}
+ const now=Date.now();
+ if(mapRequest){
+  if(!force||now-mapRequest.started<1500)return;
+  mapRequest.controller.abort();mapRequest=null;
+ }
+ if(force&&now-mapLastSuccess<1000)return;
+ const request={started:now,controller:new AbortController()};mapRequest=request;
+ const timeout=setTimeout(()=>request.controller.abort(),8000);
+ try{
+  const value=await syncFetch("shared/yunyuan-production.json",false,request.controller.signal);
+  if(mapRequest===request)mapSyncAccept(value);
+ }catch(e){if(mapRequest===request)mapSyncFailure(e)}
+ finally{clearTimeout(timeout);if(mapRequest===request)mapRequest=null}
 }
 async function checkOtherCloud(){
  if(syncOtherBusy||loadingEpisode)return;syncOtherBusy=true;const n=seq,id=state.episode;
